@@ -435,6 +435,62 @@
         "title": "",
         "unique_id": null,
         "version": 1
+      },
+      {
+        "created_at": "2024-09-23T01:52:05.760364+00:00",
+        "data": {
+          "app_id": "io.homeassistant.companion.android",
+          "app_name": "Home Assistant",
+          "app_version": "2024.7.3-full (13278)",
+          "device_name": "zfold-4",
+          "manufacturer": "samsung",
+          "model": "SM-F936B",
+          "os_name": "Android",
+          "os_version": "34",
+          "supports_encryption": false,
+          "app_data": {
+            "push_websocket_channel": true,
+            "push_url": "https://mobile-apps.home-assistant.io/api/sendPush/android/v1",
+            "push_token": "ci4laDYOQ5u7K0j6mvSNed:APA91bFZ8fIet22lVhExe_NYNp5K3e1fO-3UhyND38_V4alxWZvHIgcjj8Cizsmvp6bvnMb8Ai2a689LIQFH3Ai1mG1QEoMN8KHPdRTfIV1ZyWIi1RzwdvXB1iapzc_S_LaPqp10b5RB"
+          },
+          "device_id": "3dd9d05a48e393c5",
+          "webhook_id": "8af9ead3337ed8bf27d1276b9a7aabd3628297ee55ee8ceb4fa9e7d133f7d4f1",
+          "user_id": "4226c273b7b44abda0290da4f1128dc7"
+        },
+        "disabled_by": null,
+        "domain": "mobile_app",
+        "entry_id": "01J8E98B404S1P61C4Z89DCM2K",
+        "minor_version": 1,
+        "modified_at": "2024-09-23T01:52:05.760367+00:00",
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "registration",
+        "title": "zfold-4",
+        "unique_id": "io.homeassistant.companion.android-3dd9d05a48e393c5",
+        "version": 1
+      },
+      {
+        "created_at": "2024-09-23T02:31:39.189469+00:00",
+        "data": {
+          "broker": "core-mosquitto",
+          "port": 1883,
+          "username": "homeassistant",
+          "password": "oovone5iegunieng8boo0einga2yo7Ogoghe3ahk6oQuei9oolaeT2moj8yok9ph",
+          "discovery": true
+        },
+        "disabled_by": null,
+        "domain": "mqtt",
+        "entry_id": "01J8EBGRXN7VVKQ9KTV6MPXF4Q",
+        "minor_version": 1,
+        "modified_at": "2024-09-23T02:31:39.189473+00:00",
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "hassio",
+        "title": "Mosquitto broker",
+        "unique_id": null,
+        "version": 1
       }
     ]
   }

@@ -1,0 +1,46 @@
+homeassistant: true
+advanced:
+  network_key:
+    - 110
+    - 186
+    - 136
+    - 211
+    - 228
+    - 214
+    - 28
+    - 129
+    - 29
+    - 52
+    - 216
+    - 67
+    - 136
+    - 0
+    - 116
+    - 143
+  pan_id: 2549
+  ext_pan_id:
+    - 4
+    - 95
+    - 203
+    - 170
+    - 77
+    - 253
+    - 231
+    - 175
+  homeassistant_legacy_entity_attributes: false
+  legacy_api: false
+  legacy_availability_payload: false
+mqtt:
+  server: mqtt://core-mosquitto:1883
+  user: addons
+  password: IemaMoghiexe9ohgheideeghah4roh7eigeip7aekeeZab4ohToong6ooquai5ie
+serial:
+  port: /dev/ttyUSB0
+frontend:
+  port: 8099
+device_options:
+  legacy: false
+devices:
+  '0x00124b00234304db':
+    friendly_name: bedroom
+    description: bedroom door zigbee sensor

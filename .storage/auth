@@ -51,7 +51,7 @@
       {
         "id": "0258956bb8fe4cab8fd1009b96fd6215",
         "group_ids": [
-          "system-admin"
+          "system-users"
         ],
         "is_owner": false,
         "is_active": true,
@@ -123,7 +123,7 @@
         "access_token_expiration": 1800.0,
         "token": "8ee85a54d2e6f379fcd9a66c355e5c4d8e08007a3532f7fb4d6c065c0f3decc63f251ab567d7ee1dbc66c77e3a502e9ba297b1cbaf34830acee5b5c79ca7cbae",
         "jwt_key": "f7e46b40a23898f96b14b00a383644421c4123022f8f2e3bba7d12657378b09f8fa4397039515a223285f376c2d5dd20887c5b1d03e42952f30ec6283e184700",
-        "last_used_at": "2024-09-23T01:05:38.968416+00:00",
+        "last_used_at": "2024-09-23T02:29:38.178301+00:00",
         "last_used_ip": "172.30.32.2",
         "expire_at": null,
         "credential_id": null,
@@ -208,9 +208,9 @@
         "access_token_expiration": 1800.0,
         "token": "3622bc31fc50cfdcb4638e3ac64ff978beb9d7352f8f6412cf71fb86363f494b82579deaa1ff438f1cef446eabb6121c2931994d6cb5303ce598a9446764c007",
         "jwt_key": "2bb0fcacabb7ef0bbab8711f45da06d18a1e16ed4a92d4ecf3daffa16603c13df9dd96cb858510e9c52dfd9564cec84b0d832044b809134e8ee5125c5c608856",
-        "last_used_at": "2024-09-23T01:21:35.895284+00:00",
+        "last_used_at": "2024-09-23T02:46:47.060456+00:00",
         "last_used_ip": "192.168.8.110",
-        "expire_at": 1734830495.895284,
+        "expire_at": 1734835607.060456,
         "credential_id": "dbc4a004aaf84ca5b0c50f62f23d3b2e",
         "version": "2024.9.2"
       },
@@ -225,9 +225,26 @@
         "access_token_expiration": 1800.0,
         "token": "5a91e1eeba37f04bc61cb8646266d5105054fed87888c33d1ca7fde76582ae49e987bfd3147d57a0a6c4f1751fc636055f08836fce54f4f46b3489cdc5e510de",
         "jwt_key": "3fbb257871635a56e7faeb2a4eec24c993774f6ac286af79be7aa834518a5372741d828371068e308df83375044a87b434a34b4e5502d472a1f593eda81016a2",
-        "last_used_at": "2024-09-23T01:00:29.263828+00:00",
+        "last_used_at": "2024-09-23T02:45:25.470426+00:00",
         "last_used_ip": "192.168.8.136",
-        "expire_at": 1734829229.263828,
+        "expire_at": 1734835525.470426,
+        "credential_id": "dbc4a004aaf84ca5b0c50f62f23d3b2e",
+        "version": "2024.9.2"
+      },
+      {
+        "id": "4ee1d343d1af4790b7e14b04a32b09d8",
+        "user_id": "4226c273b7b44abda0290da4f1128dc7",
+        "client_id": "https://home-assistant.io/android",
+        "client_name": null,
+        "client_icon": null,
+        "token_type": "normal",
+        "created_at": "2024-09-23T01:52:05.735741+00:00",
+        "access_token_expiration": 1800.0,
+        "token": "c2ed0b6e415544dfbe45cb505ab7aadf195850a489f409c0cfab153fb70029dd5d7140f1a4de661b442134ac2187db905f5167f0429dad240d1e9b1ad879a8e2",
+        "jwt_key": "a0af00d3aef884953ef916b5562a5ae61db0d968247718ab6c3b6d58564429804b25b39649e9bf0e4a8e9ba9e7223fbe95e0f34fed85580c6380c93cd35e9b52",
+        "last_used_at": "2024-09-23T01:52:05.735864+00:00",
+        "last_used_ip": "192.168.8.12",
+        "expire_at": 1734832325.735864,
         "credential_id": "dbc4a004aaf84ca5b0c50f62f23d3b2e",
         "version": "2024.9.2"
       }
