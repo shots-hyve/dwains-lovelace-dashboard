@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "minor_version": 1,
+  "key": "person",
+  "data": {
+    "items": [
+      {
+        "id": "shady",
+        "name": "shady",
+        "user_id": "4226c273b7b44abda0290da4f1128dc7",
+        "device_trackers": [
+          "device_tracker.shadys_iphone_15_pro_max",
+          "device_tracker.iphone_15_pro_max"
+        ]
+      }
+    ]
+  }
+}

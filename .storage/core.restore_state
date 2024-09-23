@@ -1,0 +1,226 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "core.restore_state",
+  "data": [
+    {
+      "state": {"entity_id":"person.shady","state":"unknown","attributes":{"editable":true,"id":"shady","device_trackers":["device_tracker.shadys_iphone_15_pro_max","device_tracker.iphone_15_pro_max"],"source":"person.shady","user_id":"4226c273b7b44abda0290da4f1128dc7","friendly_name":"shady"},"last_changed":"2024-09-23T01:20:07.721506+00:00","last_reported":"2024-09-23T01:20:07.721506+00:00","last_updated":"2024-09-23T01:20:07.721506+00:00","context":{"id":"01J8E7DT1924W265Y0S1AWZ1Y5","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-09-23T01:20:09.618635+00:00"
+    },
+    {
+      "state": {"entity_id":"update.home_assistant_supervisor_update","state":"off","attributes":{"auto_update":true,"installed_version":"2024.09.1","in_progress":false,"latest_version":"2024.09.1","release_summary":null,"release_url":"https://github.com/home-assistant/supervisor/releases/tag/2024.09.1","skipped_version":null,"title":"Home Assistant Supervisor","entity_picture":"https://brands.home-assistant.io/hassio/icon.png","friendly_name":"Home Assistant Supervisor Update","supported_features":1},"last_changed":"2024-09-23T01:20:07.926576+00:00","last_reported":"2024-09-23T01:20:07.926576+00:00","last_updated":"2024-09-23T01:20:07.926576+00:00","context":{"id":"01J8E7DT7PT31Y4R2GX873TQSG","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-09-23T01:20:09.618635+00:00"
+    },
+    {
+      "state": {"entity_id":"update.home_assistant_core_update","state":"off","attributes":{"auto_update":false,"installed_version":"2024.9.2","in_progress":false,"latest_version":"2024.9.2","release_summary":null,"release_url":"https://www.home-assistant.io/latest-release-notes/","skipped_version":null,"title":"Home Assistant Core","entity_picture":"https://brands.home-assistant.io/homeassistant/icon.png","friendly_name":"Home Assistant Core Update","supported_features":11},"last_changed":"2024-09-23T01:20:07.926886+00:00","last_reported":"2024-09-23T01:20:07.926886+00:00","last_updated":"2024-09-23T01:20:07.926886+00:00","context":{"id":"01J8E7DT7P40WVPF9X3FJTKJ4D","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-09-23T01:20:09.618635+00:00"
+    },
+    {
+      "state": {"entity_id":"update.advanced_ssh_web_terminal_update","state":"off","attributes":{"auto_update":false,"installed_version":"19.0.0","in_progress":false,"latest_version":"19.0.0","release_summary":"## What’s changed\n\n## 🐛 Bug fixes\n\n- Change default shell from /bin/ash to /bin/sh @rskallies ([#747](https://github.com/hassio-addons/addon-ssh/pull/747))\n- ⬆️ Update home-assistant/cli to v4.35.0 @sairon ([#762](https://github.com/hassio-addons/addon-ss","release_url":null,"skipped_version":null,"title":"Advanced SSH & Web Terminal","entity_picture":"/api/hassio/addons/a0d7b954_ssh/icon","friendly_name":"Advanced SSH & Web Terminal Update","supported_features":25},"last_changed":"2024-09-23T01:20:07.927083+00:00","last_reported":"2024-09-23T01:20:07.927083+00:00","last_updated":"2024-09-23T01:20:07.927083+00:00","context":{"id":"01J8E7DT7QTADXEJRXN1PG675V","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-09-23T01:20:09.618635+00:00"
+    },
+    {
+      "state": {"entity_id":"update.get_hacs_update","state":"off","attributes":{"auto_update":false,"installed_version":"1.3.1","in_progress":false,"latest_version":"1.3.1","release_summary":"# 1.3.1\n\n- Fix problems with getting the current version for development builds\n\n# 1.3.0\n\n- Dynamically get the version again\n\n# 1.2.1\n\n- Create custom_components directory if it does not exist\n\n# 1.2.0\n\n- Set dev version to 2.0.0\n\n# 1.1.1\n\n- Fix version ","release_url":null,"skipped_version":null,"title":"Get HACS","entity_picture":"/api/hassio/addons/cb646a50_get/icon","friendly_name":"Get HACS Update","supported_features":25},"last_changed":"2024-09-23T01:20:07.927253+00:00","last_reported":"2024-09-23T01:20:07.927253+00:00","last_updated":"2024-09-23T01:20:07.927253+00:00","context":{"id":"01J8E7DT7QSTFC3SH3TQG429FF","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-09-23T01:20:09.618635+00:00"
+    },
+    {
+      "state": {"entity_id":"update.emqx_update","state":"off","attributes":{"auto_update":true,"installed_version":"0.7.0","in_progress":false,"latest_version":"0.7.0","release_summary":"## What’s changed\n\n## ⬆️ Dependency updates\n\n- ⬆️ Update emqx/emqx to v5.8.0 @renovate ([#110](https://github.com/hassio-addons/addon-emqx/pull/110))\n- ⬆️ Update ghcr.io/hassio-addons/debian-base Docker tag to v7.5.0 @renovate ([#112](https://github.com/h","release_url":null,"skipped_version":null,"title":"EMQX","entity_picture":"/api/hassio/addons/a0d7b954_emqx/icon","friendly_name":"EMQX Update","supported_features":25},"last_changed":"2024-09-23T01:20:07.927569+00:00","last_reported":"2024-09-23T01:20:07.927569+00:00","last_updated":"2024-09-23T01:20:07.927569+00:00","context":{"id":"01J8E7DT7QEA7GRNDKXSR420H1","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-09-23T01:20:09.618635+00:00"
+    },
+    {
+      "state": {"entity_id":"update.home_assistant_operating_system_update","state":"unknown","attributes":{"auto_update":false,"installed_version":"13.1","in_progress":false,"latest_version":null,"release_summary":null,"release_url":"https://github.com/home-assistant/operating-system/commits/dev","skipped_version":null,"title":"Home Assistant Operating System","entity_picture":"https://brands.home-assistant.io/homeassistant/icon.png","friendly_name":"Home Assistant Operating System Update","supported_features":3},"last_changed":"2024-09-23T01:20:07.927803+00:00","last_reported":"2024-09-23T01:20:07.927803+00:00","last_updated":"2024-09-23T01:20:07.927803+00:00","context":{"id":"01J8E7DT7QA8N10CZFQA8QWT5M","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-09-23T01:20:09.618635+00:00"
+    },
+    {
+      "state": {"entity_id":"conversation.home_assistant","state":"unknown","attributes":{"friendly_name":"Home Assistant","supported_features":1},"last_changed":"2024-09-23T01:20:08.328063+00:00","last_reported":"2024-09-23T01:20:08.328063+00:00","last_updated":"2024-09-23T01:20:08.328063+00:00","context":{"id":"01J8E7DTM816YX8R5PEPWDHNZA","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-09-23T01:20:09.618635+00:00"
+    },
+    {
+      "state": {"entity_id":"device_tracker.shadys_iphone_15_pro_max","state":"unknown","attributes":{"source_type":"gps","friendly_name":"Shady’s iPhone 15 pro max"},"last_changed":"2024-09-23T01:20:09.267200+00:00","last_reported":"2024-09-23T01:20:09.267200+00:00","last_updated":"2024-09-23T01:20:09.267200+00:00","context":{"id":"01J8E7DVHK39K2M79B787Y0G1A","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-09-23T01:20:09.618635+00:00"
+    },
+    {
+      "state": {"entity_id":"binary_sensor.iphone_15_pro_max_focus","state":"off","attributes":{"icon":"mdi:moon-waning-crescent","friendly_name":"iPhone 15 Pro Max Focus"},"last_changed":"2024-09-23T01:20:09.267879+00:00","last_reported":"2024-09-23T01:20:09.267879+00:00","last_updated":"2024-09-23T01:20:09.267879+00:00","context":{"id":"01J8E7DVHKYCMH0C3VQKXVGTAJ","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-09-23T01:20:09.618635+00:00"
+    },
+    {
+      "state": {"entity_id":"device_tracker.iphone_15_pro_max","state":"unknown","attributes":{"source_type":"gps","friendly_name":"iPhone 15 Pro Max"},"last_changed":"2024-09-23T01:20:09.268147+00:00","last_reported":"2024-09-23T01:20:09.268147+00:00","last_updated":"2024-09-23T01:20:09.268147+00:00","context":{"id":"01J8E7DVHMSRYBCWK0MAWWWWW5","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-09-23T01:20:09.618635+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.iphone_15_pro_max_activity","state":"Stationary","attributes":{"Confidence":"High","Types":["Stationary"],"icon":"mdi:human-male","friendly_name":"iPhone 15 Pro Max Activity"},"last_changed":"2024-09-23T01:20:09.268757+00:00","last_reported":"2024-09-23T01:20:09.268757+00:00","last_updated":"2024-09-23T01:20:09.268757+00:00","context":{"id":"01J8E7DVHMTRFVKB5TWZR050SG","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "Stationary",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2024-09-23T01:20:09.618635+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.iphone_15_pro_max_battery_level","state":"90","attributes":{"unit_of_measurement":"%","device_class":"battery","icon":"mdi:battery-90","friendly_name":"iPhone 15 Pro Max Battery Level"},"last_changed":"2024-09-23T01:20:09.268940+00:00","last_reported":"2024-09-23T01:20:09.268940+00:00","last_updated":"2024-09-23T01:20:09.268940+00:00","context":{"id":"01J8E7DVHMGW129NV7WY8MMG1E","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": 90,
+        "native_unit_of_measurement": "%"
+      },
+      "last_seen": "2024-09-23T01:20:09.618635+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.iphone_15_pro_max_distance","state":"432","attributes":{"unit_of_measurement":"m","icon":"mdi:hiking","friendly_name":"iPhone 15 Pro Max Distance"},"last_changed":"2024-09-23T01:20:09.269089+00:00","last_reported":"2024-09-23T01:20:09.269089+00:00","last_updated":"2024-09-23T01:20:09.269089+00:00","context":{"id":"01J8E7DVHNW34BP3R20RJ09CVZ","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": 432,
+        "native_unit_of_measurement": "m"
+      },
+      "last_seen": "2024-09-23T01:20:09.618635+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.iphone_15_pro_max_battery_state","state":"Not Charging","attributes":{"Low Power Mode":false,"icon":"mdi:battery-90","friendly_name":"iPhone 15 Pro Max Battery State"},"last_changed":"2024-09-23T01:20:09.269234+00:00","last_reported":"2024-09-23T01:20:09.269234+00:00","last_updated":"2024-09-23T01:20:09.269234+00:00","context":{"id":"01J8E7DVHN43FF1R6FX0QEE4Z6","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "Not Charging",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2024-09-23T01:20:09.618635+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.iphone_15_pro_max_floors_ascended","state":"0","attributes":{"unit_of_measurement":"floors","icon":"mdi:stairs-up","friendly_name":"iPhone 15 Pro Max Floors Ascended"},"last_changed":"2024-09-23T01:20:09.269372+00:00","last_reported":"2024-09-23T01:20:09.269372+00:00","last_updated":"2024-09-23T01:20:09.269372+00:00","context":{"id":"01J8E7DVHN7BK003CH3AYYVXCB","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": 0,
+        "native_unit_of_measurement": "floors"
+      },
+      "last_seen": "2024-09-23T01:20:09.618635+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.iphone_15_pro_max_floors_descended","state":"0","attributes":{"unit_of_measurement":"floors","icon":"mdi:stairs-down","friendly_name":"iPhone 15 Pro Max Floors Descended"},"last_changed":"2024-09-23T01:20:09.269510+00:00","last_reported":"2024-09-23T01:20:09.269510+00:00","last_updated":"2024-09-23T01:20:09.269510+00:00","context":{"id":"01J8E7DVHNM9Y3SRQTFJ5CVK6H","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": 0,
+        "native_unit_of_measurement": "floors"
+      },
+      "last_seen": "2024-09-23T01:20:09.618635+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.iphone_15_pro_max_average_active_pace","state":"1","attributes":{"unit_of_measurement":"m/s","icon":"mdi:speedometer","friendly_name":"iPhone 15 Pro Max Average Active Pace"},"last_changed":"2024-09-23T01:20:09.269640+00:00","last_reported":"2024-09-23T01:20:09.269640+00:00","last_updated":"2024-09-23T01:20:09.269640+00:00","context":{"id":"01J8E7DVHNS5B586JJ7VFH10SX","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": 1,
+        "native_unit_of_measurement": "m/s"
+      },
+      "last_seen": "2024-09-23T01:20:09.618635+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.iphone_15_pro_max_storage","state":"71.56","attributes":{"Available":"177.07 GB","Available (Important)":"193.10 GB","Available (Opportunistic)":"183.10 GB","Total":"255.87 GB","unit_of_measurement":"% available","icon":"mdi:database","friendly_name":"iPhone 15 Pro Max Storage"},"last_changed":"2024-09-23T01:20:09.269934+00:00","last_reported":"2024-09-23T01:20:09.269934+00:00","last_updated":"2024-09-23T01:20:09.269934+00:00","context":{"id":"01J8E7DVHNFTSZR1M5XAK7XSR8","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "71.56",
+        "native_unit_of_measurement": "% available"
+      },
+      "last_seen": "2024-09-23T01:20:09.618635+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.iphone_15_pro_max_steps","state":"677","attributes":{"unit_of_measurement":"steps","icon":"mdi:walk","friendly_name":"iPhone 15 Pro Max Steps"},"last_changed":"2024-09-23T01:20:09.270091+00:00","last_reported":"2024-09-23T01:20:09.270091+00:00","last_updated":"2024-09-23T01:20:09.270091+00:00","context":{"id":"01J8E7DVHPRKJ9T2KV1JNER5KQ","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": 677,
+        "native_unit_of_measurement": "steps"
+      },
+      "last_seen": "2024-09-23T01:20:09.618635+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.iphone_15_pro_max_ssid","state":"Hyve_5G","attributes":{"icon":"mdi:wifi","friendly_name":"iPhone 15 Pro Max SSID"},"last_changed":"2024-09-23T01:20:09.270229+00:00","last_reported":"2024-09-23T01:20:09.270229+00:00","last_updated":"2024-09-23T01:20:09.270229+00:00","context":{"id":"01J8E7DVHPK3WCDRZQADJVMDRH","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "Hyve_5G",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2024-09-23T01:20:09.618635+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.iphone_15_pro_max_bssid","state":"c2:68:a:5f:9f:7c","attributes":{"icon":"mdi:wifi-star","friendly_name":"iPhone 15 Pro Max BSSID"},"last_changed":"2024-09-23T01:20:09.270373+00:00","last_reported":"2024-09-23T01:20:09.270373+00:00","last_updated":"2024-09-23T01:20:09.270373+00:00","context":{"id":"01J8E7DVHP8DTYRM3NJ9RA8MWG","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "c2:68:a:5f:9f:7c",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2024-09-23T01:20:09.618635+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.iphone_15_pro_max_connection_type","state":"Wi-Fi","attributes":{"icon":"mdi:wifi","friendly_name":"iPhone 15 Pro Max Connection Type"},"last_changed":"2024-09-23T01:20:09.270506+00:00","last_reported":"2024-09-23T01:20:09.270506+00:00","last_updated":"2024-09-23T01:20:09.270506+00:00","context":{"id":"01J8E7DVHP4834FD6F7MYG56BG","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "Wi-Fi",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2024-09-23T01:20:09.618635+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.iphone_15_pro_max_sim_2","state":"--","attributes":{"Allows VoIP":true,"Carrier ID":"0000000100000002","Carrier Name":"--","ISO Country Code":"--","Mobile Country Code":"65535","Mobile Network Code":"65535","icon":"mdi:sim","friendly_name":"iPhone 15 Pro Max SIM 2"},"last_changed":"2024-09-23T01:20:09.270632+00:00","last_reported":"2024-09-23T01:20:09.270632+00:00","last_updated":"2024-09-23T01:20:09.270632+00:00","context":{"id":"01J8E7DVHPJC17N1C0FW2738EX","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "--",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2024-09-23T01:20:09.618635+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.iphone_15_pro_max_sim_1","state":"--","attributes":{"Allows VoIP":true,"Carrier ID":"0000000100000001","Carrier Name":"--","Current Radio Technology":"Long-Term Evolution (LTE)","ISO Country Code":"--","Mobile Country Code":"65535","Mobile Network Code":"65535","icon":"mdi:sim","friendly_name":"iPhone 15 Pro Max SIM 1"},"last_changed":"2024-09-23T01:20:09.270755+00:00","last_reported":"2024-09-23T01:20:09.270755+00:00","last_updated":"2024-09-23T01:20:09.270755+00:00","context":{"id":"01J8E7DVHPF25ESYKV9K0EFXXG","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "--",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2024-09-23T01:20:09.618635+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.iphone_15_pro_max_geocoded_location","state":"Unknown","attributes":{"icon":"mdi:map","friendly_name":"iPhone 15 Pro Max Geocoded Location"},"last_changed":"2024-09-23T01:20:09.270872+00:00","last_reported":"2024-09-23T01:20:09.270872+00:00","last_updated":"2024-09-23T01:20:09.270872+00:00","context":{"id":"01J8E7DVHPBNXC3KSBH487VZ35","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "Unknown",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2024-09-23T01:20:09.618635+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.iphone_15_pro_max_last_update_trigger","state":"Periodic","attributes":{"icon":"mdi:cellphone-wireless","friendly_name":"iPhone 15 Pro Max Last Update Trigger"},"last_changed":"2024-09-23T01:20:09.270994+00:00","last_reported":"2024-09-23T01:20:09.270994+00:00","last_updated":"2024-09-23T01:20:09.270994+00:00","context":{"id":"01J8E7DVHPGWYEMND056P3VYKB","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "Periodic",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2024-09-23T01:20:09.618635+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.iphone_15_pro_max_app_version","state":"2024.9.2","attributes":{"icon":"mdi:cellphone","friendly_name":"iPhone 15 Pro Max App Version"},"last_changed":"2024-09-23T01:20:09.271119+00:00","last_reported":"2024-09-23T01:20:09.271119+00:00","last_updated":"2024-09-23T01:20:09.271119+00:00","context":{"id":"01J8E7DVHQ693ASD0ZR45W0RKK","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "2024.9.2",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2024-09-23T01:20:09.618635+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.iphone_15_pro_max_location_permission","state":"Authorized Always","attributes":{"icon":"mdi:map","friendly_name":"iPhone 15 Pro Max Location permission"},"last_changed":"2024-09-23T01:20:09.271235+00:00","last_reported":"2024-09-23T01:20:09.271235+00:00","last_updated":"2024-09-23T01:20:09.271235+00:00","context":{"id":"01J8E7DVHQH5DV00BCG21EE0V8","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "Authorized Always",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2024-09-23T01:20:09.618635+00:00"
+    },
+    {
+      "state": {"entity_id":"tts.google_translate_en_com","state":"unknown","attributes":{"friendly_name":"Google Translate en com"},"last_changed":"2024-09-23T01:20:09.298134+00:00","last_reported":"2024-09-23T01:20:09.298134+00:00","last_updated":"2024-09-23T01:20:09.298134+00:00","context":{"id":"01J8E7DVJJKJXG1JETDP9QA7P4","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-09-23T01:20:09.618635+00:00"
+    },
+    {
+      "state": {"entity_id":"update.hacs_update","state":"off","attributes":{"auto_update":false,"installed_version":"2.0.2-dev-1cf673f","in_progress":false,"latest_version":"2.0.1","release_summary":null,"release_url":"https://github.com/hacs/integration/releases/2.0.1","skipped_version":null,"title":null,"entity_picture":"https://brands.home-assistant.io/_/hacs/icon.png","friendly_name":"HACS update","supported_features":23},"last_changed":"2024-09-23T01:20:09.332447+00:00","last_reported":"2024-09-23T01:20:09.332447+00:00","last_updated":"2024-09-23T01:20:09.332447+00:00","context":{"id":"01J8E7DVKMK33YZF6VXF512F8Z","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-09-23T01:20:09.618635+00:00"
+    },
+    {
+      "state": {"entity_id":"update.mini_graph_card_update","state":"off","attributes":{"auto_update":false,"installed_version":"v0.12.1","in_progress":false,"latest_version":"v0.12.1","release_summary":null,"release_url":"https://github.com/kalkih/mini-graph-card/releases/v0.12.1","skipped_version":null,"title":null,"friendly_name":"mini-graph-card update","supported_features":23},"last_changed":"2024-09-23T01:16:45.807560+00:00","last_reported":"2024-09-23T01:16:45.807820+00:00","last_updated":"2024-09-23T01:16:45.807560+00:00","context":{"id":"01J8E77MVFQPYWQHWXKY6QJ0G7","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-09-23T01:19:58.060374+00:00"
+    },
+    {
+      "state": {"entity_id":"update.mushroom_update","state":"off","attributes":{"auto_update":false,"installed_version":"v4.0.7","in_progress":false,"latest_version":"v4.0.7","release_summary":null,"release_url":"https://github.com/piitaya/lovelace-mushroom/releases/v4.0.7","skipped_version":null,"title":null,"friendly_name":"Mushroom update","supported_features":23},"last_changed":"2024-09-23T01:16:45.808190+00:00","last_reported":"2024-09-23T01:16:45.808190+00:00","last_updated":"2024-09-23T01:16:45.808190+00:00","context":{"id":"01J8E77MVGZMCWWTAT5E3N0CBF","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-09-23T01:19:58.060374+00:00"
+    }
+  ]
+}

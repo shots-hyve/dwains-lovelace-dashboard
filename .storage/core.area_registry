@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "minor_version": 7,
+  "key": "core.area_registry",
+  "data": {
+    "areas": [
+      {
+        "aliases": [],
+        "floor_id": null,
+        "icon": null,
+        "id": "living_room",
+        "labels": [],
+        "name": "Living Room",
+        "picture": null,
+        "created_at": "2024-09-22T23:51:18.278205+00:00",
+        "modified_at": "2024-09-22T23:51:18.278209+00:00"
+      },
+      {
+        "aliases": [],
+        "floor_id": null,
+        "icon": "mdi:bed-king-outline",
+        "id": "bedroom",
+        "labels": [],
+        "name": "Bedroom",
+        "picture": null,
+        "created_at": "2024-09-22T23:51:18.278401+00:00",
+        "modified_at": "2024-09-23T01:15:09.843988+00:00"
+      }
+    ]
+  }
+}

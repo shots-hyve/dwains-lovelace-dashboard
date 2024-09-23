@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "auth_provider.homeassistant",
+  "data": {
+    "users": [
+      {
+        "username": "shots",
+        "password": "JDJiJDEyJEJnSnd3TnNEYkl4TVMuZVVlSFhEQnVCWWcyTC9CV0ExcmwxcnEzQTliNVd6SnVHYWprQWcu"
+      },
+      {
+        "username": "mqtt-user",
+        "password": "JDJiJDEyJGxNSlBCNnZCVnhUNnNTTDdkMHVPek9zT1VpaE4vdFB3bXVhb3hxUHBuUlU3bmRqRUYxLmF1"
+      }
+    ]
+  }
+}

@@ -1,0 +1,441 @@
+{
+  "version": 1,
+  "minor_version": 3,
+  "key": "core.config_entries",
+  "data": {
+    "entries": [
+      {
+        "created_at": "2024-09-22T23:50:23.347126+00:00",
+        "data": {},
+        "disabled_by": null,
+        "domain": "sun",
+        "entry_id": "01J8E29FVJKQY9BDABX5QBRJY4",
+        "minor_version": 1,
+        "modified_at": "2024-09-22T23:50:23.347131+00:00",
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "import",
+        "title": "Sun",
+        "unique_id": null,
+        "version": 1
+      },
+      {
+        "created_at": "2024-09-22T23:50:23.520343+00:00",
+        "data": {},
+        "disabled_by": null,
+        "domain": "hassio",
+        "entry_id": "01J8E29G10MJHS79XEGRC06QVM",
+        "minor_version": 1,
+        "modified_at": "2024-09-22T23:50:23.520347+00:00",
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "system",
+        "title": "Supervisor",
+        "unique_id": "hassio",
+        "version": 1
+      },
+      {
+        "created_at": "2024-09-22T23:50:23.579804+00:00",
+        "data": {},
+        "disabled_by": null,
+        "domain": "raspberry_pi",
+        "entry_id": "01J8E29G2VVWN43G6MWBRJWN6V",
+        "minor_version": 1,
+        "modified_at": "2024-09-22T23:50:23.579807+00:00",
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "system",
+        "title": "Raspberry Pi",
+        "unique_id": null,
+        "version": 1
+      },
+      {
+        "created_at": "2024-09-22T23:50:24.604935+00:00",
+        "data": {},
+        "disabled_by": null,
+        "domain": "bluetooth",
+        "entry_id": "01J8E29H2W88WH9STDQ2Q3QKG6",
+        "minor_version": 1,
+        "modified_at": "2024-09-22T23:50:24.604939+00:00",
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "integration_discovery",
+        "title": "Raspberry Pi (Trading) Ltd bcm43438-bt (2C:CF:67:17:9B:59)",
+        "unique_id": "2C:CF:67:17:9B:59",
+        "version": 1
+      },
+      {
+        "created_at": "2024-09-22T23:50:24.685408+00:00",
+        "data": {},
+        "disabled_by": null,
+        "domain": "thread",
+        "entry_id": "01J8E29H5D0X2F1Q1EFCC0KVR3",
+        "minor_version": 1,
+        "modified_at": "2024-09-22T23:50:24.685413+00:00",
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "zeroconf",
+        "title": "Thread",
+        "unique_id": null,
+        "version": 1
+      },
+      {
+        "created_at": "2024-09-22T23:50:25.993437+00:00",
+        "data": {},
+        "disabled_by": null,
+        "domain": "rpi_power",
+        "entry_id": "01J8E29JE9Q5QW3PB53KVXSEK3",
+        "minor_version": 1,
+        "modified_at": "2024-09-22T23:50:25.993442+00:00",
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "onboarding",
+        "title": "Raspberry Pi Power Supply Checker",
+        "unique_id": null,
+        "version": 1
+      },
+      {
+        "created_at": "2024-09-22T23:50:26.086736+00:00",
+        "data": {
+          "ignore_cec": [],
+          "known_hosts": [],
+          "uuid": [],
+          "user_id": "873ef0db7c2e49ae85b79ba904cc620c"
+        },
+        "disabled_by": null,
+        "domain": "cast",
+        "entry_id": "01J8E29JH6C5NZQ0109CDRPSYD",
+        "minor_version": 1,
+        "modified_at": "2024-09-22T23:50:26.088442+00:00",
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "zeroconf",
+        "title": "Google Cast",
+        "unique_id": "cast",
+        "version": 1
+      },
+      {
+        "created_at": "2024-09-22T23:52:52.276455+00:00",
+        "data": {},
+        "disabled_by": null,
+        "domain": "shopping_list",
+        "entry_id": "01J8E2E19MXSZMQ34SG8RZV93V",
+        "minor_version": 1,
+        "modified_at": "2024-09-22T23:52:52.276459+00:00",
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "onboarding",
+        "title": "Shopping list",
+        "unique_id": "shopping_list",
+        "version": 1
+      },
+      {
+        "created_at": "2024-09-22T23:52:52.460006+00:00",
+        "data": {},
+        "disabled_by": null,
+        "domain": "radio_browser",
+        "entry_id": "01J8E2E1FB8HEAGBPMFQG40G2R",
+        "minor_version": 1,
+        "modified_at": "2024-09-22T23:52:52.460010+00:00",
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "onboarding",
+        "title": "Radio Browser",
+        "unique_id": null,
+        "version": 1
+      },
+      {
+        "created_at": "2024-09-22T23:52:52.462884+00:00",
+        "data": {
+          "language": "en",
+          "tld": "com"
+        },
+        "disabled_by": null,
+        "domain": "google_translate",
+        "entry_id": "01J8E2E1FEQ8PCN6MMVWNFMDFN",
+        "minor_version": 1,
+        "modified_at": "2024-09-22T23:52:52.462888+00:00",
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "onboarding",
+        "title": "Google Translate text-to-speech",
+        "unique_id": null,
+        "version": 1
+      },
+      {
+        "created_at": "2024-09-22T23:52:52.489026+00:00",
+        "data": {
+          "track_home": true
+        },
+        "disabled_by": null,
+        "domain": "met",
+        "entry_id": "01J8E2E1G8QNKZ4F6CDBDWH2Y5",
+        "minor_version": 1,
+        "modified_at": "2024-09-22T23:52:52.489030+00:00",
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "onboarding",
+        "title": "Home",
+        "unique_id": null,
+        "version": 1
+      },
+      {
+        "created_at": "2024-09-22T23:53:27.696081+00:00",
+        "data": {
+          "device": {
+            "path": "/dev/serial/by-id/usb-ITead_Sonoff_Zigbee_3.0_USB_Dongle_Plus_1c47a6ebadc9eb1180d58f4f1d69213e-if00-port0"
+          }
+        },
+        "disabled_by": null,
+        "domain": "zha",
+        "entry_id": "01J8E2F3WGCXV8P961E8W3JCZC",
+        "minor_version": 1,
+        "modified_at": "2024-09-23T00:03:01.210988+00:00",
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "ignore",
+        "title": "Sonoff Zigbee 3.0 USB Dongle Plus",
+        "unique_id": "10C4:EA60_1c47a6ebadc9eb1180d58f4f1d69213e_ITead_Sonoff Zigbee 3.0 USB Dongle Plus",
+        "version": 4
+      },
+      {
+        "created_at": "2024-09-23T00:27:10.208438+00:00",
+        "data": {
+          "url": "http://192.168.8.1/"
+        },
+        "disabled_by": null,
+        "domain": "huawei_lte",
+        "entry_id": "01J8E4CV0020NJAENTRYW6MHXX",
+        "minor_version": 1,
+        "modified_at": "2024-09-23T00:32:46.643782+00:00",
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "ignore",
+        "title": "HUAWEI 4G CPE 3",
+        "unique_id": "9430054a1006c28c",
+        "version": 3
+      },
+      {
+        "created_at": "2024-09-23T00:27:16.698388+00:00",
+        "data": {
+          "udn": "uuid:faa370d5-be34-6da7-042a-1d56a6f1d2b6",
+          "st": "urn:schemas-upnp-org:device:InternetGatewayDevice:1",
+          "original_udn": "uuid:faa370d5-be34-6da7-042a-1d56a6f1d2b6",
+          "location": "http://192.168.8.1:37215/faa370d5-be34-6da7-042a-1d56a6f1d2b6/upnpdev.xml",
+          "mac_address": "c2:68:0a:5f:9f:72",
+          "host": "192.168.8.1"
+        },
+        "disabled_by": null,
+        "domain": "upnp",
+        "entry_id": "01J8E4D1AT042WZZDCQZVBPHXV",
+        "minor_version": 1,
+        "modified_at": "2024-09-23T00:27:16.698392+00:00",
+        "options": {
+          "force_poll": false
+        },
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "ssdp",
+        "title": "HUAWEI 4G CPE 3",
+        "unique_id": "uuid:faa370d5-be34-6da7-042a-1d56a6f1d2b6::urn:schemas-upnp-org:device:InternetGatewayDevice:1",
+        "version": 1
+      },
+      {
+        "created_at": "2024-09-23T00:27:21.737647+00:00",
+        "data": {
+          "host": "192.168.8.85",
+          "port": 631,
+          "ssl": false,
+          "verify_ssl": false,
+          "base_path": "/ipp/print",
+          "name": "Canon-40",
+          "uuid": "00000000-0000-1000-8000-D8492FAB405A"
+        },
+        "disabled_by": null,
+        "domain": "ipp",
+        "entry_id": "01J8E4D68942Y6YRPPBTJ28KKY",
+        "minor_version": 1,
+        "modified_at": "2024-09-23T00:27:21.737649+00:00",
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "zeroconf",
+        "title": "Canon-40",
+        "unique_id": "00000000-0000-1000-8000-D8492FAB405A",
+        "version": 1
+      },
+      {
+        "created_at": "2024-09-23T00:28:06.252109+00:00",
+        "data": {},
+        "disabled_by": null,
+        "domain": "ibeacon",
+        "entry_id": "01J8E4EHQCCSVNX7SCXZ7D5CDP",
+        "minor_version": 1,
+        "modified_at": "2024-09-23T00:28:06.252111+00:00",
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "bluetooth",
+        "title": "iBeacon Tracker",
+        "unique_id": null,
+        "version": 1
+      },
+      {
+        "created_at": "2024-09-23T00:28:21.637429+00:00",
+        "data": {
+          "name": "Pod",
+          "credentials": {
+            "3": null,
+            "5": null
+          },
+          "address": "192.168.8.82",
+          "identifiers": [
+            "76:29:1E:45:DF:D2",
+            "76291E45DFD2"
+          ]
+        },
+        "disabled_by": null,
+        "domain": "apple_tv",
+        "entry_id": "01J8E4F0R5XD6K2736ZMZN5GQ2",
+        "minor_version": 1,
+        "modified_at": "2024-09-23T00:58:27.266672+00:00",
+        "options": {
+          "start_off": true
+        },
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "zeroconf",
+        "title": "Pod",
+        "unique_id": "76:29:1E:45:DF:D2",
+        "version": 1
+      },
+      {
+        "created_at": "2024-09-23T00:30:56.443749+00:00",
+        "data": {
+          "host": "192.168.8.66",
+          "name": "shots's Chromecast",
+          "mac": "B0:E4:D5:FE:5D:94"
+        },
+        "disabled_by": null,
+        "domain": "androidtv_remote",
+        "entry_id": "01J8E4KQXVDRQYY2P64G9G3WVQ",
+        "minor_version": 1,
+        "modified_at": "2024-09-23T00:30:56.443753+00:00",
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "zeroconf",
+        "title": "shots's Chromecast",
+        "unique_id": "b0:e4:d5:fe:5d:94",
+        "version": 1
+      },
+      {
+        "created_at": "2024-09-23T00:42:14.762810+00:00",
+        "data": {
+          "os_version": "18.1",
+          "app_version": "2024.9.2 (2024)",
+          "app_name": "Home Assistant",
+          "device_name": "Shady’s iPhone 15 pro max",
+          "device_id": "shadys_iphone_15_pro_max",
+          "app_id": "io.robbie.HomeAssistant",
+          "manufacturer": "Apple",
+          "os_name": "iOS",
+          "supports_encryption": true,
+          "model": "iPhone16,2",
+          "app_data": {
+            "push_url": "https://mobile-apps.home-assistant.io/api/sendPushNotification",
+            "push_token": "f-uhLwMjF0E7tuoRSZ2zDR:APA91bG8dtqfbJ_eR5O38qADs4HVLfxS4AfpmKnDh286nXQvBTHpAx9vjeyJUNHp1daGZyyl2fJLeU5vRyWmOvw1V65xaaTcjg4UUCwmAJEoQyejIlnTRsu_xHURhKdLIP8p51yuYqP6"
+          },
+          "webhook_id": "d2e25bf00ef77592afbb404b9b158f8520f9cc1c37fdbc400337ed6d5a7c3789",
+          "secret": "a73f24c248a6d2c3a80e2861715943bd70692f909e702c7ad5273271f5cf7c3f",
+          "user_id": "4226c273b7b44abda0290da4f1128dc7",
+          "no_legacy_encryption": true
+        },
+        "disabled_by": null,
+        "domain": "mobile_app",
+        "entry_id": "01J8E58EBAHR4XWBGSMY7HWRDS",
+        "minor_version": 1,
+        "modified_at": "2024-09-23T00:42:14.784920+00:00",
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "registration",
+        "title": "Shady’s iPhone 15 pro max",
+        "unique_id": "io.robbie.HomeAssistant-shadys_iphone_15_pro_max",
+        "version": 1
+      },
+      {
+        "created_at": "2024-09-23T00:43:03.684283+00:00",
+        "data": {
+          "model": "iPhone16,2",
+          "app_data": {
+            "push_token": "f-uhLwMjF0E7tuoRSZ2zDR:APA91bG8dtqfbJ_eR5O38qADs4HVLfxS4AfpmKnDh286nXQvBTHpAx9vjeyJUNHp1daGZyyl2fJLeU5vRyWmOvw1V65xaaTcjg4UUCwmAJEoQyejIlnTRsu_xHURhKdLIP8p51yuYqP6",
+            "push_url": "https://mobile-apps.home-assistant.io/api/sendPushNotification"
+          },
+          "os_name": "iOS",
+          "manufacturer": "Apple",
+          "app_id": "io.robbie.HomeAssistant",
+          "os_version": "18.1",
+          "supports_encryption": true,
+          "device_id": "4EBCD03A-7744-4BB3-BD33-22AB34A5F354",
+          "app_name": "Home Assistant",
+          "device_name": "iPhone 15 Pro Max",
+          "app_version": "2024.9.2 (2024.863)",
+          "webhook_id": "b23c18031fe60c5d7ab152d6aaacdb46801afb41617150bd034c4b46e61f5178",
+          "secret": "224ca3ef9ce2dddd027fce62a6e34f3ad020e0d3bc78e34fdebbf59689e10e6e",
+          "user_id": "4226c273b7b44abda0290da4f1128dc7",
+          "no_legacy_encryption": true
+        },
+        "disabled_by": null,
+        "domain": "mobile_app",
+        "entry_id": "01J8E59Y447KGSX3RY5T84MT4Y",
+        "minor_version": 1,
+        "modified_at": "2024-09-23T00:43:03.743280+00:00",
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "registration",
+        "title": "iPhone 15 Pro Max",
+        "unique_id": "io.robbie.HomeAssistant-4EBCD03A-7744-4BB3-BD33-22AB34A5F354",
+        "version": 1
+      },
+      {
+        "created_at": "2024-09-23T00:58:09.539772+00:00",
+        "data": {
+          "token": "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"
+        },
+        "disabled_by": null,
+        "domain": "hacs",
+        "entry_id": "01J8E65JR3TYMRRGASE2QJ0SQ5",
+        "minor_version": 1,
+        "modified_at": "2024-09-23T01:10:10.751425+00:00",
+        "options": {
+          "sidepanel_title": "HACS",
+          "sidepanel_icon": "hacs:hacs",
+          "country": "ALL",
+          "appdaemon": true,
+          "experimental": true
+        },
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "title": "",
+        "unique_id": null,
+        "version": 1
+      }
+    ]
+  }
+}
