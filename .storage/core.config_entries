@@ -517,6 +517,120 @@
         "title": "hyve88@outlook.com",
         "unique_id": "hyve88@outlook.com",
         "version": 1
+      },
+      {
+        "created_at": "2024-09-23T04:59:37.948783+00:00",
+        "data": {
+          "user_code": "Ca1RpAe",
+          "token_info": {
+            "t": 1727116436579,
+            "uid": "eu16803809728851RpAe",
+            "expire_time": 7200,
+            "access_token": "f78bec9f1361c47d895f146bf04380b0",
+            "refresh_token": "a94c169217f1290ab0f4b991c55460d6"
+          },
+          "terminal_id": "1727067577705myQP3W",
+          "endpoint": "https://apigw.tuyaeu.com"
+        },
+        "disabled_by": null,
+        "domain": "tuya",
+        "entry_id": "01J8EKZQJWJP9BMMZNVZAMYB6H",
+        "minor_version": 1,
+        "modified_at": "2024-09-23T18:33:56.633087+00:00",
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "title": "hyve88@outlook.com",
+        "unique_id": null,
+        "version": 1
+      },
+      {
+        "created_at": "2024-09-23T05:51:42.194039+00:00",
+        "data": {
+          "port": 21065,
+          "name": "shots s Chromecast"
+        },
+        "disabled_by": null,
+        "domain": "homekit",
+        "entry_id": "01J8EPZ2KHRR1BCXZQQPXZERHF",
+        "minor_version": 1,
+        "modified_at": "2024-09-23T05:51:42.200001+00:00",
+        "options": {
+          "filter": {
+            "include_domains": [],
+            "include_entities": [
+              "remote.shots_s_chromecast"
+            ],
+            "exclude_domains": [],
+            "exclude_entities": []
+          },
+          "mode": "accessory"
+        },
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "accessory",
+        "title": "shots's Chromecast:21065",
+        "unique_id": null,
+        "version": 1
+      },
+      {
+        "created_at": "2024-09-23T05:51:42.195847+00:00",
+        "data": {
+          "name": "HASS Bridge",
+          "exclude_accessory_mode": true,
+          "port": 21064
+        },
+        "disabled_by": null,
+        "domain": "homekit",
+        "entry_id": "01J8EPZ2KK1HVX6SVDP1Q9N44Z",
+        "minor_version": 1,
+        "modified_at": "2024-09-23T05:51:42.201129+00:00",
+        "options": {
+          "filter": {
+            "include_domains": [
+              "fan",
+              "light",
+              "remote",
+              "switch",
+              "binary_sensor",
+              "climate",
+              "device_tracker",
+              "person",
+              "sensor"
+            ],
+            "include_entities": [],
+            "exclude_domains": [],
+            "exclude_entities": []
+          },
+          "mode": "bridge"
+        },
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "title": "HASS Bridge:21064",
+        "unique_id": null,
+        "version": 1
+      },
+      {
+        "created_at": "2024-09-23T06:33:28.735633+00:00",
+        "data": {},
+        "disabled_by": null,
+        "domain": "switch_as_x",
+        "entry_id": "01J8ESBJCZ3E9AMWDQBCCHVFWX",
+        "minor_version": 2,
+        "modified_at": "2024-09-23T06:33:28.735635+00:00",
+        "options": {
+          "entity_id": "switch.backlight_socket_1",
+          "invert": false,
+          "target_domain": "light"
+        },
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "title": "backlight",
+        "unique_id": null,
+        "version": 1
       }
     ]
   }

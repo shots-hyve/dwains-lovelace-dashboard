@@ -1,1 +1,12 @@
-[]
+- id: '1727066405247'
+  alias: Sensor Light
+  description: light on with door open
+  use_blueprint:
+    path: Blackshome/sensor-light.yaml
+    input:
+      motion_trigger:
+      - binary_sensor.bedroom_contact
+      light_switch:
+        device_id: d9614a84d59f0e41e02a56952c58a916
+        entity_id: switch.sonoff_100156cbbb_2
+      time_delay: 0

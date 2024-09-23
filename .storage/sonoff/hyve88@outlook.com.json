@@ -108,14 +108,14 @@
         "reset_reason": "ESP_RST_SW",
         "HMI_model": 120,
         "HMI_direction": "horizontal",
-        "temperature": 29.7,
+        "temperature": 29.6,
         "humidity": "blank",
         "tempUnit": 0,
         "HMI_outdoorTemp": {
-          "current": 24,
+          "current": 28,
           "range": "22,33"
         },
-        "HMI_weather": 33,
+        "HMI_weather": 6,
         "cityId": "WA@30.07,31.34",
         "dst": 0,
         "timeZone": 2,
