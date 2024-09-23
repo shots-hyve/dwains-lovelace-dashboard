@@ -491,6 +491,32 @@
         "title": "Mosquitto broker",
         "unique_id": null,
         "version": 1
+      },
+      {
+        "created_at": "2024-09-23T03:32:32.557966+00:00",
+        "data": {
+          "username": "hyve88@outlook.com",
+          "password": "shots1988",
+          "country_code": "+20"
+        },
+        "disabled_by": null,
+        "domain": "sonoff",
+        "entry_id": "01J8EF08NDQQP7NQSY21D2G7A8",
+        "minor_version": 1,
+        "modified_at": "2024-09-23T03:42:07.217003+00:00",
+        "options": {
+          "mode": "auto",
+          "debug": false,
+          "homes": [
+            "66b339e8429e4c001a013b49"
+          ]
+        },
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "title": "hyve88@outlook.com",
+        "unique_id": "hyve88@outlook.com",
+        "version": 1
       }
     ]
   }

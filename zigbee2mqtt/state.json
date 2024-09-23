@@ -1,6 +1,7 @@
 {
     "0x00124b00234304db": {
         "voltage": 2900,
-        "battery": 76.5
+        "battery": 76.5,
+        "linkquality": 156
     }
 }
