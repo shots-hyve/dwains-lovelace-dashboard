@@ -1,12 +1,18 @@
-  - id: '1727066405247'
-  alias: Sensor Light
-  description: light on with door open
+- id: '1727174799375'
+  alias: Batt
+  description: ''
   use_blueprint:
-    path: Blackshome/sensor-light.yaml
+    path: sbyx/low-battery-level-detection-notification-for-all-battery-sensors.yaml
     input:
-      motion_trigger:
-      - binary_sensor.bedroom_contact
-      light_switch:
-        device_id: d9614a84d59f0e41e02a56952c58a916
-        entity_id: switch.sonoff_100156cbbb_2
-      time_delay: 0
+      exclude:
+        entity_id: []
+        device_id:
+        - 0674d5ee258c8eff1555a8b958354546
+        - 56079adafea51bb034d983e8824712d4
+        - 567ab7252361c67ca19fbb4e5461727f
+        - ea82234306d4e7c899196a29e2de145f
+      actions:
+      - device_id: b692bb6c889727481d75eb8d819c5de8
+        domain: mobile_app
+        type: notify
+        message: Batt. Check

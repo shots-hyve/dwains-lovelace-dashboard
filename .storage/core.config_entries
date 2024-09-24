@@ -393,7 +393,7 @@
           "device_id": "4EBCD03A-7744-4BB3-BD33-22AB34A5F354",
           "app_name": "Home Assistant",
           "device_name": "iPhone 15 Pro Max",
-          "app_version": "2024.9.2 (2024.863)",
+          "app_version": "2024.9.2 (2024.881)",
           "webhook_id": "b23c18031fe60c5d7ab152d6aaacdb46801afb41617150bd034c4b46e61f5178",
           "secret": "224ca3ef9ce2dddd027fce62a6e34f3ad020e0d3bc78e34fdebbf59689e10e6e",
           "user_id": "4226c273b7b44abda0290da4f1128dc7",
@@ -403,7 +403,7 @@
         "domain": "mobile_app",
         "entry_id": "01J8E59Y447KGSX3RY5T84MT4Y",
         "minor_version": 1,
-        "modified_at": "2024-09-23T00:43:03.743280+00:00",
+        "modified_at": "2024-09-24T14:41:12.098274+00:00",
         "options": {},
         "pref_disable_new_entities": false,
         "pref_disable_polling": false,
@@ -523,11 +523,11 @@
         "data": {
           "user_code": "Ca1RpAe",
           "token_info": {
-            "t": 1727116436579,
+            "t": 1727196056724,
             "uid": "eu16803809728851RpAe",
             "expire_time": 7200,
-            "access_token": "f78bec9f1361c47d895f146bf04380b0",
-            "refresh_token": "a94c169217f1290ab0f4b991c55460d6"
+            "access_token": "76bd131a4df797c91c54726696cb16cf",
+            "refresh_token": "d61fd50c240d8f071f1cdc43b04d3784"
           },
           "terminal_id": "1727067577705myQP3W",
           "endpoint": "https://apigw.tuyaeu.com"
@@ -536,7 +536,7 @@
         "domain": "tuya",
         "entry_id": "01J8EKZQJWJP9BMMZNVZAMYB6H",
         "minor_version": 1,
-        "modified_at": "2024-09-23T18:33:56.633087+00:00",
+        "modified_at": "2024-09-24T16:40:56.735799+00:00",
         "options": {},
         "pref_disable_new_entities": false,
         "pref_disable_polling": false,
@@ -630,6 +630,134 @@
         "source": "user",
         "title": "backlight",
         "unique_id": null,
+        "version": 1
+      },
+      {
+        "created_at": "2024-09-23T23:07:53.182529+00:00",
+        "data": {},
+        "disabled_by": null,
+        "domain": "switch_as_x",
+        "entry_id": "01J8GJ8CEYYSSEV0Q07QK28HWJ",
+        "minor_version": 2,
+        "modified_at": "2024-09-23T23:07:53.182531+00:00",
+        "options": {
+          "entity_id": "switch.smart_power_strip_socket_2",
+          "invert": false,
+          "target_domain": "light"
+        },
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "title": "bug zapper",
+        "unique_id": null,
+        "version": 1
+      },
+      {
+        "created_at": "2024-09-23T23:10:14.515079+00:00",
+        "data": {},
+        "disabled_by": null,
+        "domain": "switch_as_x",
+        "entry_id": "01J8GJCPFKQAQ3F07XSAX6PPJ7",
+        "minor_version": 2,
+        "modified_at": "2024-09-23T23:12:34.048041+00:00",
+        "options": {
+          "entity_id": "switch.smart_power_strip_socket_3",
+          "invert": false,
+          "target_domain": "fan"
+        },
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "title": "DESK FAN",
+        "unique_id": null,
+        "version": 1
+      },
+      {
+        "created_at": "2024-09-24T00:37:03.636918+00:00",
+        "data": {
+          "manufacturer": "Apple",
+          "os_version": "18.0",
+          "device_name": "Shady’s work IPAD",
+          "app_name": "Home Assistant",
+          "app_id": "io.robbie.HomeAssistant",
+          "app_data": {
+            "push_url": "https://mobile-apps.home-assistant.io/api/sendPushNotification",
+            "push_token": "eTpl-wfkfUxKp7t9cY4_YE:APA91bEsODZ_L7wWnEQixiDrg4yZcqyxM9XIj7QkRoeYeSxzOgpImslqDNUmuEduMxXuo1-gbrUls4LTR-a2hRtpZMT_Vt6QF0RXzrBz0klWcND0i-voKDvKswFTE6REilP2M2hmOsxZ"
+          },
+          "device_id": "5EED9450-11DC-4CB7-BAE3-5D8AB98D3010",
+          "app_version": "2024.9.1 (2024)",
+          "model": "iPad12,2",
+          "supports_encryption": true,
+          "os_name": "iPadOS",
+          "webhook_id": "e57898c6b7281c4c15b6c32e5adc55f3d9be9ae84cafe2b980cd2108e123c802",
+          "secret": "833331b212c0b4db97411150b553563986b87f84560102e3cb1be40984767fe2",
+          "user_id": "4226c273b7b44abda0290da4f1128dc7",
+          "no_legacy_encryption": true
+        },
+        "disabled_by": null,
+        "domain": "mobile_app",
+        "entry_id": "01J8GQBNGMED70NWQ0AQQMW6SG",
+        "minor_version": 1,
+        "modified_at": "2024-09-24T00:37:03.762213+00:00",
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "registration",
+        "title": "Shady’s work IPAD",
+        "unique_id": "io.robbie.HomeAssistant-5EED9450-11DC-4CB7-BAE3-5D8AB98D3010",
+        "version": 1
+      },
+      {
+        "created_at": "2024-09-24T01:41:39.522418+00:00",
+        "data": {},
+        "disabled_by": null,
+        "domain": "dwains_dashboard",
+        "entry_id": "01J8GV1YJ2PKAASEDMXY23MR33",
+        "minor_version": 1,
+        "modified_at": "2024-09-24T01:42:20.011628+00:00",
+        "options": {
+          "sidepanel_title": "Dwains Dashboard",
+          "sidepanel_icon": "mdi:alpha-d-box"
+        },
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "title": "",
+        "unique_id": null,
+        "version": 1
+      },
+      {
+        "created_at": "2024-09-24T13:15:56.218632+00:00",
+        "data": {
+          "app_id": "io.homeassistant.companion.android",
+          "app_name": "Home Assistant",
+          "app_version": "2024.7.3-full (13278)",
+          "device_name": "SM-F936B",
+          "manufacturer": "samsung",
+          "model": "SM-F936B",
+          "os_name": "Android",
+          "os_version": "34",
+          "supports_encryption": false,
+          "app_data": {
+            "push_websocket_channel": true,
+            "push_url": "https://mobile-apps.home-assistant.io/api/sendPush/android/v1",
+            "push_token": "dLrWbgBzRA6CaFIiBiRjGt:APA91bF2n5je0VlbvDc2KtkcQNsIXMei-k91tEZjm90beuMWEfzt5cazuq-2sHYh9XdjCVMfKtjNJqLiYaDEFP8OkQoQt9xwvchbIMv0lML6abD6INbnI1sBEUV0o0_3o2_RvarHD8Bn"
+          },
+          "device_id": "21abb0a7a56bded9",
+          "webhook_id": "857b3d81d7268f109c2fe3ca79b3c99ffd738b22a1925578a3c619e7dfc2fa0f",
+          "user_id": "4226c273b7b44abda0290da4f1128dc7"
+        },
+        "disabled_by": null,
+        "domain": "mobile_app",
+        "entry_id": "01J8J2S6XTMPY71J95C4SBR8KH",
+        "minor_version": 1,
+        "modified_at": "2024-09-24T13:15:56.218637+00:00",
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "registration",
+        "title": "SM-F936B",
+        "unique_id": "io.homeassistant.companion.android-21abb0a7a56bded9",
         "version": 1
       }
     ]

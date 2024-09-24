@@ -45,7 +45,25 @@
       "tuya.sensor.tuya.1048687570039f6566b8cur_current": 4127708750,
       "tuya.sensor.tuya.1048687570039f6566b8cur_power": 4170142482,
       "tuya.sensor.tuya.1048687570039f6566b8cur_voltage": 2737345177,
-      "switch_as_x.light.01J8ESBJCZ3E9AMWDQBCCHVFWX": 2039992277
+      "switch_as_x.light.01J8ESBJCZ3E9AMWDQBCCHVFWX": 2039992277,
+      "switch_as_x.light.01J8GJ8CEYYSSEV0Q07QK28HWJ": 3649595755,
+      "switch_as_x.fan.01J8GJCPFKQAQ3F07XSAX6PPJ7": 818501726,
+      "tuya.sensor.tuya.45863170c4dd573285c9cur_current": 2807409184,
+      "tuya.sensor.tuya.45863170c4dd573285c9cur_power": 1756345056,
+      "tuya.sensor.tuya.45863170c4dd573285c9cur_voltage": 2333806639,
+      "mobile_app.binary_sensor.e57898c6b7281c4c15b6c32e5adc55f3d9be9ae84cafe2b980cd2108e123c802_focus": 3761768683,
+      "mobile_app.sensor.e57898c6b7281c4c15b6c32e5adc55f3d9be9ae84cafe2b980cd2108e123c802_activity": 2551665196,
+      "mobile_app.sensor.e57898c6b7281c4c15b6c32e5adc55f3d9be9ae84cafe2b980cd2108e123c802_battery_level": 2942248339,
+      "mobile_app.sensor.e57898c6b7281c4c15b6c32e5adc55f3d9be9ae84cafe2b980cd2108e123c802_battery_state": 1515034324,
+      "mobile_app.sensor.e57898c6b7281c4c15b6c32e5adc55f3d9be9ae84cafe2b980cd2108e123c802_storage": 292045478,
+      "mobile_app.sensor.e57898c6b7281c4c15b6c32e5adc55f3d9be9ae84cafe2b980cd2108e123c802_connectivity_connection_type": 2277710856,
+      "mobile_app.sensor.e57898c6b7281c4c15b6c32e5adc55f3d9be9ae84cafe2b980cd2108e123c802_connectivity_sim_1": 1558547006,
+      "mobile_app.sensor.e57898c6b7281c4c15b6c32e5adc55f3d9be9ae84cafe2b980cd2108e123c802_connectivity_ssid": 3005043848,
+      "mobile_app.sensor.e57898c6b7281c4c15b6c32e5adc55f3d9be9ae84cafe2b980cd2108e123c802_geocoded_location": 225014489,
+      "mobile_app.sensor.e57898c6b7281c4c15b6c32e5adc55f3d9be9ae84cafe2b980cd2108e123c802_last_update_trigger": 2906702272,
+      "mobile_app.sensor.e57898c6b7281c4c15b6c32e5adc55f3d9be9ae84cafe2b980cd2108e123c802_location-permission": 3608326974,
+      "mobile_app.sensor.e57898c6b7281c4c15b6c32e5adc55f3d9be9ae84cafe2b980cd2108e123c802_connectivity_bssid": 1159927568,
+      "dwains_dashboard.sensor.dwains-dashboard-latest-version": 3373096094
     }
   }
 }

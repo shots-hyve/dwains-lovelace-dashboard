@@ -1,0 +1,34 @@
+[24-09-2024 04:45:30] info: 	z2m: Logging to console, file (filename: log.log)
+[24-09-2024 04:45:30] info: 	z2m: Starting Zigbee2MQTT version 1.40.1 (commit #unknown)
+[24-09-2024 04:45:30] info: 	z2m: Starting zigbee-herdsman (0.57.3)
+[24-09-2024 04:45:30] info: 	zh:zstack:znp: Opening SerialPort with {"path":"/dev/ttyUSB0","baudRate":115200,"rtscts":false,"autoOpen":false}
+[24-09-2024 04:45:30] info: 	zh:zstack:znp: Serialport opened
+[24-09-2024 04:45:34] info: 	z2m: zigbee-herdsman started (resumed)
+[24-09-2024 04:45:34] info: 	z2m: Coordinator firmware version: '{"meta":{"maintrel":1,"majorrel":2,"minorrel":7,"product":1,"revision":20221226,"transportrev":2},"type":"zStack3x0"}'
+[24-09-2024 04:45:34] info: 	z2m: bedroom (0x00124b00234304db): SNZB-04 - SONOFF Contact sensor (EndDevice)
+[24-09-2024 04:45:34] info: 	z2m: Currently 1 devices are joined.
+[24-09-2024 04:45:34] warning: 	z2m: `permit_join` set to  `true` in configuration.yaml.
+[24-09-2024 04:45:34] warning: 	z2m: Allowing new devices to join.
+[24-09-2024 04:45:34] warning: 	z2m: Set `permit_join` to `false` once you joined all devices.
+[24-09-2024 04:45:34] info: 	z2m: Zigbee: allowing new devices to join.
+[24-09-2024 04:45:35] info: 	z2m: Connecting to MQTT server at mqtt://core-mosquitto:1883
+[24-09-2024 04:45:35] info: 	z2m: Connected to MQTT server
+[24-09-2024 04:45:35] info: 	z2m:mqtt: MQTT publish: topic 'zigbee2mqtt/bridge/state', payload '{"state":"online"}'
+[24-09-2024 04:45:35] info: 	z2m:mqtt: MQTT publish: topic 'zigbee2mqtt/bedroom/availability', payload '{"state":"online"}'
+[24-09-2024 04:45:35] info: 	z2m: Started frontend on port 8099
+[24-09-2024 04:45:35] info: 	z2m:mqtt: MQTT publish: topic 'zigbee2mqtt/bridge/state', payload '{"state":"online"}'
+[24-09-2024 04:45:35] info: 	z2m:mqtt: MQTT publish: topic 'zigbee2mqtt/bedroom', payload '{"battery":83.5,"battery_low":false,"contact":true,"device":{"applicationVersion":4,"dateCode":"20201026","friendlyName":"bedroom","hardwareVersion":1,"ieeeAddr":"0x00124b00234304db","manufacturerID":0,"manufacturerName":"eWeLink","model":"SNZB-04","networkAddress":1662,"powerSource":"Battery","type":"EndDevice","zclVersion":1},"last_seen":"2024-09-24T04:41:57+03:00","linkquality":142,"tamper":false,"voltage":2900}'
+[24-09-2024 04:45:35] info: 	z2m: Zigbee2MQTT started!
+[24-09-2024 04:45:40] info: 	z2m:mqtt: MQTT publish: topic 'homeassistant/binary_sensor/1221051039810110150109113116116_0x00124b0024bc4724/connection_state/config', payload '{"device":{"hw_version":"zStack3x0 20221226","identifiers":["zigbee2mqtt_bridge_0x00124b0024bc4724"],"manufacturer":"Zigbee2MQTT","model":"Bridge","name":"Zigbee2MQTT Bridge","sw_version":"1.40.1"},"device_class":"connectivity","entity_category":"diagnostic","name":"Connection state","object_id":"zigbee2mqtt_bridge_connection_state","origin":{"name":"Zigbee2MQTT","sw":"1.40.1","url":"https://www.zigbee2mqtt.io"},"payload_off":"offline","payload_on":"online","state_topic":"zigbee2mqtt/bridge/state","unique_id":"bridge_0x00124b0024bc4724_connection_state_zigbee2mqtt","value_template":"{{ value_json.state }}"}'
+[24-09-2024 05:58:49] info: 	z2m:mqtt: MQTT publish: topic 'zigbee2mqtt/bedroom', payload '{"battery":83.5,"battery_low":false,"contact":false,"device":{"applicationVersion":4,"dateCode":"20201026","friendlyName":"bedroom","hardwareVersion":1,"ieeeAddr":"0x00124b00234304db","manufacturerID":0,"manufacturerName":"eWeLink","model":"SNZB-04","networkAddress":1662,"powerSource":"Battery","type":"EndDevice","zclVersion":1},"last_seen":"2024-09-24T05:58:49+03:00","linkquality":134,"tamper":false,"voltage":2900}'
+[24-09-2024 06:02:33] info: 	z2m:mqtt: MQTT publish: topic 'zigbee2mqtt/bedroom', payload '{"battery":83.5,"battery_low":false,"contact":false,"device":{"applicationVersion":4,"dateCode":"20201026","friendlyName":"bedroom","hardwareVersion":1,"ieeeAddr":"0x00124b00234304db","manufacturerID":0,"manufacturerName":"eWeLink","model":"SNZB-04","networkAddress":1662,"powerSource":"Battery","type":"EndDevice","zclVersion":1},"last_seen":"2024-09-24T06:02:33+03:00","linkquality":127,"tamper":false,"voltage":2900}'
+[24-09-2024 06:02:33] info: 	z2m:mqtt: MQTT publish: topic 'zigbee2mqtt/bedroom', payload '{"battery":83.5,"battery_low":false,"contact":false,"device":{"applicationVersion":4,"dateCode":"20201026","friendlyName":"bedroom","hardwareVersion":1,"ieeeAddr":"0x00124b00234304db","manufacturerID":0,"manufacturerName":"eWeLink","model":"SNZB-04","networkAddress":1662,"powerSource":"Battery","type":"EndDevice","zclVersion":1},"last_seen":"2024-09-24T06:02:33+03:00","linkquality":127,"tamper":false,"voltage":2900}'
+[24-09-2024 06:09:06] info: 	z2m:mqtt: MQTT publish: topic 'zigbee2mqtt/bedroom', payload '{"battery":83.5,"battery_low":false,"contact":true,"device":{"applicationVersion":4,"dateCode":"20201026","friendlyName":"bedroom","hardwareVersion":1,"ieeeAddr":"0x00124b00234304db","manufacturerID":0,"manufacturerName":"eWeLink","model":"SNZB-04","networkAddress":1662,"powerSource":"Battery","type":"EndDevice","zclVersion":1},"last_seen":"2024-09-24T06:09:06+03:00","linkquality":156,"tamper":false,"voltage":2900}'
+[24-09-2024 06:19:40] info: 	z2m:mqtt: MQTT publish: topic 'zigbee2mqtt/bridge/state', payload '{"state":"offline"}'
+[24-09-2024 06:19:40] info: 	z2m: Disconnecting from MQTT server
+[24-09-2024 06:19:40] info: 	z2m: Stopping zigbee-herdsman...
+[24-09-2024 06:19:50] info: 	zh:controller: Wrote coordinator backup to '/config/zigbee2mqtt/coordinator_backup.json'
+[24-09-2024 06:19:50] info: 	zh:zstack:znp: closing
+[24-09-2024 06:19:50] info: 	zh:zstack:znp: Port closed
+[24-09-2024 06:19:50] info: 	z2m: Stopped zigbee-herdsman
+[24-09-2024 06:19:50] info: 	z2m: Stopped Zigbee2MQTT

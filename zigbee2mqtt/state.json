@@ -1,9 +1,9 @@
 {
     "0x00124b00234304db": {
         "voltage": 2900,
-        "battery": 82.5,
-        "linkquality": 156,
-        "last_seen": "2024-09-23T08:35:03+03:00",
+        "battery": 83.5,
+        "linkquality": 142,
+        "last_seen": "2024-09-24T12:56:25+03:00",
         "contact": true,
         "tamper": false,
         "battery_low": false
