@@ -1,4 +1,4 @@
-- id: '1727066405247'
+  - id: '1727066405247'
   alias: Sensor Light
   description: light on with door open
   use_blueprint:
