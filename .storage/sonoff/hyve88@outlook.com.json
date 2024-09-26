@@ -89,7 +89,7 @@
             "outlet": 0
           },
           {
-            "switch": "on",
+            "switch": "off",
             "outlet": 1
           }
         ],
@@ -108,11 +108,11 @@
         "reset_reason": "ESP_RST_SW",
         "HMI_model": 120,
         "HMI_direction": "horizontal",
-        "temperature": 29.5,
+        "temperature": 30.9,
         "humidity": "blank",
         "tempUnit": 0,
         "HMI_outdoorTemp": {
-          "current": 29,
+          "current": 31,
           "range": "21,35"
         },
         "HMI_weather": 6,

@@ -1,17 +1,18 @@
-2024-09-26 05:12:07.099 WARNING (SyncWorker_0) [homeassistant.loader] We found a custom integration hacs which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
-2024-09-26 05:12:07.100 WARNING (SyncWorker_0) [homeassistant.loader] We found a custom integration localtuya which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
-2024-09-26 05:12:07.101 WARNING (SyncWorker_0) [homeassistant.loader] We found a custom integration portainer which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
-2024-09-26 05:12:07.101 WARNING (SyncWorker_0) [homeassistant.loader] We found a custom integration dwains_dashboard which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
-2024-09-26 05:12:07.102 WARNING (SyncWorker_0) [homeassistant.loader] We found a custom integration xiaomi_miot which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
-2024-09-26 05:12:07.102 WARNING (SyncWorker_0) [homeassistant.loader] We found a custom integration auto_areas which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
-2024-09-26 05:12:07.102 WARNING (SyncWorker_0) [homeassistant.loader] We found a custom integration spook which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
-2024-09-26 05:12:07.103 WARNING (SyncWorker_0) [homeassistant.loader] We found a custom integration ui_lovelace_minimalist which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
-2024-09-26 05:12:07.103 WARNING (SyncWorker_0) [homeassistant.loader] We found a custom integration sonoff which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
-2024-09-26 05:12:07.103 WARNING (SyncWorker_0) [homeassistant.loader] We found a custom integration pyscript which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
-2024-09-26 05:12:08.639 WARNING (MainThread) [homeassistant.helpers.frame] Detected that custom integration 'dwains_dashboard' calls hass.http.register_static_path which is deprecated because it does blocking I/O in the event loop, instead call `await hass.http.async_register_static_paths([StaticPathConfig("/dwains_dashboard/js", "/config/custom_components/dwains_dashboard/js", True)])`; This function will be removed in 2025.7 at custom_components/dwains_dashboard/load_plugins.py, line 13: hass.http.register_static_path("/dwains_dashboard/js", hass.config.path(f"custom_components/{name}/js"), True), please create a bug report at https://github.com/dwainscheeren/dwains-lovelace-dashboard/issues
-2024-09-26 05:12:08.643 WARNING (MainThread) [homeassistant.helpers.frame] Detected that custom integration 'dwains_dashboard' accesses hass.components.websocket_api. This is deprecated and will stop working in Home Assistant 2024.9, it should be updated to import functions used from websocket_api directly at custom_components/dwains_dashboard/notifications.py, line 220: hass.components.websocket_api.async_register_command(websocket_get_notifications), please create a bug report at https://github.com/dwainscheeren/dwains-lovelace-dashboard/issues
-2024-09-26 05:12:08.647 WARNING (MainThread) [homeassistant.helpers.frame] Detected that custom integration 'dwains_dashboard' calls `async_add_job`, which is deprecated and will be removed in Home Assistant 2025.4; Please review https://developers.home-assistant.io/blog/2024/03/13/deprecate_add_run_job for replacement options at custom_components/dwains_dashboard/__init__.py, line 1590: hass.async_add_job(, please create a bug report at https://github.com/dwainscheeren/dwains-lovelace-dashboard/issues
-2024-09-26 05:12:08.655 WARNING (MainThread) [homeassistant.helpers.frame] Detected code that calls async_forward_entry_setup for integration, dwains_dashboard with title:  and entry_id: 01J8GV1YJ2PKAASEDMXY23MR33, which is deprecated and will stop working in Home Assistant 2025.6, await async_forward_entry_setups instead. Please report this issue.
+2024-09-26 16:06:38.439 WARNING (SyncWorker_0) [homeassistant.loader] We found a custom integration hacs which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
+2024-09-26 16:06:38.440 WARNING (SyncWorker_0) [homeassistant.loader] We found a custom integration localtuya which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
+2024-09-26 16:06:38.440 WARNING (SyncWorker_0) [homeassistant.loader] We found a custom integration portainer which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
+2024-09-26 16:06:38.440 WARNING (SyncWorker_0) [homeassistant.loader] We found a custom integration dwains_dashboard which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
+2024-09-26 16:06:38.441 WARNING (SyncWorker_0) [homeassistant.loader] We found a custom integration xiaomi_miot which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
+2024-09-26 16:06:38.441 WARNING (SyncWorker_0) [homeassistant.loader] We found a custom integration auto_areas which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
+2024-09-26 16:06:38.442 WARNING (SyncWorker_0) [homeassistant.loader] We found a custom integration spook which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
+2024-09-26 16:06:38.442 WARNING (SyncWorker_0) [homeassistant.loader] We found a custom integration powercalc which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
+2024-09-26 16:06:38.442 WARNING (SyncWorker_0) [homeassistant.loader] We found a custom integration ui_lovelace_minimalist which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
+2024-09-26 16:06:38.443 WARNING (SyncWorker_0) [homeassistant.loader] We found a custom integration sonoff which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
+2024-09-26 16:06:38.443 WARNING (SyncWorker_0) [homeassistant.loader] We found a custom integration pyscript which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
+2024-09-26 16:06:40.943 WARNING (MainThread) [homeassistant.helpers.frame] Detected that custom integration 'dwains_dashboard' calls hass.http.register_static_path which is deprecated because it does blocking I/O in the event loop, instead call `await hass.http.async_register_static_paths([StaticPathConfig("/dwains_dashboard/js", "/config/custom_components/dwains_dashboard/js", True)])`; This function will be removed in 2025.7 at custom_components/dwains_dashboard/load_plugins.py, line 13: hass.http.register_static_path("/dwains_dashboard/js", hass.config.path(f"custom_components/{name}/js"), True), please create a bug report at https://github.com/dwainscheeren/dwains-lovelace-dashboard/issues
+2024-09-26 16:06:40.948 WARNING (MainThread) [homeassistant.helpers.frame] Detected that custom integration 'dwains_dashboard' accesses hass.components.websocket_api. This is deprecated and will stop working in Home Assistant 2024.9, it should be updated to import functions used from websocket_api directly at custom_components/dwains_dashboard/notifications.py, line 220: hass.components.websocket_api.async_register_command(websocket_get_notifications), please create a bug report at https://github.com/dwainscheeren/dwains-lovelace-dashboard/issues
+2024-09-26 16:06:40.954 WARNING (MainThread) [homeassistant.helpers.frame] Detected that custom integration 'dwains_dashboard' calls `async_add_job`, which is deprecated and will be removed in Home Assistant 2025.4; Please review https://developers.home-assistant.io/blog/2024/03/13/deprecate_add_run_job for replacement options at custom_components/dwains_dashboard/__init__.py, line 1590: hass.async_add_job(, please create a bug report at https://github.com/dwainscheeren/dwains-lovelace-dashboard/issues
+2024-09-26 16:06:40.958 WARNING (MainThread) [homeassistant.helpers.frame] Detected code that calls async_forward_entry_setup for integration, dwains_dashboard with title:  and entry_id: 01J8GV1YJ2PKAASEDMXY23MR33, which is deprecated and will stop working in Home Assistant 2025.6, await async_forward_entry_setups instead. Please report this issue.
 Stack (most recent call last):
   File "<frozen runpy>", line 198, in _run_module_as_main
   File "<frozen runpy>", line 88, in _run_code
@@ -33,176 +34,3 @@ Stack (most recent call last):
     report(
   File "/usr/src/homeassistant/homeassistant/helpers/frame.py", line 151, in report
     _LOGGER.warning(msg, stack_info=True)
-2024-09-26 05:33:57.113 ERROR (MainThread) [homeassistant.core] Error executing service: <ServiceCall light.turn_on (c:01J8P1WKNK2E2G165VSW8SCZYR): entity_id=['light.backlight_socket_1'], params=>
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.12/site-packages/urllib3/connectionpool.py", line 716, in urlopen
-    httplib_response = self._make_request(
-                       ^^^^^^^^^^^^^^^^^^^
-  File "/usr/local/lib/python3.12/site-packages/urllib3/connectionpool.py", line 468, in _make_request
-    six.raise_from(e, None)
-  File "<string>", line 3, in raise_from
-  File "/usr/local/lib/python3.12/site-packages/urllib3/connectionpool.py", line 463, in _make_request
-    httplib_response = conn.getresponse()
-                       ^^^^^^^^^^^^^^^^^^
-  File "/usr/local/lib/python3.12/http/client.py", line 1428, in getresponse
-    response.begin()
-  File "/usr/local/lib/python3.12/http/client.py", line 331, in begin
-    version, status, reason = self._read_status()
-                              ^^^^^^^^^^^^^^^^^^^
-  File "/usr/local/lib/python3.12/http/client.py", line 300, in _read_status
-    raise RemoteDisconnected("Remote end closed connection without"
-http.client.RemoteDisconnected: Remote end closed connection without response
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.12/site-packages/requests/adapters.py", line 667, in send
-    resp = conn.urlopen(
-           ^^^^^^^^^^^^^
-  File "/usr/local/lib/python3.12/site-packages/urllib3/connectionpool.py", line 802, in urlopen
-    retries = retries.increment(
-              ^^^^^^^^^^^^^^^^^^
-  File "/usr/local/lib/python3.12/site-packages/urllib3/util/retry.py", line 552, in increment
-    raise six.reraise(type(error), error, _stacktrace)
-          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/local/lib/python3.12/site-packages/urllib3/packages/six.py", line 769, in reraise
-    raise value.with_traceback(tb)
-  File "/usr/local/lib/python3.12/site-packages/urllib3/connectionpool.py", line 716, in urlopen
-    httplib_response = self._make_request(
-                       ^^^^^^^^^^^^^^^^^^^
-  File "/usr/local/lib/python3.12/site-packages/urllib3/connectionpool.py", line 468, in _make_request
-    six.raise_from(e, None)
-  File "<string>", line 3, in raise_from
-  File "/usr/local/lib/python3.12/site-packages/urllib3/connectionpool.py", line 463, in _make_request
-    httplib_response = conn.getresponse()
-                       ^^^^^^^^^^^^^^^^^^
-  File "/usr/local/lib/python3.12/http/client.py", line 1428, in getresponse
-    response.begin()
-  File "/usr/local/lib/python3.12/http/client.py", line 331, in begin
-    version, status, reason = self._read_status()
-                              ^^^^^^^^^^^^^^^^^^^
-  File "/usr/local/lib/python3.12/http/client.py", line 300, in _read_status
-    raise RemoteDisconnected("Remote end closed connection without"
-urllib3.exceptions.ProtocolError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/usr/src/homeassistant/homeassistant/core.py", line 2781, in _run_service_call_catch_exceptions
-    await coro_or_task
-  File "/usr/src/homeassistant/homeassistant/core.py", line 2804, in _execute_service
-    return await target(service_call)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/src/homeassistant/homeassistant/helpers/service.py", line 996, in entity_service_call
-    single_response = await _handle_entity_call(
-                      ^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/src/homeassistant/homeassistant/helpers/service.py", line 1068, in _handle_entity_call
-    result = await task
-             ^^^^^^^^^^
-  File "/usr/src/homeassistant/homeassistant/components/light/__init__.py", line 626, in async_handle_light_on_service
-    await light.async_turn_on(**filter_turn_on_params(light, params))
-  File "/usr/src/homeassistant/homeassistant/components/switch_as_x/entity.py", line 152, in async_turn_on
-    await self.hass.services.async_call(
-  File "/usr/src/homeassistant/homeassistant/core.py", line 2761, in async_call
-    response_data = await coro
-                    ^^^^^^^^^^
-  File "/usr/src/homeassistant/homeassistant/core.py", line 2804, in _execute_service
-    return await target(service_call)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/src/homeassistant/homeassistant/helpers/service.py", line 996, in entity_service_call
-    single_response = await _handle_entity_call(
-                      ^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/src/homeassistant/homeassistant/helpers/service.py", line 1068, in _handle_entity_call
-    result = await task
-             ^^^^^^^^^^
-  File "/usr/src/homeassistant/homeassistant/helpers/entity.py", line 1685, in async_turn_on
-    await self.hass.async_add_executor_job(ft.partial(self.turn_on, **kwargs))
-  File "/usr/local/lib/python3.12/concurrent/futures/thread.py", line 58, in run
-    result = self.fn(*self.args, **self.kwargs)
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/src/homeassistant/homeassistant/components/tuya/switch.py", line 772, in turn_on
-    self._send_command([{"code": self.entity_description.key, "value": True}])
-  File "/usr/src/homeassistant/homeassistant/components/tuya/base.py", line 276, in _send_command
-    self.device_manager.send_commands(self.device.id, commands)
-  File "/usr/local/lib/python3.12/site-packages/tuya_sharing/manager.py", line 93, in send_commands
-    return self.device_repository.send_commands(device_id, commands)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/local/lib/python3.12/site-packages/tuya_sharing/device.py", line 180, in send_commands
-    self.api.post(f"/v1.1/m/thing/{device_id}/commands", None, {"commands": commands})
-  File "/usr/local/lib/python3.12/site-packages/tuya_sharing/customerapi.py", line 192, in post
-    return self.__request("POST", path, params, body)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/local/lib/python3.12/site-packages/tuya_sharing/customerapi.py", line 107, in __request
-    response = self.session.request(
-               ^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/local/lib/python3.12/site-packages/requests/sessions.py", line 589, in request
-    resp = self.send(prep, **send_kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/local/lib/python3.12/site-packages/requests/sessions.py", line 703, in send
-    r = adapter.send(request, **kwargs)
-        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/local/lib/python3.12/site-packages/requests/adapters.py", line 682, in send
-    raise ConnectionError(err, request=request)
-requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
-2024-09-26 06:09:20.480 WARNING (MainThread) [homeassistant.util.loop] Detected blocking call to open with args ('/config/dwains-dashboard/configs/settings.yaml',) inside the event loop by custom integration 'dwains_dashboard' at custom_components/dwains_dashboard/__init__.py, line 118: with open(hass.config.path("dwains-dashboard/configs/settings.yaml")) as f: (offender: /config/custom_components/dwains_dashboard/__init__.py, line 118: with open(hass.config.path("dwains-dashboard/configs/settings.yaml")) as f:), please create a bug report at https://github.com/dwainscheeren/dwains-lovelace-dashboard/issues
-For developers, please see https://developers.home-assistant.io/docs/asyncio_blocking_operations/#open
-Traceback (most recent call last):
-  File "<frozen runpy>", line 198, in _run_module_as_main
-  File "<frozen runpy>", line 88, in _run_code
-  File "/usr/src/homeassistant/homeassistant/__main__.py", line 223, in <module>
-    sys.exit(main())
-  File "/usr/src/homeassistant/homeassistant/__main__.py", line 209, in main
-    exit_code = runner.run(runtime_conf)
-  File "/usr/src/homeassistant/homeassistant/runner.py", line 189, in run
-    return loop.run_until_complete(setup_and_run_hass(runtime_config))
-  File "/usr/local/lib/python3.12/asyncio/base_events.py", line 674, in run_until_complete
-    self.run_forever()
-  File "/usr/local/lib/python3.12/asyncio/base_events.py", line 641, in run_forever
-    self._run_once()
-  File "/usr/local/lib/python3.12/asyncio/base_events.py", line 1990, in _run_once
-    handle._run()
-  File "/usr/local/lib/python3.12/asyncio/events.py", line 88, in _run
-    self._context.run(self._callback, *self._args)
-  File "/usr/local/lib/python3.12/site-packages/aiohttp/web_protocol.py", line 462, in _handle_request
-    resp = await request_handler(request)
-  File "/usr/local/lib/python3.12/site-packages/aiohttp/web_app.py", line 537, in _handle
-    resp = await handler(request)
-  File "/usr/local/lib/python3.12/site-packages/aiohttp/web_middlewares.py", line 114, in impl
-    return await handler(request)
-  File "/usr/src/homeassistant/homeassistant/components/http/security_filter.py", line 92, in security_filter_middleware
-    return await handler(request)
-  File "/usr/src/homeassistant/homeassistant/components/http/forwarded.py", line 83, in forwarded_middleware
-    return await handler(request)
-  File "/usr/src/homeassistant/homeassistant/components/http/request_context.py", line 26, in request_context_middleware
-    return await handler(request)
-  File "/usr/src/homeassistant/homeassistant/components/http/ban.py", line 85, in ban_middleware
-    return await handler(request)
-  File "/usr/src/homeassistant/homeassistant/components/http/auth.py", line 242, in auth_middleware
-    return await handler(request)
-  File "/usr/src/homeassistant/homeassistant/components/http/headers.py", line 32, in headers_middleware
-    response = await handler(request)
-  File "/usr/src/homeassistant/homeassistant/helpers/http.py", line 73, in handle
-    result = await handler(request, **request.match_info)
-  File "/usr/src/homeassistant/homeassistant/components/websocket_api/http.py", line 55, in get
-    return await WebSocketHandler(request.app[KEY_HASS], request).async_handle()
-  File "/usr/src/homeassistant/homeassistant/components/websocket_api/http.py", line 341, in async_handle
-    await self._async_websocket_command_phase(connection, send_bytes_text)
-  File "/usr/src/homeassistant/homeassistant/components/websocket_api/http.py", line 492, in _async_websocket_command_phase
-    async_handle_str(command_msg_data)
-  File "/usr/src/homeassistant/homeassistant/components/websocket_api/connection.py", line 227, in async_handle
-    handler(self.hass, self, msg)
-  File "/config/custom_components/dwains_dashboard/__init__.py", line 118, in websocket_get_configuration
-    with open(hass.config.path("dwains-dashboard/configs/settings.yaml")) as f:
-
-2024-09-26 06:09:25.443 ERROR (MainThread) [frontend.js.modern.202409091] Uncaught error from Chrome 131.0.0.0 on Windows 10
-TypeError: Illegal constructor (custom element class must be registered with global customElements registry to be newable)
-new window.HTMLElement (src/scoped-custom-element-registry.js:168:12)
-e=window,r=e.trustedTypes,h=r?r.emptyScript:"",o=e.reactiveElementPolyfillSupport,n={toAttribute(t,i){switch (/node_modules/@lit/reactive-element/reactive-element.js:6:552)
-t{constructor(){super (/node_modules/lit/node_modules/lit-element/lit-element.js:6:53)
-constructor (/src/dwains-navigation-card.js:109:8)
-(!root.shadowRoot.querySelector (/src/dwains-dashboard.js:152:59)
-buildDwainsNavigation (/src/dwains-dashboard.js:116:19)
-this.getLovelace (/src/dwains-dashboard.js:98:17)
-2024-09-26 07:04:59.733 WARNING (MainThread) [homeassistant.components.websocket_api.http.connection] [546780827936] from 192.168.8.124 (Home Assistant/2024.6.1-12936 (Android 12; Quest)): Disconnected: Did not receive auth message within 10 seconds
-2024-09-26 09:05:38.196 WARNING (MainThread) [homeassistant.components.websocket_api.http.connection] [546780834416] from 192.168.8.124 (Home Assistant/2024.6.1-12936 (Android 12; Quest)): Disconnected: Did not receive auth message within 10 seconds
-2024-09-26 11:05:55.899 WARNING (MainThread) [homeassistant.components.websocket_api.http.connection] [546691855936] from 192.168.8.124 (Home Assistant/2024.6.1-12936 (Android 12; Quest)): Disconnected: Did not receive auth message within 10 seconds
