@@ -393,7 +393,7 @@
           "device_id": "4EBCD03A-7744-4BB3-BD33-22AB34A5F354",
           "app_name": "Home Assistant",
           "device_name": "iPhone 15 Pro Max",
-          "app_version": "2024.9.2 (2024.881)",
+          "app_version": "2024.9.3 (2024.894)",
           "webhook_id": "b23c18031fe60c5d7ab152d6aaacdb46801afb41617150bd034c4b46e61f5178",
           "secret": "224ca3ef9ce2dddd027fce62a6e34f3ad020e0d3bc78e34fdebbf59689e10e6e",
           "user_id": "4226c273b7b44abda0290da4f1128dc7",
@@ -403,7 +403,7 @@
         "domain": "mobile_app",
         "entry_id": "01J8E59Y447KGSX3RY5T84MT4Y",
         "minor_version": 1,
-        "modified_at": "2024-09-24T14:41:12.098274+00:00",
+        "modified_at": "2024-09-26T20:54:23.967281+00:00",
         "options": {},
         "pref_disable_new_entities": false,
         "pref_disable_polling": false,
@@ -523,11 +523,11 @@
         "data": {
           "user_code": "Ca1RpAe",
           "token_info": {
-            "t": 1727370532703,
+            "t": 1727382592161,
             "uid": "eu16803809728851RpAe",
             "expire_time": 7200,
-            "access_token": "b38083db80a963289953de054689116a",
-            "refresh_token": "68b1f8c13f7c639178064251388e5634"
+            "access_token": "e2e771ef463064aef80bf15d888b37b2",
+            "refresh_token": "96d3dba56af2264dfadfc717bab5527f"
           },
           "terminal_id": "1727067577705myQP3W",
           "endpoint": "https://apigw.tuyaeu.com"
@@ -536,7 +536,7 @@
         "domain": "tuya",
         "entry_id": "01J8EKZQJWJP9BMMZNVZAMYB6H",
         "minor_version": 1,
-        "modified_at": "2024-09-26T17:08:52.757057+00:00",
+        "modified_at": "2024-09-26T20:29:52.289778+00:00",
         "options": {},
         "pref_disable_new_entities": false,
         "pref_disable_polling": false,
