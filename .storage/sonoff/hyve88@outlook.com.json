@@ -89,7 +89,7 @@
             "outlet": 0
           },
           {
-            "switch": "off",
+            "switch": "on",
             "outlet": 1
           }
         ],
@@ -108,14 +108,14 @@
         "reset_reason": "ESP_RST_SW",
         "HMI_model": 120,
         "HMI_direction": "horizontal",
-        "temperature": 29.5,
+        "temperature": 29.9,
         "humidity": "blank",
         "tempUnit": 0,
         "HMI_outdoorTemp": {
-          "current": 31,
-          "range": "21,34"
+          "current": 28,
+          "range": "21,35"
         },
-        "HMI_weather": 1,
+        "HMI_weather": 6,
         "cityId": "WA@30.07,31.34",
         "dst": 0,
         "timeZone": 2,

@@ -63,7 +63,11 @@
       "mobile_app.sensor.e57898c6b7281c4c15b6c32e5adc55f3d9be9ae84cafe2b980cd2108e123c802_last_update_trigger": 2906702272,
       "mobile_app.sensor.e57898c6b7281c4c15b6c32e5adc55f3d9be9ae84cafe2b980cd2108e123c802_location-permission": 3608326974,
       "mobile_app.sensor.e57898c6b7281c4c15b6c32e5adc55f3d9be9ae84cafe2b980cd2108e123c802_connectivity_bssid": 1159927568,
-      "dwains_dashboard.sensor.dwains-dashboard-latest-version": 3373096094
+      "dwains_dashboard.sensor.dwains-dashboard-latest-version": 3373096094,
+      "tuya.sensor.tuya.10486875c4dd57367c28cur_current": 2499638346,
+      "tuya.sensor.tuya.10486875c4dd57367c28cur_power": 2052178838,
+      "tuya.sensor.tuya.10486875c4dd57367c28cur_voltage": 1289637013,
+      "tuya.switch.tuya.10486875c4dd57367c28switch_1": 2073095676
     }
   }
 }

@@ -2,5 +2,192 @@
   "version": 1,
   "minor_version": 1,
   "key": "trace.saved_traces",
-  "data": {}
+  "data": {
+    "automation.1727174799375": [
+      {
+        "extended_dict": {
+          "last_step": "action/0/default/0",
+          "run_id": "575de6829e9531e0971b7acebdf78b59",
+          "state": "stopped",
+          "script_execution": "finished",
+          "timestamp": {
+            "start": "2024-09-26T07:00:00.199840+00:00",
+            "finish": "2024-09-26T07:00:02.795879+00:00"
+          },
+          "domain": "automation",
+          "item_id": "1727174799375",
+          "trigger": "time",
+          "trace": {
+            "trigger/0": [
+              {
+                "path": "trigger/0",
+                "timestamp": "2024-09-26T07:00:00.205031+00:00",
+                "changed_variables": {
+                  "this": {
+                    "entity_id": "automation.batt",
+                    "state": "on",
+                    "attributes": {
+                      "id": "1727174799375",
+                      "last_triggered": "2024-09-25T07:00:00.226521+00:00",
+                      "mode": "single",
+                      "current": 0,
+                      "friendly_name": "Batt"
+                    },
+                    "last_changed": "2024-09-26T02:12:09.772341+00:00",
+                    "last_reported": "2024-09-26T02:12:09.772341+00:00",
+                    "last_updated": "2024-09-26T02:12:09.772341+00:00",
+                    "context": {
+                      "id": "01J8P1K7XCWHSHQWW1X0X5D426",
+                      "parent_id": null,
+                      "user_id": null
+                    }
+                  },
+                  "trigger": {
+                    "id": "0",
+                    "idx": "0",
+                    "alias": null,
+                    "platform": "time",
+                    "now": "2024-09-26T10:00:00.199543+03:00",
+                    "description": "time",
+                    "entity_id": null
+                  },
+                  "day": 0,
+                  "threshold": 20,
+                  "exclude": {
+                    "entity_id": [],
+                    "device_id": [
+                      "0674d5ee258c8eff1555a8b958354546",
+                      "56079adafea51bb034d983e8824712d4",
+                      "567ab7252361c67ca19fbb4e5461727f",
+                      "ea82234306d4e7c899196a29e2de145f"
+                    ]
+                  },
+                  "sensors": "Shady\u2019s work IPAD Battery Level (1 %)"
+                }
+              }
+            ],
+            "condition/0": [
+              {
+                "path": "condition/0",
+                "timestamp": "2024-09-26T07:00:00.205100+00:00",
+                "result": {
+                  "result": true,
+                  "entities": []
+                }
+              }
+            ],
+            "action/0": [
+              {
+                "path": "action/0",
+                "timestamp": "2024-09-26T07:00:00.205799+00:00",
+                "changed_variables": {
+                  "context": {
+                    "id": "01J8PJ29J7B73NXX3M2F0Y5T41",
+                    "parent_id": null,
+                    "user_id": null
+                  }
+                },
+                "result": {
+                  "choice": "default"
+                }
+              }
+            ],
+            "action/0/default/0": [
+              {
+                "path": "action/0/default/0",
+                "timestamp": "2024-09-26T07:00:00.206055+00:00"
+              }
+            ]
+          },
+          "config": {
+            "variables": {
+              "day": 0,
+              "threshold": 20,
+              "exclude": {
+                "entity_id": [],
+                "device_id": [
+                  "0674d5ee258c8eff1555a8b958354546",
+                  "56079adafea51bb034d983e8824712d4",
+                  "567ab7252361c67ca19fbb4e5461727f",
+                  "ea82234306d4e7c899196a29e2de145f"
+                ]
+              },
+              "sensors": "{% set result = namespace(sensors=[]) %} {% for state in states.sensor | selectattr('attributes.device_class', '==', 'battery') %}\n  {% if 0 <= state.state | int(-1) < threshold | int and not state.entity_id in exclude.entity_id %}\n    {% set result.sensors = result.sensors + [state.name ~ ' (' ~ state.state ~ ' %)'] %}\n  {% endif %}\n{% endfor %} {% for state in states.binary_sensor | selectattr('attributes.device_class', '==', 'battery') | selectattr('state', '==', 'on') %}\n  {% if not state.entity_id in exclude.entity_id %}\n    {% set result.sensors = result.sensors + [state.name] %}\n  {% endif %}\n{% endfor %} {{result.sensors|join(', ')}}"
+            },
+            "trigger": [
+              {
+                "platform": "time",
+                "at": "10:00:00"
+              }
+            ],
+            "condition": [
+              "{{ sensors != '' and (day | int == 0 or day | int == now().isoweekday()) }}"
+            ],
+            "action": [
+              {
+                "choose": [],
+                "default": [
+                  {
+                    "device_id": "b692bb6c889727481d75eb8d819c5de8",
+                    "domain": "mobile_app",
+                    "type": "notify",
+                    "message": "Batt. Check"
+                  }
+                ]
+              }
+            ],
+            "mode": "single",
+            "id": "1727174799375",
+            "alias": "Batt",
+            "description": ""
+          },
+          "blueprint_inputs": {
+            "id": "1727174799375",
+            "alias": "Batt",
+            "description": "",
+            "use_blueprint": {
+              "path": "sbyx/low-battery-level-detection-notification-for-all-battery-sensors.yaml",
+              "input": {
+                "exclude": {
+                  "entity_id": [],
+                  "device_id": [
+                    "0674d5ee258c8eff1555a8b958354546",
+                    "56079adafea51bb034d983e8824712d4",
+                    "567ab7252361c67ca19fbb4e5461727f",
+                    "ea82234306d4e7c899196a29e2de145f"
+                  ]
+                },
+                "actions": [
+                  {
+                    "device_id": "b692bb6c889727481d75eb8d819c5de8",
+                    "domain": "mobile_app",
+                    "type": "notify",
+                    "message": "Batt. Check"
+                  }
+                ]
+              }
+            }
+          },
+          "context": {
+            "id": "01J8PJ29J7B73NXX3M2F0Y5T41",
+            "parent_id": null,
+            "user_id": null
+          }
+        },
+        "short_dict": {
+          "last_step": "action/0/default/0",
+          "run_id": "575de6829e9531e0971b7acebdf78b59",
+          "state": "stopped",
+          "script_execution": "finished",
+          "timestamp": {
+            "start": "2024-09-26T07:00:00.199840+00:00",
+            "finish": "2024-09-26T07:00:02.795879+00:00"
+          },
+          "domain": "automation",
+          "item_id": "1727174799375",
+          "trigger": "time"
+        }
+      }
+    ]
+  }
 }

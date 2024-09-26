@@ -4,511 +4,511 @@
   "key": "core.restore_state",
   "data": [
     {
-      "state": {"entity_id":"person.shady","state":"home","attributes":{"editable":true,"id":"shady","device_trackers":["device_tracker.shadys_iphone_15_pro_max","device_tracker.iphone_15_pro_max","device_tracker.zfold_4","device_tracker.shadys_work_ipad","device_tracker.sm_f936b"],"latitude":30.0667096,"longitude":31.3393969,"gps_accuracy":91,"source":"device_tracker.zfold_4","user_id":"4226c273b7b44abda0290da4f1128dc7","friendly_name":"shady"},"last_changed":"2024-09-24T15:00:03.093497+00:00","last_reported":"2024-09-24T17:24:29.154341+00:00","last_updated":"2024-09-24T17:24:29.154341+00:00","context":{"id":"01J8JH0AB26PKFS8DA56Q6DPG3","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"person.shady","state":"home","attributes":{"editable":true,"id":"shady","device_trackers":["device_tracker.shadys_iphone_15_pro_max","device_tracker.iphone_15_pro_max","device_tracker.zfold_4","device_tracker.shadys_work_ipad","device_tracker.sm_f936b"],"latitude":30.0666559,"longitude":31.3393775,"gps_accuracy":11,"source":"person.shady","user_id":"4226c273b7b44abda0290da4f1128dc7","friendly_name":"shady"},"last_changed":"2024-09-26T09:51:40.083347+00:00","last_reported":"2024-09-26T09:51:40.083347+00:00","last_updated":"2024-09-26T09:51:40.083347+00:00","context":{"id":"01J8PVWM1K24W265Y0S1AWZ1Y5","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2024-09-24T17:26:55.537646+00:00"
+      "last_seen": "2024-09-26T09:51:44.004977+00:00"
     },
     {
-      "state": {"entity_id":"conversation.home_assistant","state":"unknown","attributes":{"friendly_name":"Home Assistant","supported_features":1},"last_changed":"2024-09-24T14:41:52.889151+00:00","last_reported":"2024-09-24T14:41:52.889151+00:00","last_updated":"2024-09-24T14:41:52.889151+00:00","context":{"id":"01J8J7PJQS8GXZV83WNKMBNC3Q","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"update.home_assistant_supervisor_update","state":"off","attributes":{"auto_update":true,"installed_version":"2024.09.1","in_progress":false,"latest_version":"2024.09.1","release_summary":null,"release_url":"https://github.com/home-assistant/supervisor/releases/tag/2024.09.1","skipped_version":null,"title":"Home Assistant Supervisor","entity_picture":"https://brands.home-assistant.io/hassio/icon.png","friendly_name":"Home Assistant Supervisor Update","supported_features":1},"last_changed":"2024-09-26T09:51:40.360760+00:00","last_reported":"2024-09-26T09:51:40.360760+00:00","last_updated":"2024-09-26T09:51:40.360760+00:00","context":{"id":"01J8PVWMA8TADXEJRXN1PG675V","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2024-09-24T17:26:55.537646+00:00"
+      "last_seen": "2024-09-26T09:51:44.004977+00:00"
     },
     {
-      "state": {"entity_id":"device_tracker.shadys_iphone_15_pro_max","state":"unknown","attributes":{"source_type":"gps","friendly_name":"Shady’s iPhone 15 pro max"},"last_changed":"2024-09-24T14:41:54.662851+00:00","last_reported":"2024-09-24T14:41:54.662851+00:00","last_updated":"2024-09-24T14:41:54.662851+00:00","context":{"id":"01J8J7PMF60X2F1Q1EFCC0KVR3","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"update.home_assistant_core_update","state":"off","attributes":{"auto_update":false,"installed_version":"2024.9.3","in_progress":false,"latest_version":"2024.9.3","release_summary":null,"release_url":"https://www.home-assistant.io/latest-release-notes/","skipped_version":null,"title":"Home Assistant Core","entity_picture":"https://brands.home-assistant.io/homeassistant/icon.png","friendly_name":"Home Assistant Core Update","supported_features":11},"last_changed":"2024-09-26T09:51:40.361337+00:00","last_reported":"2024-09-26T09:51:40.361337+00:00","last_updated":"2024-09-26T09:51:40.361337+00:00","context":{"id":"01J8PVWMA9STFC3SH3TQG429FF","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2024-09-24T17:26:55.537646+00:00"
+      "last_seen": "2024-09-26T09:51:44.004977+00:00"
     },
     {
-      "state": {"entity_id":"binary_sensor.iphone_15_pro_max_focus","state":"off","attributes":{"icon":"mdi:moon-waning-crescent","friendly_name":"iPhone 15 Pro Max Focus"},"last_changed":"2024-09-24T14:41:54.663598+00:00","last_reported":"2024-09-24T14:41:54.663598+00:00","last_updated":"2024-09-24T14:41:54.663598+00:00","context":{"id":"01J8J7PMF7QB7N37TPJ8R6N7M8","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"update.advanced_ssh_web_terminal_update","state":"off","attributes":{"auto_update":true,"installed_version":"19.0.0","in_progress":false,"latest_version":"19.0.0","release_summary":"## What’s changed\n\n## 🐛 Bug fixes\n\n- Change default shell from /bin/ash to /bin/sh @rskallies ([#747](https://github.com/hassio-addons/addon-ssh/pull/747))\n- ⬆️ Update home-assistant/cli to v4.35.0 @sairon ([#762](https://github.com/hassio-addons/addon-ss","release_url":null,"skipped_version":null,"title":"Advanced SSH & Web Terminal","entity_picture":"/api/hassio/addons/a0d7b954_ssh/icon","friendly_name":"Advanced SSH & Web Terminal Update","supported_features":25},"last_changed":"2024-09-26T09:51:40.361584+00:00","last_reported":"2024-09-26T09:51:40.361584+00:00","last_updated":"2024-09-26T09:51:40.361584+00:00","context":{"id":"01J8PVWMA9EA7GRNDKXSR420H1","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2024-09-24T17:26:55.537646+00:00"
+      "last_seen": "2024-09-26T09:51:44.004977+00:00"
     },
     {
-      "state": {"entity_id":"device_tracker.iphone_15_pro_max","state":"home","attributes":{"source_type":"gps","battery_level":80,"latitude":30.066706770237776,"longitude":31.339373211518506,"gps_accuracy":9,"altitude":89.97216074243356,"vertical_accuracy":30,"friendly_name":"iPhone 15 Pro Max"},"last_changed":"2024-09-24T15:56:40.704081+00:00","last_reported":"2024-09-24T15:56:40.704081+00:00","last_updated":"2024-09-24T15:56:40.704081+00:00","context":{"id":"01J8JBZHC0PDJT2WZJ4RRBHXRG","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"update.get_hacs_update","state":"off","attributes":{"auto_update":false,"installed_version":"1.3.1","in_progress":false,"latest_version":"1.3.1","release_summary":"# 1.3.1\n\n- Fix problems with getting the current version for development builds\n\n# 1.3.0\n\n- Dynamically get the version again\n\n# 1.2.1\n\n- Create custom_components directory if it does not exist\n\n# 1.2.0\n\n- Set dev version to 2.0.0\n\n# 1.1.1\n\n- Fix version ","release_url":null,"skipped_version":null,"title":"Get HACS","entity_picture":"/api/hassio/addons/cb646a50_get/icon","friendly_name":"Get HACS Update","supported_features":25},"last_changed":"2024-09-26T09:51:40.361784+00:00","last_reported":"2024-09-26T09:51:40.361784+00:00","last_updated":"2024-09-26T09:51:40.361784+00:00","context":{"id":"01J8PVWMA9A8N10CZFQA8QWT5M","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2024-09-24T17:26:55.537646+00:00"
+      "last_seen": "2024-09-26T09:51:44.004977+00:00"
     },
     {
-      "state": {"entity_id":"sensor.iphone_15_pro_max_activity","state":"Unknown","attributes":{"Confidence":"High","Types":["Unknown"],"icon":"mdi:help-circle","friendly_name":"iPhone 15 Pro Max Activity"},"last_changed":"2024-09-24T17:14:37.946239+00:00","last_reported":"2024-09-24T17:14:37.946239+00:00","last_updated":"2024-09-24T17:14:37.946239+00:00","context":{"id":"01J8JGE8ZT89PJX9TCGRMJAKRP","parent_id":null,"user_id":null}},
-      "extra_data": {
-        "native_value": "Unknown",
-        "native_unit_of_measurement": null
-      },
-      "last_seen": "2024-09-24T17:26:55.537646+00:00"
-    },
-    {
-      "state": {"entity_id":"sensor.iphone_15_pro_max_battery_level","state":"75","attributes":{"unit_of_measurement":"%","device_class":"battery","icon":"mdi:battery-70","friendly_name":"iPhone 15 Pro Max Battery Level"},"last_changed":"2024-09-24T16:39:08.126560+00:00","last_reported":"2024-09-24T16:39:08.126560+00:00","last_updated":"2024-09-24T16:39:08.126560+00:00","context":{"id":"01J8JED92Y7NGJHVQPKNGS6G5B","parent_id":null,"user_id":null}},
-      "extra_data": {
-        "native_value": 75,
-        "native_unit_of_measurement": "%"
-      },
-      "last_seen": "2024-09-24T17:26:55.537646+00:00"
-    },
-    {
-      "state": {"entity_id":"sensor.iphone_15_pro_max_distance","state":"815","attributes":{"unit_of_measurement":"m","icon":"mdi:hiking","friendly_name":"iPhone 15 Pro Max Distance"},"last_changed":"2024-09-24T16:39:08.125676+00:00","last_reported":"2024-09-24T16:39:08.125676+00:00","last_updated":"2024-09-24T16:39:08.125676+00:00","context":{"id":"01J8JED92X3VEBRPRD2YH286WA","parent_id":null,"user_id":null}},
-      "extra_data": {
-        "native_value": 815,
-        "native_unit_of_measurement": "m"
-      },
-      "last_seen": "2024-09-24T17:26:55.537646+00:00"
-    },
-    {
-      "state": {"entity_id":"sensor.iphone_15_pro_max_battery_state","state":"Not Charging","attributes":{"Low Power Mode":false,"icon":"mdi:battery-70","friendly_name":"iPhone 15 Pro Max Battery State"},"last_changed":"2024-09-24T14:41:54.665629+00:00","last_reported":"2024-09-24T16:39:08.126774+00:00","last_updated":"2024-09-24T16:39:08.126774+00:00","context":{"id":"01J8JED92Y71ZSG8PYZB1X6K8V","parent_id":null,"user_id":null}},
-      "extra_data": {
-        "native_value": "Not Charging",
-        "native_unit_of_measurement": null
-      },
-      "last_seen": "2024-09-24T17:26:55.537646+00:00"
-    },
-    {
-      "state": {"entity_id":"sensor.iphone_15_pro_max_floors_ascended","state":"0","attributes":{"unit_of_measurement":"floors","icon":"mdi:stairs-up","friendly_name":"iPhone 15 Pro Max Floors Ascended"},"last_changed":"2024-09-24T14:41:54.665803+00:00","last_reported":"2024-09-24T14:41:54.665803+00:00","last_updated":"2024-09-24T14:41:54.665803+00:00","context":{"id":"01J8J7PMF9XWJBZSXQWYX0TED2","parent_id":null,"user_id":null}},
-      "extra_data": {
-        "native_value": 0,
-        "native_unit_of_measurement": "floors"
-      },
-      "last_seen": "2024-09-24T17:26:55.537646+00:00"
-    },
-    {
-      "state": {"entity_id":"sensor.iphone_15_pro_max_floors_descended","state":"0","attributes":{"unit_of_measurement":"floors","icon":"mdi:stairs-down","friendly_name":"iPhone 15 Pro Max Floors Descended"},"last_changed":"2024-09-24T14:41:54.665968+00:00","last_reported":"2024-09-24T14:41:54.665968+00:00","last_updated":"2024-09-24T14:41:54.665968+00:00","context":{"id":"01J8J7PMF9PGJGXX3RNAG6MVAA","parent_id":null,"user_id":null}},
-      "extra_data": {
-        "native_value": 0,
-        "native_unit_of_measurement": "floors"
-      },
-      "last_seen": "2024-09-24T17:26:55.537646+00:00"
-    },
-    {
-      "state": {"entity_id":"sensor.iphone_15_pro_max_average_active_pace","state":"1","attributes":{"unit_of_measurement":"m/s","icon":"mdi:speedometer","friendly_name":"iPhone 15 Pro Max Average Active Pace"},"last_changed":"2024-09-24T16:39:08.126369+00:00","last_reported":"2024-09-24T16:39:08.126369+00:00","last_updated":"2024-09-24T16:39:08.126369+00:00","context":{"id":"01J8JED92Y5KR5HVHX5C8YTEVJ","parent_id":null,"user_id":null}},
-      "extra_data": {
-        "native_value": 1,
-        "native_unit_of_measurement": "m/s"
-      },
-      "last_seen": "2024-09-24T17:26:55.537646+00:00"
-    },
-    {
-      "state": {"entity_id":"sensor.iphone_15_pro_max_storage","state":"70.79","attributes":{"Available":"175.59 GB","Available (Important)":"189.13 GB","Available (Opportunistic)":"181.13 GB","Total":"255.87 GB","unit_of_measurement":"% available","icon":"mdi:database","friendly_name":"iPhone 15 Pro Max Storage"},"last_changed":"2024-09-24T17:21:36.499940+00:00","last_reported":"2024-09-24T17:25:25.381762+00:00","last_updated":"2024-09-24T17:25:25.381762+00:00","context":{"id":"01J8JH2185WP28SZ4NKMY20126","parent_id":null,"user_id":null}},
-      "extra_data": {
-        "native_value": "70.79",
-        "native_unit_of_measurement": "% available"
-      },
-      "last_seen": "2024-09-24T17:26:55.537646+00:00"
-    },
-    {
-      "state": {"entity_id":"sensor.iphone_15_pro_max_steps","state":"1189","attributes":{"unit_of_measurement":"steps","icon":"mdi:walk","friendly_name":"iPhone 15 Pro Max Steps"},"last_changed":"2024-09-24T16:39:08.126175+00:00","last_reported":"2024-09-24T16:39:08.126175+00:00","last_updated":"2024-09-24T16:39:08.126175+00:00","context":{"id":"01J8JED92YRYCQTHHKNX29GB1J","parent_id":null,"user_id":null}},
-      "extra_data": {
-        "native_value": 1189,
-        "native_unit_of_measurement": "steps"
-      },
-      "last_seen": "2024-09-24T17:26:55.537646+00:00"
-    },
-    {
-      "state": {"entity_id":"sensor.iphone_15_pro_max_ssid","state":"Hyve_5G","attributes":{"icon":"mdi:wifi","friendly_name":"iPhone 15 Pro Max SSID"},"last_changed":"2024-09-24T16:39:08.127795+00:00","last_reported":"2024-09-24T16:39:08.127795+00:00","last_updated":"2024-09-24T16:39:08.127795+00:00","context":{"id":"01J8JED92Z7XKVA9NBASCCVF6C","parent_id":null,"user_id":null}},
-      "extra_data": {
-        "native_value": "Hyve_5G",
-        "native_unit_of_measurement": null
-      },
-      "last_seen": "2024-09-24T17:26:55.537646+00:00"
-    },
-    {
-      "state": {"entity_id":"sensor.iphone_15_pro_max_bssid","state":"c2:68:a:5f:9f:7c","attributes":{"icon":"mdi:wifi-star","friendly_name":"iPhone 15 Pro Max BSSID"},"last_changed":"2024-09-24T16:39:08.127973+00:00","last_reported":"2024-09-24T16:39:08.127973+00:00","last_updated":"2024-09-24T16:39:08.127973+00:00","context":{"id":"01J8JED92ZZPSK1GF6BKHTD4EJ","parent_id":null,"user_id":null}},
-      "extra_data": {
-        "native_value": "c2:68:a:5f:9f:7c",
-        "native_unit_of_measurement": null
-      },
-      "last_seen": "2024-09-24T17:26:55.537646+00:00"
-    },
-    {
-      "state": {"entity_id":"sensor.iphone_15_pro_max_connection_type","state":"Wi-Fi","attributes":{"icon":"mdi:wifi","friendly_name":"iPhone 15 Pro Max Connection Type"},"last_changed":"2024-09-24T15:08:40.567988+00:00","last_reported":"2024-09-24T15:08:40.567988+00:00","last_updated":"2024-09-24T15:08:40.567988+00:00","context":{"id":"01J8J97MQQZSF07R25X778N37V","parent_id":null,"user_id":null}},
-      "extra_data": {
-        "native_value": "Wi-Fi",
-        "native_unit_of_measurement": null
-      },
-      "last_seen": "2024-09-24T17:26:55.537646+00:00"
-    },
-    {
-      "state": {"entity_id":"sensor.iphone_15_pro_max_sim_2","state":"--","attributes":{"Allows VoIP":true,"Carrier ID":"0000000100000002","Carrier Name":"--","ISO Country Code":"--","Mobile Country Code":"65535","Mobile Network Code":"65535","icon":"mdi:sim","friendly_name":"iPhone 15 Pro Max SIM 2"},"last_changed":"2024-09-24T14:41:54.667075+00:00","last_reported":"2024-09-24T14:41:54.667075+00:00","last_updated":"2024-09-24T14:41:54.667075+00:00","context":{"id":"01J8J7PMFBJNEQBV0F7AQJH3HE","parent_id":null,"user_id":null}},
-      "extra_data": {
-        "native_value": "--",
-        "native_unit_of_measurement": null
-      },
-      "last_seen": "2024-09-24T17:26:55.537646+00:00"
-    },
-    {
-      "state": {"entity_id":"sensor.iphone_15_pro_max_sim_1","state":"--","attributes":{"Allows VoIP":true,"Carrier ID":"0000000100000001","Carrier Name":"--","Current Radio Technology":"Long-Term Evolution (LTE)","ISO Country Code":"--","Mobile Country Code":"65535","Mobile Network Code":"65535","icon":"mdi:sim","friendly_name":"iPhone 15 Pro Max SIM 1"},"last_changed":"2024-09-24T14:41:54.667227+00:00","last_reported":"2024-09-24T15:56:41.264318+00:00","last_updated":"2024-09-24T15:56:41.264318+00:00","context":{"id":"01J8JBZHXGS17TG8ZX8DTH2GA4","parent_id":null,"user_id":null}},
-      "extra_data": {
-        "native_value": "--",
-        "native_unit_of_measurement": null
-      },
-      "last_seen": "2024-09-24T17:26:55.537646+00:00"
-    },
-    {
-      "state": {"entity_id":"sensor.iphone_15_pro_max_geocoded_location","state":"Mohamed Abd Al Halim Abd Allah Street 14\nCairo\nCairo\nEgypt","attributes":{"Administrative Area":"Cairo","Areas Of Interest":"N/A","Country":"Egypt","Inland Water":"N/A","ISO Country Code":"EG","Locality":"Cairo","Location":[30.066706770237776,31.339373211518506],"Name":"Mohamed Abd Al Halim Abd Allah Street 14","Ocean":"N/A","Postal Code":"11765","Sub Administrative Area":"Cairo","Sub Locality":"Sixth Area","Sub Thoroughfare":"14","Thoroughfare":"Mohamed Abd Al Halim Abd Allah Street","Time Zone":"Africa/Cairo","Zones":[],"icon":"mdi:map","friendly_name":"iPhone 15 Pro Max Geocoded Location"},"last_changed":"2024-09-24T14:41:54.667375+00:00","last_reported":"2024-09-24T15:56:41.264625+00:00","last_updated":"2024-09-24T15:56:41.264625+00:00","context":{"id":"01J8JBZHXGBCC2XB9GECE3FTVP","parent_id":null,"user_id":null}},
-      "extra_data": {
-        "native_value": "Mohamed Abd Al Halim Abd Allah Street 14\nCairo\nCairo\nEgypt",
-        "native_unit_of_measurement": null
-      },
-      "last_seen": "2024-09-24T17:26:55.537646+00:00"
-    },
-    {
-      "state": {"entity_id":"sensor.iphone_15_pro_max_last_update_trigger","state":"Launch","attributes":{"icon":"mdi:cellphone-wireless","friendly_name":"iPhone 15 Pro Max Last Update Trigger"},"last_changed":"2024-09-24T17:25:25.382704+00:00","last_reported":"2024-09-24T17:25:25.382704+00:00","last_updated":"2024-09-24T17:25:25.382704+00:00","context":{"id":"01J8JH2186PFQJHC8S8G42KN40","parent_id":null,"user_id":null}},
-      "extra_data": {
-        "native_value": "Launch",
-        "native_unit_of_measurement": null
-      },
-      "last_seen": "2024-09-24T17:26:55.537646+00:00"
-    },
-    {
-      "state": {"entity_id":"sensor.iphone_15_pro_max_app_version","state":"2024.9.2","attributes":{"icon":"mdi:cellphone","friendly_name":"iPhone 15 Pro Max App Version"},"last_changed":"2024-09-24T14:41:54.667713+00:00","last_reported":"2024-09-24T14:41:54.667713+00:00","last_updated":"2024-09-24T14:41:54.667713+00:00","context":{"id":"01J8J7PMFBTX6NY913GFHV0ED4","parent_id":null,"user_id":null}},
-      "extra_data": {
-        "native_value": "2024.9.2",
-        "native_unit_of_measurement": null
-      },
-      "last_seen": "2024-09-24T17:26:55.537646+00:00"
-    },
-    {
-      "state": {"entity_id":"sensor.iphone_15_pro_max_location_permission","state":"Authorized Always","attributes":{"icon":"mdi:map","friendly_name":"iPhone 15 Pro Max Location permission"},"last_changed":"2024-09-24T14:41:54.667883+00:00","last_reported":"2024-09-24T14:41:54.667883+00:00","last_updated":"2024-09-24T14:41:54.667883+00:00","context":{"id":"01J8J7PMFBTKVGEHECTBQHG21S","parent_id":null,"user_id":null}},
-      "extra_data": {
-        "native_value": "Authorized Always",
-        "native_unit_of_measurement": null
-      },
-      "last_seen": "2024-09-24T17:26:55.537646+00:00"
-    },
-    {
-      "state": {"entity_id":"device_tracker.zfold_4","state":"home","attributes":{"source_type":"gps","latitude":30.0667096,"longitude":31.3393969,"gps_accuracy":91,"altitude":114.0,"course":0,"speed":0,"vertical_accuracy":21,"friendly_name":"zfold-4"},"last_changed":"2024-09-24T17:24:29.153916+00:00","last_reported":"2024-09-24T17:24:29.153916+00:00","last_updated":"2024-09-24T17:24:29.153916+00:00","context":{"id":"01J8JH0AB1P81RCFT5BYJY43D9","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"update.studio_code_server_update","state":"off","attributes":{"auto_update":true,"installed_version":"5.15.0","in_progress":false,"latest_version":"5.15.0","release_summary":"## What’s changed\n\n## 🧰 Maintenance\n\n- 🎆 Updates maintenance/license year to 2024 @frenck ([#763](https://github.com/hassio-addons/addon-vscode/pull/763))\n\n## ⬆️ Dependency updates\n\n- ⬆️ Update esphome to v2023.11.0 @renovate ([#739](https://github.com/ha","release_url":null,"skipped_version":null,"title":"Studio Code Server","entity_picture":"/api/hassio/addons/a0d7b954_vscode/icon","friendly_name":"Studio Code Server Update","supported_features":25},"last_changed":"2024-09-26T09:51:40.361961+00:00","last_reported":"2024-09-26T09:51:40.361961+00:00","last_updated":"2024-09-26T09:51:40.361961+00:00","context":{"id":"01J8PVWMA9FV5AFGH779D96T26","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2024-09-24T17:26:55.537646+00:00"
+      "last_seen": "2024-09-26T09:51:44.004977+00:00"
     },
     {
-      "state": {"entity_id":"sensor.zfold_4_battery_level","state":"39","attributes":{"unit_of_measurement":"%","device_class":"battery","icon":"mdi:battery-30","friendly_name":"zfold-4 Battery level"},"last_changed":"2024-09-24T17:21:47.067196+00:00","last_reported":"2024-09-24T17:21:47.067196+00:00","last_updated":"2024-09-24T17:21:47.067196+00:00","context":{"id":"01J8JGVC1V84SGZYMK2FCCDM9S","parent_id":null,"user_id":null}},
-      "extra_data": {
-        "native_value": 39,
-        "native_unit_of_measurement": "%"
-      },
-      "last_seen": "2024-09-24T17:26:55.537646+00:00"
-    },
-    {
-      "state": {"entity_id":"sensor.zfold_4_battery_state","state":"discharging","attributes":{"options":["charging","discharging","full","not_charging"],"device_class":"enum","icon":"mdi:battery-minus","friendly_name":"zfold-4 Battery state"},"last_changed":"2024-09-24T14:41:54.671385+00:00","last_reported":"2024-09-24T14:41:54.671385+00:00","last_updated":"2024-09-24T14:41:54.671385+00:00","context":{"id":"01J8J7PMFFK33YZF6VXF512F8Z","parent_id":null,"user_id":null}},
-      "extra_data": {
-        "native_value": "discharging",
-        "native_unit_of_measurement": null
-      },
-      "last_seen": "2024-09-24T17:26:55.537646+00:00"
-    },
-    {
-      "state": {"entity_id":"sensor.zfold_4_charger_type","state":"none","attributes":{"options":["ac","usb","wireless","dock","none"],"device_class":"enum","icon":"mdi:battery","friendly_name":"zfold-4 Charger type"},"last_changed":"2024-09-24T14:41:54.671556+00:00","last_reported":"2024-09-24T14:41:54.671556+00:00","last_updated":"2024-09-24T14:41:54.671556+00:00","context":{"id":"01J8J7PMFFFG4STE1GA89E0ENY","parent_id":null,"user_id":null}},
-      "extra_data": {
-        "native_value": "none",
-        "native_unit_of_measurement": null
-      },
-      "last_seen": "2024-09-24T17:26:55.537646+00:00"
-    },
-    {
-      "state": {"entity_id":"binary_sensor.shadys_work_ipad_focus","state":"off","attributes":{"icon":"mdi:moon-waning-crescent","friendly_name":"Shady’s work IPAD Focus"},"last_changed":"2024-09-24T14:41:54.672070+00:00","last_reported":"2024-09-24T14:41:54.672070+00:00","last_updated":"2024-09-24T14:41:54.672070+00:00","context":{"id":"01J8J7PMFGACH6Q03KPH7XDP68","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"update.zigbee2mqtt_update","state":"off","attributes":{"auto_update":true,"installed_version":"1.40.1-1","in_progress":false,"latest_version":"1.40.1-1","release_summary":"## 1.40.1-1\n- Updated Zigbee2MQTT to version [`1.40.1`](https://github.com/Koenkk/zigbee2mqtt/releases/tag/1.40.1)\n\n## 1.40.0-1\n- Updated Zigbee2MQTT to version [`1.40.0`](https://github.com/Koenkk/zigbee2mqtt/releases/tag/1.40.0)\n\n## 1.39.1-1\n- Updated Z","release_url":null,"skipped_version":null,"title":"Zigbee2MQTT","entity_picture":"/api/hassio/addons/45df7312_zigbee2mqtt/icon","friendly_name":"Zigbee2MQTT Update","supported_features":25},"last_changed":"2024-09-26T09:51:40.362168+00:00","last_reported":"2024-09-26T09:51:40.362168+00:00","last_updated":"2024-09-26T09:51:40.362168+00:00","context":{"id":"01J8PVWMAA98WSW2VYPAA5PNXN","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2024-09-24T17:26:55.537646+00:00"
+      "last_seen": "2024-09-26T09:51:44.004977+00:00"
     },
     {
-      "state": {"entity_id":"device_tracker.shadys_work_ipad","state":"unknown","attributes":{"source_type":"gps","friendly_name":"Shady’s work IPAD"},"last_changed":"2024-09-24T14:41:54.672368+00:00","last_reported":"2024-09-24T14:41:54.672368+00:00","last_updated":"2024-09-24T14:41:54.672368+00:00","context":{"id":"01J8J7PMFG5PENMMM349A9WYZ9","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"update.mosquitto_broker_update","state":"off","attributes":{"auto_update":true,"installed_version":"6.4.1","in_progress":false,"latest_version":"6.4.1","release_summary":"# Changelog\n\n## 6.4.1\n\n- Increase default max_queued_messages to 8192 to fix dropped messages during Home Assistant startup\n\n## 6.4.0\n\n- Update mosquitto to 2.0.18\n\n## 6.3.1\n\n- Add ability to use a pre-hashed password for custom logins\n\n## 6.3.0\n\n- Update","release_url":null,"skipped_version":null,"title":"Mosquitto broker","entity_picture":"/api/hassio/addons/core_mosquitto/icon","friendly_name":"Mosquitto broker Update","supported_features":25},"last_changed":"2024-09-26T09:51:40.362354+00:00","last_reported":"2024-09-26T09:51:40.362354+00:00","last_updated":"2024-09-26T09:51:40.362354+00:00","context":{"id":"01J8PVWMAA9R4WM74ECNJFCKTZ","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2024-09-24T17:26:55.537646+00:00"
+      "last_seen": "2024-09-26T09:51:44.004977+00:00"
     },
     {
-      "state": {"entity_id":"sensor.shadys_work_ipad_activity","state":"Stationary","attributes":{"Confidence":"High","Types":["Stationary"],"icon":"mdi:human-male","friendly_name":"Shady’s work IPAD Activity"},"last_changed":"2024-09-24T14:41:54.672840+00:00","last_reported":"2024-09-24T14:41:54.672840+00:00","last_updated":"2024-09-24T14:41:54.672840+00:00","context":{"id":"01J8J7PMFGD3CRFPCTK4Z5TCSA","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"update.appdaemon_update","state":"off","attributes":{"auto_update":true,"installed_version":"0.16.7","in_progress":false,"latest_version":"0.16.7","release_summary":"## What’s changed\n\n## ⬆️ Dependency updates\n\n- ⬆️ Update Python to v3.11.9-r1 @renovate ([#348](https://github.com/hassio-addons/addon-appdaemon/pull/348))\n- ⬆️ Update Python to v3.11.10-r0 @renovate ([#349](https://github.com/hassio-addons/addon-appdaemo","release_url":null,"skipped_version":null,"title":"AppDaemon","entity_picture":"/api/hassio/addons/a0d7b954_appdaemon/icon","friendly_name":"AppDaemon Update","supported_features":25},"last_changed":"2024-09-26T09:51:40.362565+00:00","last_reported":"2024-09-26T09:51:40.362565+00:00","last_updated":"2024-09-26T09:51:40.362565+00:00","context":{"id":"01J8PVWMAAT6HDMNRA70BPXW70","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-09-26T09:51:44.004977+00:00"
+    },
+    {
+      "state": {"entity_id":"update.spotify_connect_update","state":"off","attributes":{"auto_update":true,"installed_version":"0.13.0","in_progress":false,"latest_version":"0.13.0","release_summary":"## What’s changed\n\n## 🚨 Breaking changes\n\n- Drop support for i386 @frenck ([#249](https://github.com/hassio-addons/addon-spotify-connect/pull/249))\n\n## 🧰 Maintenance\n\n- Move coc and contributing to .github folder @frenck ([#247](https://github.com/hassio-","release_url":null,"skipped_version":null,"title":"Spotify Connect","entity_picture":"/api/hassio/addons/a0d7b954_spotify/icon","friendly_name":"Spotify Connect Update","supported_features":25},"last_changed":"2024-09-26T09:51:40.362744+00:00","last_reported":"2024-09-26T09:51:40.362744+00:00","last_updated":"2024-09-26T09:51:40.362744+00:00","context":{"id":"01J8PVWMAAQ0RZRZAFBSB920NQ","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-09-26T09:51:44.004977+00:00"
+    },
+    {
+      "state": {"entity_id":"update.file_editor_update","state":"off","attributes":{"auto_update":true,"installed_version":"5.8.0","in_progress":false,"latest_version":"5.8.0","release_summary":"# Changelog\n\n## 5.8.0\n\n- Update base image to Alpine 3.19\n\n## 5.7.0\n\n- Use new location for accessing the Home Assistant configuration folder using `/homeassistant`\n- Add access to the new public configuration folders of add-ons\n- Upgrade to Alpine 3.18\n-","release_url":null,"skipped_version":null,"title":"File editor","entity_picture":"/api/hassio/addons/core_configurator/icon","friendly_name":"File editor Update","supported_features":25},"last_changed":"2024-09-26T09:51:40.362921+00:00","last_reported":"2024-09-26T09:51:40.362921+00:00","last_updated":"2024-09-26T09:51:40.362921+00:00","context":{"id":"01J8PVWMAAQQS7Y6M6CEKJ2Y3Q","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-09-26T09:51:44.004977+00:00"
+    },
+    {
+      "state": {"entity_id":"update.home_assistant_operating_system_update","state":"off","attributes":{"auto_update":false,"installed_version":"13.1","in_progress":false,"latest_version":"13.1","release_summary":null,"release_url":"https://github.com/home-assistant/operating-system/releases/tag/13.1","skipped_version":null,"title":"Home Assistant Operating System","entity_picture":"https://brands.home-assistant.io/homeassistant/icon.png","friendly_name":"Home Assistant Operating System Update","supported_features":3},"last_changed":"2024-09-26T09:51:40.363183+00:00","last_reported":"2024-09-26T09:51:40.363183+00:00","last_updated":"2024-09-26T09:51:40.363183+00:00","context":{"id":"01J8PVWMABAS6M6CPM8B9KHD3D","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-09-26T09:51:44.004977+00:00"
+    },
+    {
+      "state": {"entity_id":"conversation.home_assistant","state":"unknown","attributes":{"friendly_name":"Home Assistant","supported_features":1},"last_changed":"2024-09-26T09:51:40.822822+00:00","last_reported":"2024-09-26T09:51:40.822822+00:00","last_updated":"2024-09-26T09:51:40.822822+00:00","context":{"id":"01J8PVWMRPJ2TDGMN7KKNWP8DV","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-09-26T09:51:44.004977+00:00"
+    },
+    {
+      "state": {"entity_id":"device_tracker.shadys_iphone_15_pro_max","state":"unknown","attributes":{"source_type":"gps","friendly_name":"Shady’s iPhone 15 pro max"},"last_changed":"2024-09-26T09:51:42.394951+00:00","last_reported":"2024-09-26T09:51:42.394951+00:00","last_updated":"2024-09-26T09:51:42.394951+00:00","context":{"id":"01J8PVWP9T4JM7ENS5GZPDX4FT","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-09-26T09:51:44.004977+00:00"
+    },
+    {
+      "state": {"entity_id":"binary_sensor.iphone_15_pro_max_focus","state":"off","attributes":{"icon":"mdi:moon-waning-crescent","friendly_name":"iPhone 15 Pro Max Focus"},"last_changed":"2024-09-26T09:51:42.395649+00:00","last_reported":"2024-09-26T09:51:42.395649+00:00","last_updated":"2024-09-26T09:51:42.395649+00:00","context":{"id":"01J8PVWP9VE3BAY1TW8F81K1T1","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-09-26T09:51:44.004977+00:00"
+    },
+    {
+      "state": {"entity_id":"device_tracker.iphone_15_pro_max","state":"home","attributes":{"source_type":"gps","battery_level":70,"latitude":30.066705275306017,"longitude":31.339376441067415,"gps_accuracy":9,"altitude":85.79867503207939,"vertical_accuracy":3,"friendly_name":"iPhone 15 Pro Max"},"last_changed":"2024-09-26T09:51:42.396016+00:00","last_reported":"2024-09-26T09:51:42.396016+00:00","last_updated":"2024-09-26T09:51:42.396016+00:00","context":{"id":"01J8PVWP9W5XMF3YSR0BYSNFA0","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-09-26T09:51:44.004977+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.iphone_15_pro_max_activity","state":"Stationary","attributes":{"Confidence":"High","Types":["Stationary"],"icon":"mdi:human-male","friendly_name":"iPhone 15 Pro Max Activity"},"last_changed":"2024-09-26T09:51:42.396830+00:00","last_reported":"2024-09-26T09:51:42.396830+00:00","last_updated":"2024-09-26T09:51:42.396830+00:00","context":{"id":"01J8PVWP9WBX9MVYHYN5KP8332","parent_id":null,"user_id":null}},
       "extra_data": {
         "native_value": "Stationary",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2024-09-24T17:26:55.537646+00:00"
+      "last_seen": "2024-09-26T09:51:44.004977+00:00"
     },
     {
-      "state": {"entity_id":"sensor.shadys_work_ipad_battery_level","state":"1","attributes":{"unit_of_measurement":"%","device_class":"battery","icon":"mdi:battery-outline","friendly_name":"Shady’s work IPAD Battery Level"},"last_changed":"2024-09-24T14:41:54.673022+00:00","last_reported":"2024-09-24T14:41:54.673022+00:00","last_updated":"2024-09-24T14:41:54.673022+00:00","context":{"id":"01J8J7PMFH5T18F5QB00QPM3KT","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"sensor.iphone_15_pro_max_battery_level","state":"95","attributes":{"unit_of_measurement":"%","device_class":"battery","icon":"mdi:battery-90","friendly_name":"iPhone 15 Pro Max Battery Level"},"last_changed":"2024-09-26T09:51:42.397050+00:00","last_reported":"2024-09-26T09:51:42.397050+00:00","last_updated":"2024-09-26T09:51:42.397050+00:00","context":{"id":"01J8PVWP9XEZYMXKHBGFAQQA72","parent_id":null,"user_id":null}},
       "extra_data": {
-        "native_value": 1,
+        "native_value": 95,
         "native_unit_of_measurement": "%"
       },
-      "last_seen": "2024-09-24T17:26:55.537646+00:00"
+      "last_seen": "2024-09-26T09:51:44.004977+00:00"
     },
     {
-      "state": {"entity_id":"sensor.shadys_work_ipad_battery_state","state":"Charging","attributes":{"Low Power Mode":false,"icon":"mdi:battery-outline","friendly_name":"Shady’s work IPAD Battery State"},"last_changed":"2024-09-24T14:41:54.673210+00:00","last_reported":"2024-09-24T14:41:54.673210+00:00","last_updated":"2024-09-24T14:41:54.673210+00:00","context":{"id":"01J8J7PMFHA28PW4QPJZGF2M41","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"sensor.iphone_15_pro_max_distance","state":"726","attributes":{"unit_of_measurement":"m","icon":"mdi:hiking","friendly_name":"iPhone 15 Pro Max Distance"},"last_changed":"2024-09-26T09:51:42.397236+00:00","last_reported":"2024-09-26T09:51:42.397236+00:00","last_updated":"2024-09-26T09:51:42.397236+00:00","context":{"id":"01J8PVWP9XK1JCA6C7QPS1SG5H","parent_id":null,"user_id":null}},
       "extra_data": {
-        "native_value": "Charging",
+        "native_value": 726,
+        "native_unit_of_measurement": "m"
+      },
+      "last_seen": "2024-09-26T09:51:44.004977+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.iphone_15_pro_max_battery_state","state":"Not Charging","attributes":{"Low Power Mode":false,"icon":"mdi:battery-90","friendly_name":"iPhone 15 Pro Max Battery State"},"last_changed":"2024-09-26T09:51:42.397505+00:00","last_reported":"2024-09-26T09:51:42.397505+00:00","last_updated":"2024-09-26T09:51:42.397505+00:00","context":{"id":"01J8PVWP9XVWN43G6MWBRJWN6V","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "Not Charging",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2024-09-24T17:26:55.537646+00:00"
+      "last_seen": "2024-09-26T09:51:44.004977+00:00"
     },
     {
-      "state": {"entity_id":"sensor.shadys_work_ipad_storage","state":"83.72","attributes":{"Available":"211.15 GB","Available (Important)":"218.92 GB","Available (Opportunistic)":"213.41 GB","Total":"254.89 GB","unit_of_measurement":"% available","icon":"mdi:database","friendly_name":"Shady’s work IPAD Storage"},"last_changed":"2024-09-24T14:41:54.673377+00:00","last_reported":"2024-09-24T14:41:54.673377+00:00","last_updated":"2024-09-24T14:41:54.673377+00:00","context":{"id":"01J8J7PMFHQVZDN3AAABNS15GG","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"sensor.iphone_15_pro_max_floors_ascended","state":"0","attributes":{"unit_of_measurement":"floors","icon":"mdi:stairs-up","friendly_name":"iPhone 15 Pro Max Floors Ascended"},"last_changed":"2024-09-26T09:51:42.397676+00:00","last_reported":"2024-09-26T09:51:42.397676+00:00","last_updated":"2024-09-26T09:51:42.397676+00:00","context":{"id":"01J8PVWP9X3JRB3VVMQRJNN3ZM","parent_id":null,"user_id":null}},
       "extra_data": {
-        "native_value": "83.72",
+        "native_value": 0,
+        "native_unit_of_measurement": "floors"
+      },
+      "last_seen": "2024-09-26T09:51:44.004977+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.iphone_15_pro_max_floors_descended","state":"0","attributes":{"unit_of_measurement":"floors","icon":"mdi:stairs-down","friendly_name":"iPhone 15 Pro Max Floors Descended"},"last_changed":"2024-09-26T09:51:42.397850+00:00","last_reported":"2024-09-26T09:51:42.397850+00:00","last_updated":"2024-09-26T09:51:42.397850+00:00","context":{"id":"01J8PVWP9X12XV05MKXPRQ32N0","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": 0,
+        "native_unit_of_measurement": "floors"
+      },
+      "last_seen": "2024-09-26T09:51:44.004977+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.iphone_15_pro_max_average_active_pace","state":"1","attributes":{"unit_of_measurement":"m/s","icon":"mdi:speedometer","friendly_name":"iPhone 15 Pro Max Average Active Pace"},"last_changed":"2024-09-26T09:51:42.398011+00:00","last_reported":"2024-09-26T09:51:42.398011+00:00","last_updated":"2024-09-26T09:51:42.398011+00:00","context":{"id":"01J8PVWP9YESZTDYE09FR2V740","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": 1,
+        "native_unit_of_measurement": "m/s"
+      },
+      "last_seen": "2024-09-26T09:51:44.004977+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.iphone_15_pro_max_storage","state":"69.95","attributes":{"Available":"172.25 GB","Available (Important)":"188.23 GB","Available (Opportunistic)":"178.97 GB","Total":"255.87 GB","unit_of_measurement":"% available","icon":"mdi:database","friendly_name":"iPhone 15 Pro Max Storage"},"last_changed":"2024-09-26T09:51:42.398171+00:00","last_reported":"2024-09-26T09:51:42.398171+00:00","last_updated":"2024-09-26T09:51:42.398171+00:00","context":{"id":"01J8PVWP9Y88WH9STDQ2Q3QKG6","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "69.95",
         "native_unit_of_measurement": "% available"
       },
-      "last_seen": "2024-09-24T17:26:55.537646+00:00"
+      "last_seen": "2024-09-26T09:51:44.004977+00:00"
     },
     {
-      "state": {"entity_id":"sensor.shadys_work_ipad_connection_type","state":"Wi-Fi","attributes":{"icon":"mdi:wifi","friendly_name":"Shady’s work IPAD Connection Type"},"last_changed":"2024-09-24T14:41:54.673530+00:00","last_reported":"2024-09-24T14:41:54.673530+00:00","last_updated":"2024-09-24T14:41:54.673530+00:00","context":{"id":"01J8J7PMFH8NRTNPQEYYHTV92B","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"sensor.iphone_15_pro_max_steps","state":"1035","attributes":{"unit_of_measurement":"steps","icon":"mdi:walk","friendly_name":"iPhone 15 Pro Max Steps"},"last_changed":"2024-09-26T09:51:42.398325+00:00","last_reported":"2024-09-26T09:51:42.398325+00:00","last_updated":"2024-09-26T09:51:42.398325+00:00","context":{"id":"01J8PVWP9YG1WJRBV8H4KA875K","parent_id":null,"user_id":null}},
       "extra_data": {
-        "native_value": "Wi-Fi",
-        "native_unit_of_measurement": null
+        "native_value": 1035,
+        "native_unit_of_measurement": "steps"
       },
-      "last_seen": "2024-09-24T17:26:55.537646+00:00"
+      "last_seen": "2024-09-26T09:51:44.004977+00:00"
     },
     {
-      "state": {"entity_id":"sensor.shadys_work_ipad_sim_1","state":"--","attributes":{"Allows VoIP":true,"Carrier ID":"0000000100000001","Carrier Name":"--","ISO Country Code":"--","Mobile Country Code":"65535","Mobile Network Code":"65535","icon":"mdi:sim","friendly_name":"Shady’s work IPAD SIM 1"},"last_changed":"2024-09-24T14:41:54.673690+00:00","last_reported":"2024-09-24T14:41:54.673690+00:00","last_updated":"2024-09-24T14:41:54.673690+00:00","context":{"id":"01J8J7PMFHX5QMJGCF7JHSCSMH","parent_id":null,"user_id":null}},
-      "extra_data": {
-        "native_value": "--",
-        "native_unit_of_measurement": null
-      },
-      "last_seen": "2024-09-24T17:26:55.537646+00:00"
-    },
-    {
-      "state": {"entity_id":"sensor.shadys_work_ipad_ssid","state":"Hyve_5G","attributes":{"icon":"mdi:wifi","friendly_name":"Shady’s work IPAD SSID"},"last_changed":"2024-09-24T14:41:54.673838+00:00","last_reported":"2024-09-24T14:41:54.673838+00:00","last_updated":"2024-09-24T14:41:54.673838+00:00","context":{"id":"01J8J7PMFHE567CNME6C82XAKZ","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"sensor.iphone_15_pro_max_ssid","state":"Hyve_5G","attributes":{"icon":"mdi:wifi","friendly_name":"iPhone 15 Pro Max SSID"},"last_changed":"2024-09-26T09:51:42.398479+00:00","last_reported":"2024-09-26T09:51:42.398479+00:00","last_updated":"2024-09-26T09:51:42.398479+00:00","context":{"id":"01J8PVWP9YRJXEAW856ZVDEFRF","parent_id":null,"user_id":null}},
       "extra_data": {
         "native_value": "Hyve_5G",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2024-09-24T17:26:55.537646+00:00"
+      "last_seen": "2024-09-26T09:51:44.004977+00:00"
     },
     {
-      "state": {"entity_id":"sensor.shadys_work_ipad_geocoded_location","state":"Unknown","attributes":{"icon":"mdi:map","friendly_name":"Shady’s work IPAD Geocoded Location"},"last_changed":"2024-09-24T14:41:54.673989+00:00","last_reported":"2024-09-24T14:41:54.673989+00:00","last_updated":"2024-09-24T14:41:54.673989+00:00","context":{"id":"01J8J7PMFH16BJH48GWZMS3VMJ","parent_id":null,"user_id":null}},
-      "extra_data": {
-        "native_value": "Unknown",
-        "native_unit_of_measurement": null
-      },
-      "last_seen": "2024-09-24T17:26:55.537646+00:00"
-    },
-    {
-      "state": {"entity_id":"sensor.shadys_work_ipad_last_update_trigger","state":"Signaled","attributes":{"icon":"mdi:cellphone-wireless","friendly_name":"Shady’s work IPAD Last Update Trigger"},"last_changed":"2024-09-24T14:41:54.674145+00:00","last_reported":"2024-09-24T14:41:54.674145+00:00","last_updated":"2024-09-24T14:41:54.674145+00:00","context":{"id":"01J8J7PMFJ47QZHR4B9ZNC23ZX","parent_id":null,"user_id":null}},
-      "extra_data": {
-        "native_value": "Signaled",
-        "native_unit_of_measurement": null
-      },
-      "last_seen": "2024-09-24T17:26:55.537646+00:00"
-    },
-    {
-      "state": {"entity_id":"sensor.shadys_work_ipad_app_version","state":"2024.9.1","attributes":{"icon":"mdi:cellphone","friendly_name":"Shady’s work IPAD App Version"},"last_changed":"2024-09-24T14:41:54.674393+00:00","last_reported":"2024-09-24T14:41:54.674393+00:00","last_updated":"2024-09-24T14:41:54.674393+00:00","context":{"id":"01J8J7PMFJ1AFV802T2VHA01CN","parent_id":null,"user_id":null}},
-      "extra_data": {
-        "native_value": "2024.9.1",
-        "native_unit_of_measurement": null
-      },
-      "last_seen": "2024-09-24T17:26:55.537646+00:00"
-    },
-    {
-      "state": {"entity_id":"sensor.shadys_work_ipad_location_permission","state":"Authorized Always","attributes":{"icon":"mdi:map","friendly_name":"Shady’s work IPAD Location permission"},"last_changed":"2024-09-24T14:41:54.674561+00:00","last_reported":"2024-09-24T14:41:54.674561+00:00","last_updated":"2024-09-24T14:41:54.674561+00:00","context":{"id":"01J8J7PMFJV0TMCB9WV066RRKZ","parent_id":null,"user_id":null}},
-      "extra_data": {
-        "native_value": "Authorized Always",
-        "native_unit_of_measurement": null
-      },
-      "last_seen": "2024-09-24T17:26:55.537646+00:00"
-    },
-    {
-      "state": {"entity_id":"sensor.shadys_work_ipad_bssid","state":"c2:68:a:5f:9f:7c","attributes":{"icon":"mdi:wifi-star","friendly_name":"Shady’s work IPAD BSSID"},"last_changed":"2024-09-24T14:41:54.674713+00:00","last_reported":"2024-09-24T14:41:54.674713+00:00","last_updated":"2024-09-24T14:41:54.674713+00:00","context":{"id":"01J8J7PMFJ4ZZ5PYYGTX3YVF5A","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"sensor.iphone_15_pro_max_bssid","state":"c2:68:a:5f:9f:7c","attributes":{"icon":"mdi:wifi-star","friendly_name":"iPhone 15 Pro Max BSSID"},"last_changed":"2024-09-26T09:51:42.398658+00:00","last_reported":"2024-09-26T09:51:42.398658+00:00","last_updated":"2024-09-26T09:51:42.398658+00:00","context":{"id":"01J8PVWP9Y0X2F1Q1EFCC0KVR3","parent_id":null,"user_id":null}},
       "extra_data": {
         "native_value": "c2:68:a:5f:9f:7c",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2024-09-24T17:26:55.537646+00:00"
+      "last_seen": "2024-09-26T09:51:44.004977+00:00"
     },
     {
-      "state": {"entity_id":"device_tracker.sm_f936b","state":"home","attributes":{"source_type":"gps","latitude":30.0667133,"longitude":31.3394231,"gps_accuracy":100,"altitude":116.0,"course":0,"speed":0,"vertical_accuracy":100,"friendly_name":"SM-F936B"},"last_changed":"2024-09-24T17:16:47.245307+00:00","last_reported":"2024-09-24T17:16:47.245307+00:00","last_updated":"2024-09-24T17:16:47.245307+00:00","context":{"id":"01J8JGJ78DHVZC7YW9A52GZ40X","parent_id":null,"user_id":null}},
-      "extra_data": null,
-      "last_seen": "2024-09-24T17:26:55.537646+00:00"
-    },
-    {
-      "state": {"entity_id":"sensor.sm_f936b_battery_level","state":"39","attributes":{"unit_of_measurement":"%","device_class":"battery","icon":"mdi:battery-30","friendly_name":"SM-F936B Battery level"},"last_changed":"2024-09-24T17:16:47.403518+00:00","last_reported":"2024-09-24T17:16:47.403518+00:00","last_updated":"2024-09-24T17:16:47.403518+00:00","context":{"id":"01J8JGJ7DBTV9B9CVKVBYB1MT6","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"sensor.iphone_15_pro_max_connection_type","state":"Wi-Fi","attributes":{"icon":"mdi:wifi","friendly_name":"iPhone 15 Pro Max Connection Type"},"last_changed":"2024-09-26T09:51:42.398829+00:00","last_reported":"2024-09-26T09:51:42.398829+00:00","last_updated":"2024-09-26T09:51:42.398829+00:00","context":{"id":"01J8PVWP9YQB7N37TPJ8R6N7M8","parent_id":null,"user_id":null}},
       "extra_data": {
-        "native_value": 39,
+        "native_value": "Wi-Fi",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2024-09-26T09:51:44.004977+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.iphone_15_pro_max_sim_2","state":"--","attributes":{"Allows VoIP":true,"Carrier ID":"0000000100000002","Carrier Name":"--","ISO Country Code":"--","Mobile Country Code":"65535","Mobile Network Code":"65535","icon":"mdi:sim","friendly_name":"iPhone 15 Pro Max SIM 2"},"last_changed":"2024-09-26T09:51:42.398999+00:00","last_reported":"2024-09-26T09:51:42.398999+00:00","last_updated":"2024-09-26T09:51:42.398999+00:00","context":{"id":"01J8PVWP9YX75XZ292Y3XP5S35","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "--",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2024-09-26T09:51:44.004977+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.iphone_15_pro_max_sim_1","state":"--","attributes":{"Allows VoIP":true,"Carrier ID":"0000000100000001","Carrier Name":"--","Current Radio Technology":"Long-Term Evolution (LTE)","ISO Country Code":"--","Mobile Country Code":"65535","Mobile Network Code":"65535","icon":"mdi:sim","friendly_name":"iPhone 15 Pro Max SIM 1"},"last_changed":"2024-09-26T09:51:42.399197+00:00","last_reported":"2024-09-26T09:51:42.399197+00:00","last_updated":"2024-09-26T09:51:42.399197+00:00","context":{"id":"01J8PVWP9ZH6KCE5D3B0VG1M2W","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "--",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2024-09-26T09:51:44.004977+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.iphone_15_pro_max_geocoded_location","state":"Mohamed Abd Al Halim Abd Allah Street 14\nCairo\nCairo\nEgypt","attributes":{"Administrative Area":"Cairo","Areas Of Interest":"N/A","Country":"Egypt","Inland Water":"N/A","ISO Country Code":"EG","Locality":"Cairo","Location":[30.066706770237776,31.339373211518506],"Name":"Mohamed Abd Al Halim Abd Allah Street 14","Ocean":"N/A","Postal Code":"11765","Sub Administrative Area":"Cairo","Sub Locality":"Sixth Area","Sub Thoroughfare":"14","Thoroughfare":"Mohamed Abd Al Halim Abd Allah Street","Time Zone":"Africa/Cairo","Zones":[],"icon":"mdi:map","friendly_name":"iPhone 15 Pro Max Geocoded Location"},"last_changed":"2024-09-26T09:51:42.399372+00:00","last_reported":"2024-09-26T09:51:42.399372+00:00","last_updated":"2024-09-26T09:51:42.399372+00:00","context":{"id":"01J8PVWP9ZPF52R4PANJ061J92","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "Mohamed Abd Al Halim Abd Allah Street 14\nCairo\nCairo\nEgypt",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2024-09-26T09:51:44.004977+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.iphone_15_pro_max_last_update_trigger","state":"Periodic","attributes":{"icon":"mdi:cellphone-wireless","friendly_name":"iPhone 15 Pro Max Last Update Trigger"},"last_changed":"2024-09-26T09:51:42.399554+00:00","last_reported":"2024-09-26T09:51:42.399554+00:00","last_updated":"2024-09-26T09:51:42.399554+00:00","context":{"id":"01J8PVWP9ZQ5QW3PB53KVXSEK3","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "Periodic",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2024-09-26T09:51:44.004977+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.iphone_15_pro_max_app_version","state":"2024.9.2","attributes":{"icon":"mdi:cellphone","friendly_name":"iPhone 15 Pro Max App Version"},"last_changed":"2024-09-26T09:51:42.399728+00:00","last_reported":"2024-09-26T09:51:42.399728+00:00","last_updated":"2024-09-26T09:51:42.399728+00:00","context":{"id":"01J8PVWP9ZC5NZQ0109CDRPSYD","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "2024.9.2",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2024-09-26T09:51:44.004977+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.iphone_15_pro_max_location_permission","state":"Authorized Always","attributes":{"icon":"mdi:map","friendly_name":"iPhone 15 Pro Max Location permission"},"last_changed":"2024-09-26T09:51:42.399886+00:00","last_reported":"2024-09-26T09:51:42.399886+00:00","last_updated":"2024-09-26T09:51:42.399886+00:00","context":{"id":"01J8PVWP9ZXWJBZSXQWYX0TED2","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "Authorized Always",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2024-09-26T09:51:44.004977+00:00"
+    },
+    {
+      "state": {"entity_id":"device_tracker.zfold_4","state":"home","attributes":{"source_type":"gps","latitude":30.066716,"longitude":31.3393616,"gps_accuracy":11,"altitude":114.0,"course":0,"speed":0,"vertical_accuracy":2,"friendly_name":"zfold-4"},"last_changed":"2024-09-26T09:51:42.400704+00:00","last_reported":"2024-09-26T09:51:42.400704+00:00","last_updated":"2024-09-26T09:51:42.400704+00:00","context":{"id":"01J8PVWPA0PGJGXX3RNAG6MVAA","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-09-26T09:51:44.004977+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.zfold_4_battery_level","state":"15","attributes":{"unit_of_measurement":"%","device_class":"battery","icon":"mdi:battery-10","friendly_name":"zfold-4 Battery level"},"last_changed":"2024-09-26T09:51:42.401190+00:00","last_reported":"2024-09-26T09:51:42.401190+00:00","last_updated":"2024-09-26T09:51:42.401190+00:00","context":{"id":"01J8PVWPA100TVBT5K8RB4269V","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": 15,
         "native_unit_of_measurement": "%"
       },
-      "last_seen": "2024-09-24T17:26:55.537646+00:00"
+      "last_seen": "2024-09-26T09:51:44.004977+00:00"
     },
     {
-      "state": {"entity_id":"sensor.sm_f936b_battery_state","state":"discharging","attributes":{"options":["charging","discharging","full","not_charging"],"device_class":"enum","icon":"mdi:battery-minus","friendly_name":"SM-F936B Battery state"},"last_changed":"2024-09-24T14:41:54.676186+00:00","last_reported":"2024-09-24T14:41:54.676186+00:00","last_updated":"2024-09-24T14:41:54.676186+00:00","context":{"id":"01J8J7PMFMFCSZW6GPKD4WXC54","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"sensor.zfold_4_battery_state","state":"discharging","attributes":{"options":["charging","discharging","full","not_charging"],"device_class":"enum","icon":"mdi:battery-minus","friendly_name":"zfold-4 Battery state"},"last_changed":"2024-09-26T09:51:42.401514+00:00","last_reported":"2024-09-26T09:51:42.401514+00:00","last_updated":"2024-09-26T09:51:42.401514+00:00","context":{"id":"01J8PVWPA1E4V0TPBVTSFTD8QX","parent_id":null,"user_id":null}},
       "extra_data": {
         "native_value": "discharging",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2024-09-24T17:26:55.537646+00:00"
+      "last_seen": "2024-09-26T09:51:44.004977+00:00"
     },
     {
-      "state": {"entity_id":"sensor.sm_f936b_charger_type","state":"none","attributes":{"options":["ac","usb","wireless","dock","none"],"device_class":"enum","icon":"mdi:battery","friendly_name":"SM-F936B Charger type"},"last_changed":"2024-09-24T14:41:54.676354+00:00","last_reported":"2024-09-24T14:41:54.676354+00:00","last_updated":"2024-09-24T14:41:54.676354+00:00","context":{"id":"01J8J7PMFMMPFCV28ACMK0KQNF","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"sensor.zfold_4_charger_type","state":"none","attributes":{"options":["ac","usb","wireless","dock","none"],"device_class":"enum","icon":"mdi:battery","friendly_name":"zfold-4 Charger type"},"last_changed":"2024-09-26T09:51:42.401723+00:00","last_reported":"2024-09-26T09:51:42.401723+00:00","last_updated":"2024-09-26T09:51:42.401723+00:00","context":{"id":"01J8PVWPA1WNV245TYTTBQ0C6R","parent_id":null,"user_id":null}},
       "extra_data": {
         "native_value": "none",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2024-09-24T17:26:55.537646+00:00"
+      "last_seen": "2024-09-26T09:51:44.004977+00:00"
     },
     {
-      "state": {"entity_id":"tts.google_translate_en_com","state":"unknown","attributes":{"friendly_name":"Google Translate en com"},"last_changed":"2024-09-24T14:41:54.769112+00:00","last_reported":"2024-09-24T14:41:54.769112+00:00","last_updated":"2024-09-24T14:41:54.769112+00:00","context":{"id":"01J8J7PMJH1MMEGQ3E2E81J0J8","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"binary_sensor.shadys_work_ipad_focus","state":"off","attributes":{"icon":"mdi:moon-waning-crescent","friendly_name":"Shady’s work IPAD Focus"},"last_changed":"2024-09-26T09:51:42.402242+00:00","last_reported":"2024-09-26T09:51:42.402242+00:00","last_updated":"2024-09-26T09:51:42.402242+00:00","context":{"id":"01J8PVWPA2EWDJHWGYGHBGCBT8","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2024-09-24T17:26:55.537646+00:00"
+      "last_seen": "2024-09-26T09:51:44.004977+00:00"
     },
     {
-      "state": {"entity_id":"update.xiaomi_miot_auto_update","state":"off","attributes":{"auto_update":false,"installed_version":"v0.7.20","in_progress":false,"latest_version":"v0.7.20","release_summary":null,"release_url":"https://github.com/al-one/hass-xiaomi-miot/releases/v0.7.20","skipped_version":null,"title":null,"entity_picture":"https://brands.home-assistant.io/_/xiaomi_miot/icon.png","friendly_name":"Xiaomi Miot Auto update","supported_features":23},"last_changed":"2024-09-24T14:41:54.776293+00:00","last_reported":"2024-09-24T14:41:54.776293+00:00","last_updated":"2024-09-24T14:41:54.776293+00:00","context":{"id":"01J8J7PMJRZG7C1SZ55DRRK207","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"device_tracker.shadys_work_ipad","state":"unknown","attributes":{"source_type":"gps","friendly_name":"Shady’s work IPAD"},"last_changed":"2024-09-26T09:51:42.402620+00:00","last_reported":"2024-09-26T09:51:42.402620+00:00","last_updated":"2024-09-26T09:51:42.402620+00:00","context":{"id":"01J8PVWPA2Y1HVKT1PW9H0GCAA","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2024-09-24T17:26:55.537646+00:00"
+      "last_seen": "2024-09-26T09:51:44.004977+00:00"
     },
     {
-      "state": {"entity_id":"update.spook_your_homie_update","state":"off","attributes":{"auto_update":false,"installed_version":"v3.1.0","in_progress":false,"latest_version":"v3.1.0","release_summary":null,"release_url":"https://github.com/frenck/spook/releases/v3.1.0","skipped_version":null,"title":null,"entity_picture":"https://brands.home-assistant.io/_/spook/icon.png","friendly_name":"Spook 👻 Your homie update","supported_features":23},"last_changed":"2024-09-24T14:41:54.776591+00:00","last_reported":"2024-09-24T14:41:54.776591+00:00","last_updated":"2024-09-24T14:41:54.776591+00:00","context":{"id":"01J8J7PMJR241WEADN0CSAVAXN","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"sensor.shadys_work_ipad_activity","state":"Stationary","attributes":{"Confidence":"High","Types":["Stationary"],"icon":"mdi:human-male","friendly_name":"Shady’s work IPAD Activity"},"last_changed":"2024-09-26T09:51:42.403146+00:00","last_reported":"2024-09-26T09:51:42.502382+00:00","last_updated":"2024-09-26T09:51:42.403146+00:00","context":{"id":"01J8PVWPA3ENSCR7B5MAJN3AK6","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "Stationary",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2024-09-26T09:51:44.004977+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.shadys_work_ipad_battery_level","state":"95","attributes":{"unit_of_measurement":"%","device_class":"battery","icon":"mdi:battery-90","friendly_name":"Shady’s work IPAD Battery Level"},"last_changed":"2024-09-26T09:51:42.403355+00:00","last_reported":"2024-09-26T09:51:42.502502+00:00","last_updated":"2024-09-26T09:51:42.403355+00:00","context":{"id":"01J8PVWPA3JNEQBV0F7AQJH3HE","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": 95,
+        "native_unit_of_measurement": "%"
+      },
+      "last_seen": "2024-09-26T09:51:44.004977+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.shadys_work_ipad_battery_state","state":"Not Charging","attributes":{"Low Power Mode":false,"icon":"mdi:battery-90","friendly_name":"Shady’s work IPAD Battery State"},"last_changed":"2024-09-26T09:51:42.403539+00:00","last_reported":"2024-09-26T09:51:42.502590+00:00","last_updated":"2024-09-26T09:51:42.403539+00:00","context":{"id":"01J8PVWPA33RZ7BZ66Q8HHC7ZY","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "Not Charging",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2024-09-26T09:51:44.004977+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.shadys_work_ipad_storage","state":"83.81","attributes":{"Available":"211.43 GB","Available (Important)":"219.39 GB","Available (Opportunistic)":"213.62 GB","Total":"254.89 GB","unit_of_measurement":"% available","icon":"mdi:database","friendly_name":"Shady’s work IPAD Storage"},"last_changed":"2024-09-26T09:51:42.403727+00:00","last_reported":"2024-09-26T09:51:42.502681+00:00","last_updated":"2024-09-26T09:51:42.502681+00:00","context":{"id":"01J8PVWPD6NPV32MDFSGYFRCJ9","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "83.81",
+        "native_unit_of_measurement": "% available"
+      },
+      "last_seen": "2024-09-26T09:51:44.004977+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.shadys_work_ipad_connection_type","state":"Wi-Fi","attributes":{"icon":"mdi:wifi","friendly_name":"Shady’s work IPAD Connection Type"},"last_changed":"2024-09-26T09:51:42.403903+00:00","last_reported":"2024-09-26T09:51:42.503374+00:00","last_updated":"2024-09-26T09:51:42.403903+00:00","context":{"id":"01J8PVWPA3NHT36EDDBPBDB10F","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "Wi-Fi",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2024-09-26T09:51:44.004977+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.shadys_work_ipad_sim_1","state":"--","attributes":{"Allows VoIP":true,"Carrier ID":"0000000100000001","Carrier Name":"--","ISO Country Code":"--","Mobile Country Code":"65535","Mobile Network Code":"65535","icon":"mdi:sim","friendly_name":"Shady’s work IPAD SIM 1"},"last_changed":"2024-09-26T09:51:42.404081+00:00","last_reported":"2024-09-26T09:51:42.503458+00:00","last_updated":"2024-09-26T09:51:42.404081+00:00","context":{"id":"01J8PVWPA4TX6NY913GFHV0ED4","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "--",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2024-09-26T09:51:44.004977+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.shadys_work_ipad_ssid","state":"Hyve_5G","attributes":{"icon":"mdi:wifi","friendly_name":"Shady’s work IPAD SSID"},"last_changed":"2024-09-26T09:51:42.404256+00:00","last_reported":"2024-09-26T09:51:42.502839+00:00","last_updated":"2024-09-26T09:51:42.404256+00:00","context":{"id":"01J8PVWPA4TKVGEHECTBQHG21S","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "Hyve_5G",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2024-09-26T09:51:44.004977+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.shadys_work_ipad_geocoded_location","state":"Unknown","attributes":{"icon":"mdi:map","friendly_name":"Shady’s work IPAD Geocoded Location"},"last_changed":"2024-09-26T09:51:42.404419+00:00","last_reported":"2024-09-26T09:51:42.404419+00:00","last_updated":"2024-09-26T09:51:42.404419+00:00","context":{"id":"01J8PVWPA46HKQ6VATJ9G6JD9Y","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "Unknown",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2024-09-26T09:51:44.004977+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.shadys_work_ipad_last_update_trigger","state":"Periodic","attributes":{"icon":"mdi:cellphone-wireless","friendly_name":"Shady’s work IPAD Last Update Trigger"},"last_changed":"2024-09-26T09:51:42.404592+00:00","last_reported":"2024-09-26T09:51:42.503533+00:00","last_updated":"2024-09-26T09:51:42.404592+00:00","context":{"id":"01J8PVWPA417WW83TZHKX9VN3C","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "Periodic",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2024-09-26T09:51:44.004977+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.shadys_work_ipad_app_version","state":"2024.9.1","attributes":{"icon":"mdi:cellphone","friendly_name":"Shady’s work IPAD App Version"},"last_changed":"2024-09-26T09:51:42.404773+00:00","last_reported":"2024-09-26T09:51:42.503604+00:00","last_updated":"2024-09-26T09:51:42.404773+00:00","context":{"id":"01J8PVWPA4K33YZF6VXF512F8Z","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "2024.9.1",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2024-09-26T09:51:44.004977+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.shadys_work_ipad_location_permission","state":"Authorized Always","attributes":{"icon":"mdi:map","friendly_name":"Shady’s work IPAD Location permission"},"last_changed":"2024-09-26T09:51:42.404942+00:00","last_reported":"2024-09-26T09:51:42.503674+00:00","last_updated":"2024-09-26T09:51:42.404942+00:00","context":{"id":"01J8PVWPA4FG4STE1GA89E0ENY","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "Authorized Always",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2024-09-26T09:51:44.004977+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.shadys_work_ipad_bssid","state":"c2:68:a:5f:9f:7c","attributes":{"icon":"mdi:wifi-star","friendly_name":"Shady’s work IPAD BSSID"},"last_changed":"2024-09-26T09:51:42.405106+00:00","last_reported":"2024-09-26T09:51:42.502919+00:00","last_updated":"2024-09-26T09:51:42.405106+00:00","context":{"id":"01J8PVWPA5ACH6Q03KPH7XDP68","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "c2:68:a:5f:9f:7c",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2024-09-26T09:51:44.004977+00:00"
+    },
+    {
+      "state": {"entity_id":"device_tracker.sm_f936b","state":"home","attributes":{"source_type":"gps","latitude":30.0666559,"longitude":31.3393775,"gps_accuracy":11,"altitude":111.0,"course":0,"speed":0,"vertical_accuracy":7,"friendly_name":"SM-F936B"},"last_changed":"2024-09-26T09:51:42.405784+00:00","last_reported":"2024-09-26T09:51:42.405784+00:00","last_updated":"2024-09-26T09:51:42.405784+00:00","context":{"id":"01J8PVWPA55PENMMM349A9WYZ9","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2024-09-24T17:26:55.537646+00:00"
+      "last_seen": "2024-09-26T09:51:44.004977+00:00"
     },
     {
-      "state": {"entity_id":"update.portainer_update","state":"off","attributes":{"auto_update":false,"installed_version":"v1.0.2","in_progress":false,"latest_version":"v1.0.2","release_summary":null,"release_url":"https://github.com/tomaae/homeassistant-portainer/releases/v1.0.2","skipped_version":null,"title":null,"entity_picture":"https://brands.home-assistant.io/_/portainer/icon.png","friendly_name":"Portainer update","supported_features":23},"last_changed":"2024-09-24T14:41:54.776803+00:00","last_reported":"2024-09-24T14:41:54.776803+00:00","last_updated":"2024-09-24T14:41:54.776803+00:00","context":{"id":"01J8J7PMJRQNKZ4F6CDBDWH2Y5","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"sensor.sm_f936b_battery_level","state":"15","attributes":{"unit_of_measurement":"%","device_class":"battery","icon":"mdi:battery-10","friendly_name":"SM-F936B Battery level"},"last_changed":"2024-09-26T09:51:42.406349+00:00","last_reported":"2024-09-26T09:51:42.406349+00:00","last_updated":"2024-09-26T09:51:42.406349+00:00","context":{"id":"01J8PVWPA6D3CRFPCTK4Z5TCSA","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": 15,
+        "native_unit_of_measurement": "%"
+      },
+      "last_seen": "2024-09-26T09:51:44.004977+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.sm_f936b_battery_state","state":"discharging","attributes":{"options":["charging","discharging","full","not_charging"],"device_class":"enum","icon":"mdi:battery-minus","friendly_name":"SM-F936B Battery state"},"last_changed":"2024-09-26T09:51:42.406548+00:00","last_reported":"2024-09-26T09:51:42.406548+00:00","last_updated":"2024-09-26T09:51:42.406548+00:00","context":{"id":"01J8PVWPA65T18F5QB00QPM3KT","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "discharging",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2024-09-26T09:51:44.004977+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.sm_f936b_charger_type","state":"none","attributes":{"options":["ac","usb","wireless","dock","none"],"device_class":"enum","icon":"mdi:battery","friendly_name":"SM-F936B Charger type"},"last_changed":"2024-09-26T09:51:42.406733+00:00","last_reported":"2024-09-26T09:51:42.406733+00:00","last_updated":"2024-09-26T09:51:42.406733+00:00","context":{"id":"01J8PVWPA6A28PW4QPJZGF2M41","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "none",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2024-09-26T09:51:44.004977+00:00"
+    },
+    {
+      "state": {"entity_id":"tts.google_translate_en_com","state":"unknown","attributes":{"friendly_name":"Google Translate en com"},"last_changed":"2024-09-26T09:51:42.433816+00:00","last_reported":"2024-09-26T09:51:42.433816+00:00","last_updated":"2024-09-26T09:51:42.433816+00:00","context":{"id":"01J8PVWPB1MFCV619NT5B66ZT4","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2024-09-24T17:26:55.537646+00:00"
+      "last_seen": "2024-09-26T09:51:44.004977+00:00"
     },
     {
-      "state": {"entity_id":"update.local_tuya_update","state":"off","attributes":{"auto_update":false,"installed_version":"v5.2.2","in_progress":false,"latest_version":"v5.2.2","release_summary":null,"release_url":"https://github.com/rospogrigio/localtuya/releases/v5.2.2","skipped_version":null,"title":null,"entity_picture":"https://brands.home-assistant.io/_/localtuya/icon.png","friendly_name":"Local Tuya update","supported_features":23},"last_changed":"2024-09-24T14:41:54.777003+00:00","last_reported":"2024-09-24T14:41:54.777003+00:00","last_updated":"2024-09-24T14:41:54.777003+00:00","context":{"id":"01J8J7PMJS3JBAGEXT5NGZXC8D","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"update.hacs_update","state":"off","attributes":{"auto_update":false,"installed_version":"2.0.2-dev-1cf673f","in_progress":false,"latest_version":"2.0.1","release_summary":null,"release_url":"https://github.com/hacs/integration/releases/2.0.1","skipped_version":null,"title":null,"entity_picture":"https://brands.home-assistant.io/_/hacs/icon.png","friendly_name":"HACS update","supported_features":23},"last_changed":"2024-09-26T09:51:42.461614+00:00","last_reported":"2024-09-26T09:51:42.461614+00:00","last_updated":"2024-09-26T09:51:42.461614+00:00","context":{"id":"01J8PVWPBX1FF6CPNWX464WEWH","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2024-09-24T17:26:55.537646+00:00"
+      "last_seen": "2024-09-26T09:51:44.004977+00:00"
     },
     {
-      "state": {"entity_id":"update.auto_areas_update","state":"off","attributes":{"auto_update":false,"installed_version":"v2.7.0","in_progress":false,"latest_version":"v2.7.0","release_summary":null,"release_url":"https://github.com/c-st/auto_areas/releases/v2.7.0","skipped_version":null,"title":null,"entity_picture":"https://brands.home-assistant.io/_/auto_areas/icon.png","friendly_name":"Auto Areas update","supported_features":23},"last_changed":"2024-09-24T14:41:54.777206+00:00","last_reported":"2024-09-24T14:41:54.777206+00:00","last_updated":"2024-09-24T14:41:54.777206+00:00","context":{"id":"01J8J7PMJSEYQEQM3K5718QP4N","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"update.pyscript_update","state":"off","attributes":{"auto_update":false,"installed_version":"1.6.1","in_progress":false,"latest_version":"1.6.1","release_summary":null,"release_url":"https://github.com/custom-components/pyscript/releases/1.6.1","skipped_version":null,"title":null,"entity_picture":"https://brands.home-assistant.io/_/pyscript/icon.png","friendly_name":"pyscript update","supported_features":23},"last_changed":"2024-09-26T09:51:42.461874+00:00","last_reported":"2024-09-26T09:51:42.461874+00:00","last_updated":"2024-09-26T09:51:42.461874+00:00","context":{"id":"01J8PVWPBXPEH6JW9XZCCBZ8TV","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2024-09-24T17:26:55.537646+00:00"
+      "last_seen": "2024-09-26T09:51:44.004977+00:00"
     },
     {
-      "state": {"entity_id":"update.ui_lovelace_minimalist_update","state":"off","attributes":{"auto_update":false,"installed_version":"v1.3.10","in_progress":false,"latest_version":"v1.3.10","release_summary":null,"release_url":"https://github.com/UI-Lovelace-Minimalist/UI/releases/v1.3.10","skipped_version":null,"title":null,"entity_picture":"https://brands.home-assistant.io/_/ui_lovelace_minimalist/icon.png","friendly_name":"UI Lovelace Minimalist update","supported_features":23},"last_changed":"2024-09-24T14:41:54.777392+00:00","last_reported":"2024-09-24T14:41:54.777392+00:00","last_updated":"2024-09-24T14:41:54.777392+00:00","context":{"id":"01J8J7PMJSH2TVCEGRWZEHD52Y","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"update.portainer_update","state":"off","attributes":{"auto_update":false,"installed_version":"v1.0.2","in_progress":false,"latest_version":"v1.0.2","release_summary":null,"release_url":"https://github.com/tomaae/homeassistant-portainer/releases/v1.0.2","skipped_version":null,"title":null,"entity_picture":"https://brands.home-assistant.io/_/portainer/icon.png","friendly_name":"Portainer update","supported_features":23},"last_changed":"2024-09-26T09:51:42.462060+00:00","last_reported":"2024-09-26T09:51:42.462060+00:00","last_updated":"2024-09-26T09:51:42.462060+00:00","context":{"id":"01J8PVWPBY4C2G829X00M6XV4C","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2024-09-24T17:26:55.537646+00:00"
+      "last_seen": "2024-09-26T09:51:44.004977+00:00"
     },
     {
-      "state": {"entity_id":"update.sonoff_lan_update","state":"off","attributes":{"auto_update":false,"installed_version":"v3.8.1","in_progress":false,"latest_version":"v3.8.1","release_summary":null,"release_url":"https://github.com/AlexxIT/SonoffLAN/releases/v3.8.1","skipped_version":null,"title":null,"entity_picture":"https://brands.home-assistant.io/_/sonoff/icon.png","friendly_name":"Sonoff LAN update","supported_features":23},"last_changed":"2024-09-24T14:41:54.777797+00:00","last_reported":"2024-09-24T14:41:54.777797+00:00","last_updated":"2024-09-24T14:41:54.777797+00:00","context":{"id":"01J8J7PMJS0VY7CANMARNESCMX","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"update.sonoff_lan_update","state":"off","attributes":{"auto_update":false,"installed_version":"v3.8.1","in_progress":false,"latest_version":"v3.8.1","release_summary":null,"release_url":"https://github.com/AlexxIT/SonoffLAN/releases/v3.8.1","skipped_version":null,"title":null,"entity_picture":"https://brands.home-assistant.io/_/sonoff/icon.png","friendly_name":"Sonoff LAN update","supported_features":23},"last_changed":"2024-09-26T09:51:42.462240+00:00","last_reported":"2024-09-26T09:51:42.462240+00:00","last_updated":"2024-09-26T09:51:42.462240+00:00","context":{"id":"01J8PVWPBYN07XMS7BF8MZST1D","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2024-09-24T17:26:55.537646+00:00"
+      "last_seen": "2024-09-26T09:51:44.004977+00:00"
     },
     {
-      "state": {"entity_id":"update.pyscript_update","state":"off","attributes":{"auto_update":false,"installed_version":"1.6.1","in_progress":false,"latest_version":"1.6.1","release_summary":null,"release_url":"https://github.com/custom-components/pyscript/releases/1.6.1","skipped_version":null,"title":null,"entity_picture":"https://brands.home-assistant.io/_/pyscript/icon.png","friendly_name":"pyscript update","supported_features":23},"last_changed":"2024-09-24T14:41:54.778001+00:00","last_reported":"2024-09-24T14:41:54.778001+00:00","last_updated":"2024-09-24T14:41:54.778001+00:00","context":{"id":"01J8J7PMJTBMHBNQ7GYF5Z6TGC","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"update.auto_areas_update","state":"off","attributes":{"auto_update":false,"installed_version":"v2.7.0","in_progress":false,"latest_version":"v2.7.0","release_summary":null,"release_url":"https://github.com/c-st/auto_areas/releases/v2.7.0","skipped_version":null,"title":null,"entity_picture":"https://brands.home-assistant.io/_/auto_areas/icon.png","friendly_name":"Auto Areas update","supported_features":23},"last_changed":"2024-09-26T09:51:42.462414+00:00","last_reported":"2024-09-26T09:51:42.462414+00:00","last_updated":"2024-09-26T09:51:42.462414+00:00","context":{"id":"01J8PVWPBYM8Z2QN9Y09MFAXF6","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2024-09-24T17:26:55.537646+00:00"
+      "last_seen": "2024-09-26T09:51:44.004977+00:00"
     },
     {
-      "state": {"entity_id":"update.metrology_metro_fluent_windows_themes_by_mmak_es_update","state":"off","attributes":{"auto_update":false,"installed_version":"v.1.9.1","in_progress":false,"latest_version":"v.1.9.1","release_summary":null,"release_url":"https://github.com/Madelena/Metrology-for-Hass/releases/v.1.9.1","skipped_version":null,"title":null,"friendly_name":"Metrology - Metro + Fluent + Windows Themes - by mmak.es update","supported_features":23},"last_changed":"2024-09-24T14:41:54.778194+00:00","last_reported":"2024-09-24T14:41:54.778194+00:00","last_updated":"2024-09-24T14:41:54.778194+00:00","context":{"id":"01J8J7PMJT7WGBK83ZYRNYEH60","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"update.spook_your_homie_update","state":"off","attributes":{"auto_update":false,"installed_version":"v3.1.0","in_progress":false,"latest_version":"v3.1.0","release_summary":null,"release_url":"https://github.com/frenck/spook/releases/v3.1.0","skipped_version":null,"title":null,"entity_picture":"https://brands.home-assistant.io/_/spook/icon.png","friendly_name":"Spook 👻 Your homie update","supported_features":23},"last_changed":"2024-09-26T09:51:42.462586+00:00","last_reported":"2024-09-26T09:51:42.462586+00:00","last_updated":"2024-09-26T09:51:42.462586+00:00","context":{"id":"01J8PVWPBYC9DD7PYHPBPJZ43S","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2024-09-24T17:26:55.537646+00:00"
+      "last_seen": "2024-09-26T09:51:44.004977+00:00"
     },
     {
-      "state": {"entity_id":"update.dwains_dashboard_update","state":"off","attributes":{"auto_update":false,"installed_version":"v3.7.1","in_progress":false,"latest_version":"v3.7.1","release_summary":null,"release_url":"https://github.com/dwainscheeren/dwains-lovelace-dashboard/releases/v3.7.1","skipped_version":null,"title":null,"entity_picture":"https://brands.home-assistant.io/_/dwains_dashboard/icon.png","friendly_name":"Dwains Dashboard update","supported_features":23},"last_changed":"2024-09-24T14:41:54.778376+00:00","last_reported":"2024-09-24T14:41:54.778376+00:00","last_updated":"2024-09-24T14:41:54.778376+00:00","context":{"id":"01J8J7PMJTVTAY9WZW0TBX0MRM","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"update.metrology_metro_fluent_windows_themes_by_mmak_es_update","state":"off","attributes":{"auto_update":false,"installed_version":"v.1.9.1","in_progress":false,"latest_version":"v.1.9.1","release_summary":null,"release_url":"https://github.com/Madelena/Metrology-for-Hass/releases/v.1.9.1","skipped_version":null,"title":null,"friendly_name":"Metrology - Metro + Fluent + Windows Themes - by mmak.es update","supported_features":23},"last_changed":"2024-09-26T09:51:42.462764+00:00","last_reported":"2024-09-26T09:51:42.462764+00:00","last_updated":"2024-09-26T09:51:42.462764+00:00","context":{"id":"01J8PVWPBY9TR72MGYSTRKXH8M","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2024-09-24T17:26:55.537646+00:00"
+      "last_seen": "2024-09-26T09:51:44.004977+00:00"
     },
     {
-      "state": {"entity_id":"update.hacs_update","state":"off","attributes":{"auto_update":false,"installed_version":"2.0.2-dev-1cf673f","in_progress":false,"latest_version":"2.0.1","release_summary":null,"release_url":"https://github.com/hacs/integration/releases/2.0.1","skipped_version":null,"title":null,"entity_picture":"https://brands.home-assistant.io/_/hacs/icon.png","friendly_name":"HACS update","supported_features":23},"last_changed":"2024-09-24T14:41:54.778773+00:00","last_reported":"2024-09-24T14:41:54.778773+00:00","last_updated":"2024-09-24T14:41:54.778773+00:00","context":{"id":"01J8J7PMJT1QPAYDNZ1SJMGKNR","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"update.local_tuya_update","state":"off","attributes":{"auto_update":false,"installed_version":"v5.2.2","in_progress":false,"latest_version":"v5.2.2","release_summary":null,"release_url":"https://github.com/rospogrigio/localtuya/releases/v5.2.2","skipped_version":null,"title":null,"entity_picture":"https://brands.home-assistant.io/_/localtuya/icon.png","friendly_name":"Local Tuya update","supported_features":23},"last_changed":"2024-09-26T09:51:42.462935+00:00","last_reported":"2024-09-26T09:51:42.462935+00:00","last_updated":"2024-09-26T09:51:42.462935+00:00","context":{"id":"01J8PVWPBY35RJHF1FHC2JYCFA","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2024-09-24T17:26:55.537646+00:00"
+      "last_seen": "2024-09-26T09:51:44.004977+00:00"
     },
     {
-      "state": {"entity_id":"automation.batt","state":"on","attributes":{"id":"1727174799375","last_triggered":null,"mode":"single","current":0,"friendly_name":"Batt"},"last_changed":"2024-09-24T14:41:54.787282+00:00","last_reported":"2024-09-24T14:41:54.787282+00:00","last_updated":"2024-09-24T14:41:54.787282+00:00","context":{"id":"01J8J7PMK34Q6RZ5K0Q81WT363","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"update.dwains_dashboard_update","state":"off","attributes":{"auto_update":false,"installed_version":"v3.7.1","in_progress":false,"latest_version":"v3.7.1","release_summary":null,"release_url":"https://github.com/dwainscheeren/dwains-lovelace-dashboard/releases/v3.7.1","skipped_version":null,"title":null,"entity_picture":"https://brands.home-assistant.io/_/dwains_dashboard/icon.png","friendly_name":"Dwains Dashboard update","supported_features":23},"last_changed":"2024-09-26T09:51:42.463101+00:00","last_reported":"2024-09-26T09:51:42.463101+00:00","last_updated":"2024-09-26T09:51:42.463101+00:00","context":{"id":"01J8PVWPBZ1QVQHASWPC32PDPK","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2024-09-24T17:26:55.537646+00:00"
+      "last_seen": "2024-09-26T09:51:44.004977+00:00"
     },
     {
-      "state": {"entity_id":"select.zigbee2mqtt_bridge_log_level","state":"info","attributes":{"options":["error","warning","info","debug"],"friendly_name":"Zigbee2MQTT Bridge Log level"},"last_changed":"2024-09-24T14:41:56.185013+00:00","last_reported":"2024-09-24T14:41:56.185013+00:00","last_updated":"2024-09-24T14:41:56.185013+00:00","context":{"id":"01J8J7PNYSA1H5S75CECYB4E5V","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"update.ui_lovelace_minimalist_update","state":"off","attributes":{"auto_update":false,"installed_version":"v1.3.10","in_progress":false,"latest_version":"v1.3.10","release_summary":null,"release_url":"https://github.com/UI-Lovelace-Minimalist/UI/releases/v1.3.10","skipped_version":null,"title":null,"entity_picture":"https://brands.home-assistant.io/_/ui_lovelace_minimalist/icon.png","friendly_name":"UI Lovelace Minimalist update","supported_features":23},"last_changed":"2024-09-26T09:51:42.463272+00:00","last_reported":"2024-09-26T09:51:42.463272+00:00","last_updated":"2024-09-26T09:51:42.463272+00:00","context":{"id":"01J8PVWPBZK9GFRT6DHMPKTKGH","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2024-09-24T17:26:55.537646+00:00"
+      "last_seen": "2024-09-26T09:51:44.004977+00:00"
     },
     {
-      "state": {"entity_id":"sensor.zigbee2mqtt_bridge_version","state":"1.40.1","attributes":{"icon":"mdi:zigbee","friendly_name":"Zigbee2MQTT Bridge Version"},"last_changed":"2024-09-24T14:41:56.185114+00:00","last_reported":"2024-09-24T14:41:56.185114+00:00","last_updated":"2024-09-24T14:41:56.185114+00:00","context":{"id":"01J8J7PNYSDKNDWCNE0ZWKH65M","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"update.xiaomi_miot_auto_update","state":"off","attributes":{"auto_update":false,"installed_version":"v0.7.20","in_progress":false,"latest_version":"v0.7.20","release_summary":null,"release_url":"https://github.com/al-one/hass-xiaomi-miot/releases/v0.7.20","skipped_version":null,"title":null,"entity_picture":"https://brands.home-assistant.io/_/xiaomi_miot/icon.png","friendly_name":"Xiaomi Miot Auto update","supported_features":23},"last_changed":"2024-09-26T09:51:42.463440+00:00","last_reported":"2024-09-26T09:51:42.463440+00:00","last_updated":"2024-09-26T09:51:42.463440+00:00","context":{"id":"01J8PVWPBZRSBT79PSPYN88A2C","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-09-26T09:51:44.004977+00:00"
+    },
+    {
+      "state": {"entity_id":"automation.batt","state":"on","attributes":{"id":"1727174799375","last_triggered":"2024-09-26T07:00:00.205495+00:00","mode":"single","current":0,"friendly_name":"Batt"},"last_changed":"2024-09-26T09:51:42.489361+00:00","last_reported":"2024-09-26T09:51:42.489361+00:00","last_updated":"2024-09-26T09:51:42.489361+00:00","context":{"id":"01J8PVWPCSSJSNQYEAZ7JYSC2K","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-09-26T09:51:44.004977+00:00"
+    },
+    {
+      "state": {"entity_id":"switch.zigbee2mqtt_bridge_permit_join","state":"off","attributes":{"icon":"mdi:human-greeting-proximity","friendly_name":"Zigbee2MQTT Bridge Permit join"},"last_changed":"2024-09-26T09:51:43.918707+00:00","last_reported":"2024-09-26T09:51:43.918707+00:00","last_updated":"2024-09-26T09:51:43.918707+00:00","context":{"id":"01J8PVWQSETYAHMV5SMS3EC1DS","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-09-26T09:51:44.004977+00:00"
+    },
+    {
+      "state": {"entity_id":"binary_sensor.zigbee2mqtt_bridge_connection_state","state":"on","attributes":{"device_class":"connectivity","friendly_name":"Zigbee2MQTT Bridge Connection state"},"last_changed":"2024-09-26T09:51:43.915521+00:00","last_reported":"2024-09-26T09:51:43.915521+00:00","last_updated":"2024-09-26T09:51:43.915521+00:00","context":{"id":"01J8PVWQSB8AYE7X5PSQC5298Q","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-09-26T09:51:44.004977+00:00"
+    },
+    {
+      "state": {"entity_id":"binary_sensor.bedroom_door_contact","state":"unknown","attributes":{"device_class":"door","friendly_name":"bedroom"},"last_changed":"2024-09-26T09:51:43.919769+00:00","last_reported":"2024-09-26T09:51:43.919769+00:00","last_updated":"2024-09-26T09:51:43.919769+00:00","context":{"id":"01J8PVWQSFVGCR0088YVEYB8AB","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-09-26T09:51:44.004977+00:00"
+    },
+    {
+      "state": {"entity_id":"binary_sensor.bedroom_door_battery_low","state":"unknown","attributes":{"device_class":"battery","friendly_name":"bedroom door Battery"},"last_changed":"2024-09-26T09:51:43.919712+00:00","last_reported":"2024-09-26T09:51:43.919712+00:00","last_updated":"2024-09-26T09:51:43.919712+00:00","context":{"id":"01J8PVWQSFDKNDWCNE0ZWKH65M","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-09-26T09:51:44.004977+00:00"
+    },
+    {
+      "state": {"entity_id":"button.zigbee2mqtt_bridge_restart","state":"unknown","attributes":{"device_class":"restart","friendly_name":"Zigbee2MQTT Bridge Restart"},"last_changed":"2024-09-26T09:51:43.915649+00:00","last_reported":"2024-09-26T09:51:43.915649+00:00","last_updated":"2024-09-26T09:51:43.915649+00:00","context":{"id":"01J8PVWQSBQVAQH6THRQJ6KJNM","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-09-26T09:51:44.004977+00:00"
+    },
+    {
+      "state": {"entity_id":"select.zigbee2mqtt_bridge_log_level","state":"info","attributes":{"options":["error","warning","info","debug"],"friendly_name":"Zigbee2MQTT Bridge Log level"},"last_changed":"2024-09-26T09:51:43.918831+00:00","last_reported":"2024-09-26T09:51:43.918831+00:00","last_updated":"2024-09-26T09:51:43.918831+00:00","context":{"id":"01J8PVWQSEJN10G7S4K2RG6FDB","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-09-26T09:51:44.004977+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.zigbee2mqtt_bridge_version","state":"1.40.1","attributes":{"icon":"mdi:zigbee","friendly_name":"Zigbee2MQTT Bridge Version"},"last_changed":"2024-09-26T09:51:43.918906+00:00","last_reported":"2024-09-26T09:51:43.918906+00:00","last_updated":"2024-09-26T09:51:43.918906+00:00","context":{"id":"01J8PVWQSET0RPR4XREHBDDHWY","parent_id":null,"user_id":null}},
       "extra_data": {
         "native_value": "1.40.1",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2024-09-24T17:26:55.537646+00:00"
+      "last_seen": "2024-09-26T09:51:44.004977+00:00"
     },
     {
-      "state": {"entity_id":"sensor.zigbee2mqtt_bridge_permit_join_timeout","state":"unknown","attributes":{"unit_of_measurement":"s","device_class":"duration","friendly_name":"Zigbee2MQTT Bridge Permit join timeout"},"last_changed":"2024-09-24T14:41:56.181810+00:00","last_reported":"2024-09-24T14:41:56.181810+00:00","last_updated":"2024-09-24T14:41:56.181810+00:00","context":{"id":"01J8J7PNYNJN10G7S4K2RG6FDB","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"sensor.zigbee2mqtt_bridge_permit_join_timeout","state":"unknown","attributes":{"unit_of_measurement":"s","device_class":"duration","friendly_name":"Zigbee2MQTT Bridge Permit join timeout"},"last_changed":"2024-09-26T09:51:43.915362+00:00","last_reported":"2024-09-26T09:51:43.915362+00:00","last_updated":"2024-09-26T09:51:43.915362+00:00","context":{"id":"01J8PVWQSBD56PEA0ZY3M0YMFE","parent_id":null,"user_id":null}},
       "extra_data": {
         "native_value": null,
         "native_unit_of_measurement": "s"
       },
-      "last_seen": "2024-09-24T17:26:55.537646+00:00"
+      "last_seen": "2024-09-26T09:51:44.004977+00:00"
     },
     {
-      "state": {"entity_id":"sensor.bedroom_door_battery","state":"83.5","attributes":{"state_class":"measurement","battery":83.5,"battery_low":false,"contact":true,"device":{"applicationVersion":4,"dateCode":"20201026","friendlyName":"bedroom","hardwareVersion":1,"ieeeAddr":"0x00124b00234304db","manufacturerID":0,"manufacturerName":"eWeLink","model":"SNZB-04","networkAddress":1662,"powerSource":"Battery","type":"EndDevice","zclVersion":1},"last_seen":"2024-09-24T19:27:44+03:00","linkquality":149,"tamper":false,"voltage":2900,"unit_of_measurement":"%","device_class":"battery","friendly_name":"bedroom door Battery"},"last_changed":"2024-09-24T16:27:44.496556+00:00","last_reported":"2024-09-24T16:27:44.496556+00:00","last_updated":"2024-09-24T16:27:44.496556+00:00","context":{"id":"01J8JDRDFGMD79DSK5PTX1XMBZ","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"sensor.bedroom_door_battery","state":"unknown","attributes":{"state_class":"measurement","unit_of_measurement":"%","device_class":"battery","friendly_name":"bedroom door Battery"},"last_changed":"2024-09-26T09:51:43.919610+00:00","last_reported":"2024-09-26T09:51:43.919610+00:00","last_updated":"2024-09-26T09:51:43.919610+00:00","context":{"id":"01J8PVWQSFA1H5S75CECYB4E5V","parent_id":null,"user_id":null}},
       "extra_data": {
-        "native_value": "83.5",
+        "native_value": null,
         "native_unit_of_measurement": "%"
       },
-      "last_seen": "2024-09-24T17:26:55.537646+00:00"
-    },
-    {
-      "state": {"entity_id":"switch.zigbee2mqtt_bridge_permit_join","state":"off","attributes":{"icon":"mdi:human-greeting-proximity","friendly_name":"Zigbee2MQTT Bridge Permit join"},"last_changed":"2024-09-24T14:41:56.184878+00:00","last_reported":"2024-09-24T14:41:56.184878+00:00","last_updated":"2024-09-24T14:41:56.184878+00:00","context":{"id":"01J8J7PNYRT0RPR4XREHBDDHWY","parent_id":null,"user_id":null}},
-      "extra_data": null,
-      "last_seen": "2024-09-24T17:26:55.537646+00:00"
-    },
-    {
-      "state": {"entity_id":"button.zigbee2mqtt_bridge_restart","state":"2024-09-24T06:06:03.770988+00:00","attributes":{"device_class":"restart","friendly_name":"Zigbee2MQTT Bridge Restart"},"last_changed":"2024-09-24T14:41:56.181645+00:00","last_reported":"2024-09-24T14:41:56.181645+00:00","last_updated":"2024-09-24T14:41:56.181645+00:00","context":{"id":"01J8J7PNYNQVAQH6THRQJ6KJNM","parent_id":null,"user_id":null}},
-      "extra_data": null,
-      "last_seen": "2024-09-24T17:26:55.537646+00:00"
-    },
-    {
-      "state": {"entity_id":"binary_sensor.zigbee2mqtt_bridge_connection_state","state":"on","attributes":{"device_class":"connectivity","friendly_name":"Zigbee2MQTT Bridge Connection state"},"last_changed":"2024-09-24T14:41:56.181206+00:00","last_reported":"2024-09-24T14:41:56.181206+00:00","last_updated":"2024-09-24T14:41:56.181206+00:00","context":{"id":"01J8J7PNYN9R1Y0QT9EYS1ZMNV","parent_id":null,"user_id":null}},
-      "extra_data": null,
-      "last_seen": "2024-09-24T17:26:55.537646+00:00"
-    },
-    {
-      "state": {"entity_id":"binary_sensor.bedroom_door_contact","state":"off","attributes":{"battery":83.5,"battery_low":false,"contact":true,"device":{"applicationVersion":4,"dateCode":"20201026","friendlyName":"bedroom","hardwareVersion":1,"ieeeAddr":"0x00124b00234304db","manufacturerID":0,"manufacturerName":"eWeLink","model":"SNZB-04","networkAddress":1662,"powerSource":"Battery","type":"EndDevice","zclVersion":1},"last_seen":"2024-09-24T19:27:44+03:00","linkquality":149,"tamper":false,"voltage":2900,"device_class":"door","friendly_name":"bedroom"},"last_changed":"2024-09-24T14:46:36.130549+00:00","last_reported":"2024-09-24T16:27:44.496146+00:00","last_updated":"2024-09-24T16:27:44.496146+00:00","context":{"id":"01J8JDRDFGFQJ0P08X3WQRQNK2","parent_id":null,"user_id":null}},
-      "extra_data": null,
-      "last_seen": "2024-09-24T17:26:55.537646+00:00"
-    },
-    {
-      "state": {"entity_id":"binary_sensor.bedroom_door_battery_low","state":"off","attributes":{"battery":83.5,"battery_low":false,"contact":true,"device":{"applicationVersion":4,"dateCode":"20201026","friendlyName":"bedroom","hardwareVersion":1,"ieeeAddr":"0x00124b00234304db","manufacturerID":0,"manufacturerName":"eWeLink","model":"SNZB-04","networkAddress":1662,"powerSource":"Battery","type":"EndDevice","zclVersion":1},"last_seen":"2024-09-24T19:27:44+03:00","linkquality":149,"tamper":false,"voltage":2900,"device_class":"battery","friendly_name":"bedroom door Battery"},"last_changed":"2024-09-24T14:42:32.032834+00:00","last_reported":"2024-09-24T16:27:44.496405+00:00","last_updated":"2024-09-24T16:27:44.496405+00:00","context":{"id":"01J8JDRDFG9KJRNY85KQ8QKZMD","parent_id":null,"user_id":null}},
-      "extra_data": null,
-      "last_seen": "2024-09-24T17:26:55.537646+00:00"
-    },
-    {
-      "state": {"entity_id":"update.home_assistant_supervisor_update","state":"off","attributes":{"auto_update":true,"installed_version":"2024.09.1","in_progress":false,"latest_version":"2024.09.1","release_summary":null,"release_url":"https://github.com/home-assistant/supervisor/releases/tag/2024.09.1","skipped_version":null,"title":"Home Assistant Supervisor","entity_picture":"https://brands.home-assistant.io/hassio/icon.png","friendly_name":"Home Assistant Supervisor Update","supported_features":1},"last_changed":"2024-09-24T17:26:52.160490+00:00","last_reported":"2024-09-24T17:26:52.160490+00:00","last_updated":"2024-09-24T17:26:52.160490+00:00","context":{"id":"01J8JH4P00WEJ95QXAQETEC124","parent_id":null,"user_id":null}},
-      "extra_data": null,
-      "last_seen": "2024-09-24T17:26:55.537646+00:00"
-    },
-    {
-      "state": {"entity_id":"update.home_assistant_core_update","state":"off","attributes":{"auto_update":false,"installed_version":"2024.9.3","in_progress":false,"latest_version":"2024.9.3","release_summary":null,"release_url":"https://www.home-assistant.io/latest-release-notes/","skipped_version":null,"title":"Home Assistant Core","entity_picture":"https://brands.home-assistant.io/homeassistant/icon.png","friendly_name":"Home Assistant Core Update","supported_features":11},"last_changed":"2024-09-24T17:26:52.160918+00:00","last_reported":"2024-09-24T17:26:52.160918+00:00","last_updated":"2024-09-24T17:26:52.160918+00:00","context":{"id":"01J8JH4P00X46T9T13XDCNSD2N","parent_id":null,"user_id":null}},
-      "extra_data": null,
-      "last_seen": "2024-09-24T17:26:55.537646+00:00"
-    },
-    {
-      "state": {"entity_id":"update.advanced_ssh_web_terminal_update","state":"off","attributes":{"auto_update":false,"installed_version":"19.0.0","in_progress":false,"latest_version":"19.0.0","release_summary":"## What’s changed\n\n## 🐛 Bug fixes\n\n- Change default shell from /bin/ash to /bin/sh @rskallies ([#747](https://github.com/hassio-addons/addon-ssh/pull/747))\n- ⬆️ Update home-assistant/cli to v4.35.0 @sairon ([#762](https://github.com/hassio-addons/addon-ss","release_url":null,"skipped_version":null,"title":"Advanced SSH & Web Terminal","entity_picture":"/api/hassio/addons/a0d7b954_ssh/icon","friendly_name":"Advanced SSH & Web Terminal Update","supported_features":25},"last_changed":"2024-09-24T17:26:52.161216+00:00","last_reported":"2024-09-24T17:26:52.161216+00:00","last_updated":"2024-09-24T17:26:52.161216+00:00","context":{"id":"01J8JH4P01QRMC2HN2B5CKF47R","parent_id":null,"user_id":null}},
-      "extra_data": null,
-      "last_seen": "2024-09-24T17:26:55.537646+00:00"
-    },
-    {
-      "state": {"entity_id":"update.get_hacs_update","state":"off","attributes":{"auto_update":false,"installed_version":"1.3.1","in_progress":false,"latest_version":"1.3.1","release_summary":"# 1.3.1\n\n- Fix problems with getting the current version for development builds\n\n# 1.3.0\n\n- Dynamically get the version again\n\n# 1.2.1\n\n- Create custom_components directory if it does not exist\n\n# 1.2.0\n\n- Set dev version to 2.0.0\n\n# 1.1.1\n\n- Fix version ","release_url":null,"skipped_version":null,"title":"Get HACS","entity_picture":"/api/hassio/addons/cb646a50_get/icon","friendly_name":"Get HACS Update","supported_features":25},"last_changed":"2024-09-24T17:26:52.161463+00:00","last_reported":"2024-09-24T17:26:52.161463+00:00","last_updated":"2024-09-24T17:26:52.161463+00:00","context":{"id":"01J8JH4P01RHYVEZ903C2AVZQ5","parent_id":null,"user_id":null}},
-      "extra_data": null,
-      "last_seen": "2024-09-24T17:26:55.537646+00:00"
-    },
-    {
-      "state": {"entity_id":"update.studio_code_server_update","state":"off","attributes":{"auto_update":true,"installed_version":"5.15.0","in_progress":false,"latest_version":"5.15.0","release_summary":"## What’s changed\n\n## 🧰 Maintenance\n\n- 🎆 Updates maintenance/license year to 2024 @frenck ([#763](https://github.com/hassio-addons/addon-vscode/pull/763))\n\n## ⬆️ Dependency updates\n\n- ⬆️ Update esphome to v2023.11.0 @renovate ([#739](https://github.com/ha","release_url":null,"skipped_version":null,"title":"Studio Code Server","entity_picture":"/api/hassio/addons/a0d7b954_vscode/icon","friendly_name":"Studio Code Server Update","supported_features":25},"last_changed":"2024-09-24T17:26:52.161688+00:00","last_reported":"2024-09-24T17:26:52.161688+00:00","last_updated":"2024-09-24T17:26:52.161688+00:00","context":{"id":"01J8JH4P013NE5YHMQ6FKR06EX","parent_id":null,"user_id":null}},
-      "extra_data": null,
-      "last_seen": "2024-09-24T17:26:55.537646+00:00"
-    },
-    {
-      "state": {"entity_id":"update.zigbee2mqtt_update","state":"off","attributes":{"auto_update":true,"installed_version":"1.40.1-1","in_progress":false,"latest_version":"1.40.1-1","release_summary":"## 1.40.1-1\n- Updated Zigbee2MQTT to version [`1.40.1`](https://github.com/Koenkk/zigbee2mqtt/releases/tag/1.40.1)\n\n## 1.40.0-1\n- Updated Zigbee2MQTT to version [`1.40.0`](https://github.com/Koenkk/zigbee2mqtt/releases/tag/1.40.0)\n\n## 1.39.1-1\n- Updated Z","release_url":null,"skipped_version":null,"title":"Zigbee2MQTT","entity_picture":"/api/hassio/addons/45df7312_zigbee2mqtt/icon","friendly_name":"Zigbee2MQTT Update","supported_features":25},"last_changed":"2024-09-24T17:26:52.161945+00:00","last_reported":"2024-09-24T17:26:52.161945+00:00","last_updated":"2024-09-24T17:26:52.161945+00:00","context":{"id":"01J8JH4P018C9ZWE4QJ27VP5AM","parent_id":null,"user_id":null}},
-      "extra_data": null,
-      "last_seen": "2024-09-24T17:26:55.537646+00:00"
-    },
-    {
-      "state": {"entity_id":"update.mosquitto_broker_update","state":"off","attributes":{"auto_update":true,"installed_version":"6.4.1","in_progress":false,"latest_version":"6.4.1","release_summary":"# Changelog\n\n## 6.4.1\n\n- Increase default max_queued_messages to 8192 to fix dropped messages during Home Assistant startup\n\n## 6.4.0\n\n- Update mosquitto to 2.0.18\n\n## 6.3.1\n\n- Add ability to use a pre-hashed password for custom logins\n\n## 6.3.0\n\n- Update","release_url":null,"skipped_version":null,"title":"Mosquitto broker","entity_picture":"/api/hassio/addons/core_mosquitto/icon","friendly_name":"Mosquitto broker Update","supported_features":25},"last_changed":"2024-09-24T17:26:52.162963+00:00","last_reported":"2024-09-24T17:26:52.162963+00:00","last_updated":"2024-09-24T17:26:52.162963+00:00","context":{"id":"01J8JH4P02X88Q2VXTDY47AK31","parent_id":null,"user_id":null}},
-      "extra_data": null,
-      "last_seen": "2024-09-24T17:26:55.537646+00:00"
-    },
-    {
-      "state": {"entity_id":"update.appdaemon_update","state":"off","attributes":{"auto_update":true,"installed_version":"0.16.7","in_progress":false,"latest_version":"0.16.7","release_summary":"## What’s changed\n\n## ⬆️ Dependency updates\n\n- ⬆️ Update Python to v3.11.9-r1 @renovate ([#348](https://github.com/hassio-addons/addon-appdaemon/pull/348))\n- ⬆️ Update Python to v3.11.10-r0 @renovate ([#349](https://github.com/hassio-addons/addon-appdaemo","release_url":null,"skipped_version":null,"title":"AppDaemon","entity_picture":"/api/hassio/addons/a0d7b954_appdaemon/icon","friendly_name":"AppDaemon Update","supported_features":25},"last_changed":"2024-09-24T17:26:52.163216+00:00","last_reported":"2024-09-24T17:26:52.163216+00:00","last_updated":"2024-09-24T17:26:52.163216+00:00","context":{"id":"01J8JH4P03AFGKQ0B7JBNJGKWG","parent_id":null,"user_id":null}},
-      "extra_data": null,
-      "last_seen": "2024-09-24T17:26:55.537646+00:00"
-    },
-    {
-      "state": {"entity_id":"update.spotify_connect_update","state":"off","attributes":{"auto_update":true,"installed_version":"0.13.0","in_progress":false,"latest_version":"0.13.0","release_summary":"## What’s changed\n\n## 🚨 Breaking changes\n\n- Drop support for i386 @frenck ([#249](https://github.com/hassio-addons/addon-spotify-connect/pull/249))\n\n## 🧰 Maintenance\n\n- Move coc and contributing to .github folder @frenck ([#247](https://github.com/hassio-","release_url":null,"skipped_version":null,"title":"Spotify Connect","entity_picture":"/api/hassio/addons/a0d7b954_spotify/icon","friendly_name":"Spotify Connect Update","supported_features":25},"last_changed":"2024-09-24T17:26:52.163445+00:00","last_reported":"2024-09-24T17:26:52.163445+00:00","last_updated":"2024-09-24T17:26:52.163445+00:00","context":{"id":"01J8JH4P03BXTXSN35MK7W6W94","parent_id":null,"user_id":null}},
-      "extra_data": null,
-      "last_seen": "2024-09-24T17:26:55.537646+00:00"
-    },
-    {
-      "state": {"entity_id":"update.file_editor_update","state":"off","attributes":{"auto_update":true,"installed_version":"5.8.0","in_progress":false,"latest_version":"5.8.0","release_summary":"# Changelog\n\n## 5.8.0\n\n- Update base image to Alpine 3.19\n\n## 5.7.0\n\n- Use new location for accessing the Home Assistant configuration folder using `/homeassistant`\n- Add access to the new public configuration folders of add-ons\n- Upgrade to Alpine 3.18\n-","release_url":null,"skipped_version":null,"title":"File editor","entity_picture":"/api/hassio/addons/core_configurator/icon","friendly_name":"File editor Update","supported_features":25},"last_changed":"2024-09-24T17:26:52.163845+00:00","last_reported":"2024-09-24T17:26:52.164038+00:00","last_updated":"2024-09-24T17:26:52.163845+00:00","context":{"id":"01J8JH4P03TWPEGDKWXSTWAHRD","parent_id":null,"user_id":null}},
-      "extra_data": null,
-      "last_seen": "2024-09-24T17:26:55.537646+00:00"
-    },
-    {
-      "state": {"entity_id":"update.home_assistant_operating_system_update","state":"off","attributes":{"auto_update":false,"installed_version":"13.1","in_progress":false,"latest_version":"13.1","release_summary":null,"release_url":"https://github.com/home-assistant/operating-system/releases/tag/13.1","skipped_version":null,"title":"Home Assistant Operating System","entity_picture":"https://brands.home-assistant.io/homeassistant/icon.png","friendly_name":"Home Assistant Operating System Update","supported_features":3},"last_changed":"2024-09-24T17:26:52.164406+00:00","last_reported":"2024-09-24T17:26:52.164406+00:00","last_updated":"2024-09-24T17:26:52.164406+00:00","context":{"id":"01J8JH4P04Y7XDC7FEYCS7A0BC","parent_id":null,"user_id":null}},
-      "extra_data": null,
-      "last_seen": "2024-09-24T17:26:55.537646+00:00"
+      "last_seen": "2024-09-26T09:51:44.004977+00:00"
     },
     {
       "state": {"entity_id":"automation.sensor_light","state":"off","attributes":{"id":"1727066405247","last_triggered":"2024-09-24T10:06:13.023919+00:00","mode":"restart","current":0,"friendly_name":"Sensor Light"},"last_changed":"2024-09-24T10:44:28.079502+00:00","last_reported":"2024-09-24T10:44:28.079502+00:00","last_updated":"2024-09-24T10:44:28.079502+00:00","context":{"id":"01J8HT3VSEXT57PS24NHTPZAY9","parent_id":null,"user_id":"4226c273b7b44abda0290da4f1128dc7"}},
