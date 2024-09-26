@@ -83,3 +83,14 @@ Traceback (most recent call last):
   File "/config/custom_components/dwains_dashboard/__init__.py", line 118, in websocket_get_configuration
     with open(hass.config.path("dwains-dashboard/configs/settings.yaml")) as f:
 
+2024-09-26 13:06:35.707 WARNING (MainThread) [homeassistant.components.websocket_api.http.connection] [546994092448] from 192.168.8.124 (Home Assistant/2024.6.1-12936 (Android 12; Quest)): Disconnected: Did not receive auth message within 10 seconds
+2024-09-26 13:07:02.814 ERROR (MainThread) [frontend.js.modern.202409091] Uncaught error from Chrome 131.0.0.0 on Windows 10
+TypeError: Illegal constructor (custom element class must be registered with global customElements registry to be newable)
+new window.HTMLElement (src/scoped-custom-element-registry.js:168:12)
+e=window,r=e.trustedTypes,h=r?r.emptyScript:"",o=e.reactiveElementPolyfillSupport,n={toAttribute(t,i){switch (/node_modules/@lit/reactive-element/reactive-element.js:6:552)
+t{constructor(){super (/node_modules/lit/node_modules/lit-element/lit-element.js:6:53)
+constructor (/src/dwains-navigation-card.js:109:8)
+(!root.shadowRoot.querySelector (/src/dwains-dashboard.js:152:59)
+buildDwainsNavigation (/src/dwains-dashboard.js:116:19)
+this.getLovelace (/src/dwains-dashboard.js:98:17)
+2024-09-26 15:06:40.261 WARNING (MainThread) [homeassistant.components.websocket_api.http.connection] [546994088848] from 192.168.8.124 (Home Assistant/2024.6.1-12936 (Android 12; Quest)): Disconnected: Did not receive auth message within 10 seconds

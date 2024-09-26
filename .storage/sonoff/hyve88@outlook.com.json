@@ -108,11 +108,11 @@
         "reset_reason": "ESP_RST_SW",
         "HMI_model": 120,
         "HMI_direction": "horizontal",
-        "temperature": 29.9,
+        "temperature": 29.5,
         "humidity": "blank",
         "tempUnit": 0,
         "HMI_outdoorTemp": {
-          "current": 28,
+          "current": 29,
           "range": "21,35"
         },
         "HMI_weather": 6,
