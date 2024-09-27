@@ -96,3 +96,6 @@ Traceback (most recent call last):
   in "/config/configuration.yaml", line 2, column 1
 but found another document
   in "/config/configuration.yaml", line 12, column 1
+2024-09-27 06:54:15.586 ERROR (MainThread) [homeassistant.components.config] The map integration does not support any configuration parameters, got ['all_addon_configs:rw', 'backup:rw', 'homeassistant_config:rw', 'media:rw', 'share:rw', 'ssl:rw']. Please remove the configuration parameters from your configuration.
+2024-09-27 06:54:23.093 ERROR (MainThread) [homeassistant.components.config] The map integration does not support any configuration parameters, got ['all_addon_configs:rw', 'backup:rw', 'homeassistant_config:rw', 'media:rw', 'share:rw', 'ssl:rw']. Please remove the configuration parameters from your configuration.
+2024-09-27 06:55:21.931 ERROR (MainThread) [homeassistant.components.config] The map integration does not support any configuration parameters, got ['all_addon_configs:rw', 'backup:rw', 'homeassistant_config:rw', 'media:rw', 'share:rw', 'ssl:rw']. Please remove the configuration parameters from your configuration.

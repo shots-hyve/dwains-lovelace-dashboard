@@ -9,6 +9,7 @@ automation: !include automations.yaml
 script: !include scripts.yaml
 scene: !include scenes.yaml
 powercalc:
+
   version: 5.8.0
 slug: configurator
 name: File editor

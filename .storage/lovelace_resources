@@ -13,6 +13,11 @@
         "id": "5ac89bbb111148db9f52aa8a748d1de1",
         "url": "/hacsfiles/mini-graph-card/mini-graph-card-bundle.js?hacstag=1512800620121",
         "type": "module"
+      },
+      {
+        "id": "e9ecbc785c8b4271820fb4fd006102c9",
+        "url": "/hacsfiles/decluttering-card/decluttering-card.js?hacstag=188686483100",
+        "type": "module"
       }
     ]
   }
