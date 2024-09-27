@@ -59,8 +59,10 @@
         "domain": "bluetooth",
         "entry_id": "01J8E29H2W88WH9STDQ2Q3QKG6",
         "minor_version": 1,
-        "modified_at": "2024-09-22T23:50:24.604939+00:00",
-        "options": {},
+        "modified_at": "2024-09-27T04:03:47.584419+00:00",
+        "options": {
+          "passive": true
+        },
         "pref_disable_new_entities": false,
         "pref_disable_polling": false,
         "source": "integration_discovery",
