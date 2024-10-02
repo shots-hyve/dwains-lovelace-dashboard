@@ -2,5 +2,170 @@
   "version": 1,
   "minor_version": 1,
   "key": "trace.saved_traces",
-  "data": {}
+  "data": {
+    "automation.1727174799375": [
+      {
+        "extended_dict": {
+          "last_step": "condition/0",
+          "run_id": "52c316568a31b2750b3842995ba78ff2",
+          "state": "stopped",
+          "script_execution": "failed_conditions",
+          "timestamp": {
+            "start": "2024-10-02T07:00:00.431570+00:00",
+            "finish": "2024-10-02T07:00:00.438328+00:00"
+          },
+          "domain": "automation",
+          "item_id": "1727174799375",
+          "trigger": "time",
+          "trace": {
+            "trigger/0": [
+              {
+                "path": "trigger/0",
+                "timestamp": "2024-10-02T07:00:00.438056+00:00",
+                "changed_variables": {
+                  "this": {
+                    "entity_id": "automation.batt",
+                    "state": "on",
+                    "attributes": {
+                      "id": "1727174799375",
+                      "last_triggered": "2024-09-28T07:00:00.296507+00:00",
+                      "mode": "single",
+                      "current": 0,
+                      "friendly_name": "Batt"
+                    },
+                    "last_changed": "2024-10-02T02:38:13.296439+00:00",
+                    "last_reported": "2024-10-02T02:38:13.296439+00:00",
+                    "last_updated": "2024-10-02T02:38:13.296439+00:00",
+                    "context": {
+                      "id": "01J95HF8SG4XWHKP2AJZQRR817",
+                      "parent_id": null,
+                      "user_id": null
+                    }
+                  },
+                  "trigger": {
+                    "id": "0",
+                    "idx": "0",
+                    "alias": null,
+                    "platform": "time",
+                    "now": "2024-10-02T10:00:00.431238+03:00",
+                    "description": "time",
+                    "entity_id": null
+                  },
+                  "day": 0,
+                  "threshold": 20,
+                  "exclude": {
+                    "entity_id": [],
+                    "device_id": [
+                      "0674d5ee258c8eff1555a8b958354546",
+                      "56079adafea51bb034d983e8824712d4",
+                      "567ab7252361c67ca19fbb4e5461727f",
+                      "ea82234306d4e7c899196a29e2de145f"
+                    ]
+                  },
+                  "sensors": ""
+                }
+              }
+            ],
+            "condition/0": [
+              {
+                "path": "condition/0",
+                "timestamp": "2024-10-02T07:00:00.438127+00:00",
+                "result": {
+                  "result": false,
+                  "entities": []
+                }
+              }
+            ]
+          },
+          "config": {
+            "variables": {
+              "day": 0,
+              "threshold": 20,
+              "exclude": {
+                "entity_id": [],
+                "device_id": [
+                  "0674d5ee258c8eff1555a8b958354546",
+                  "56079adafea51bb034d983e8824712d4",
+                  "567ab7252361c67ca19fbb4e5461727f",
+                  "ea82234306d4e7c899196a29e2de145f"
+                ]
+              },
+              "sensors": "{% set result = namespace(sensors=[]) %} {% for state in states.sensor | selectattr('attributes.device_class', '==', 'battery') %}\n  {% if 0 <= state.state | int(-1) < threshold | int and not state.entity_id in exclude.entity_id %}\n    {% set result.sensors = result.sensors + [state.name ~ ' (' ~ state.state ~ ' %)'] %}\n  {% endif %}\n{% endfor %} {% for state in states.binary_sensor | selectattr('attributes.device_class', '==', 'battery') | selectattr('state', '==', 'on') %}\n  {% if not state.entity_id in exclude.entity_id %}\n    {% set result.sensors = result.sensors + [state.name] %}\n  {% endif %}\n{% endfor %} {{result.sensors|join(', ')}}"
+            },
+            "trigger": [
+              {
+                "platform": "time",
+                "at": "10:00:00"
+              }
+            ],
+            "condition": [
+              "{{ sensors != '' and (day | int == 0 or day | int == now().isoweekday()) }}"
+            ],
+            "action": [
+              {
+                "choose": [],
+                "default": [
+                  {
+                    "device_id": "b692bb6c889727481d75eb8d819c5de8",
+                    "domain": "mobile_app",
+                    "type": "notify",
+                    "message": "Batt. Check"
+                  }
+                ]
+              }
+            ],
+            "mode": "single",
+            "id": "1727174799375",
+            "alias": "Batt",
+            "description": ""
+          },
+          "blueprint_inputs": {
+            "id": "1727174799375",
+            "alias": "Batt",
+            "description": "",
+            "use_blueprint": {
+              "path": "sbyx/low-battery-level-detection-notification-for-all-battery-sensors.yaml",
+              "input": {
+                "exclude": {
+                  "entity_id": [],
+                  "device_id": [
+                    "0674d5ee258c8eff1555a8b958354546",
+                    "56079adafea51bb034d983e8824712d4",
+                    "567ab7252361c67ca19fbb4e5461727f",
+                    "ea82234306d4e7c899196a29e2de145f"
+                  ]
+                },
+                "actions": [
+                  {
+                    "device_id": "b692bb6c889727481d75eb8d819c5de8",
+                    "domain": "mobile_app",
+                    "type": "notify",
+                    "message": "Batt. Check"
+                  }
+                ]
+              }
+            }
+          },
+          "context": {
+            "id": "01J960EKSFE032EE3KAWGFC622",
+            "parent_id": null,
+            "user_id": null
+          }
+        },
+        "short_dict": {
+          "last_step": "condition/0",
+          "run_id": "52c316568a31b2750b3842995ba78ff2",
+          "state": "stopped",
+          "script_execution": "failed_conditions",
+          "timestamp": {
+            "start": "2024-10-02T07:00:00.431570+00:00",
+            "finish": "2024-10-02T07:00:00.438328+00:00"
+          },
+          "domain": "automation",
+          "item_id": "1727174799375",
+          "trigger": "time"
+        }
+      }
+    ]
+  }
 }

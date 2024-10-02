@@ -335,8 +335,10 @@
         "domain": "androidtv_remote",
         "entry_id": "01J8E4KQXVDRQYY2P64G9G3WVQ",
         "minor_version": 1,
-        "modified_at": "2024-09-23T00:30:56.443753+00:00",
-        "options": {},
+        "modified_at": "2024-10-01T23:16:37.788119+00:00",
+        "options": {
+          "enable_ime": true
+        },
         "pref_disable_new_entities": false,
         "pref_disable_polling": false,
         "source": "zeroconf",
@@ -505,13 +507,11 @@
         "domain": "sonoff",
         "entry_id": "01J8EF08NDQQP7NQSY21D2G7A8",
         "minor_version": 1,
-        "modified_at": "2024-09-26T10:06:10.320939+00:00",
+        "modified_at": "2024-10-02T09:01:25.756984+00:00",
         "options": {
           "mode": "auto",
           "debug": true,
-          "homes": [
-            "66b339e8429e4c001a013b49"
-          ]
+          "homes": []
         },
         "pref_disable_new_entities": false,
         "pref_disable_polling": false,
@@ -525,11 +525,11 @@
         "data": {
           "user_code": "Ca1RpAe",
           "token_info": {
-            "t": 1727408960753,
+            "t": 1727858116406,
             "uid": "eu16803809728851RpAe",
             "expire_time": 7200,
-            "access_token": "22033d73d858dd944fa4c09b6addab27",
-            "refresh_token": "7d91fcd1f357179cf160f78e4c3d13bb"
+            "access_token": "1d947e7ae3abf4ff97c1783814d0de10",
+            "refresh_token": "a96cebee3f534768375b73db6fcf4937"
           },
           "terminal_id": "1727067577705myQP3W",
           "endpoint": "https://apigw.tuyaeu.com"
@@ -538,7 +538,7 @@
         "domain": "tuya",
         "entry_id": "01J8EKZQJWJP9BMMZNVZAMYB6H",
         "minor_version": 1,
-        "modified_at": "2024-09-27T03:49:20.797769+00:00",
+        "modified_at": "2024-10-02T08:35:16.447109+00:00",
         "options": {},
         "pref_disable_new_entities": false,
         "pref_disable_polling": false,
@@ -587,25 +587,65 @@
         "domain": "homekit",
         "entry_id": "01J8EPZ2KK1HVX6SVDP1Q9N44Z",
         "minor_version": 1,
-        "modified_at": "2024-09-23T05:51:42.201129+00:00",
+        "modified_at": "2024-10-02T02:35:41.071364+00:00",
         "options": {
           "filter": {
             "include_domains": [
-              "fan",
-              "light",
-              "remote",
-              "switch",
-              "binary_sensor",
               "climate",
-              "device_tracker",
-              "person",
-              "sensor"
+              "fan"
             ],
-            "include_entities": [],
+            "include_entities": [
+              "binary_sensor.bedroom_door_contact",
+              "binary_sensor.rpi_power_status",
+              "binary_sensor.zigbee2mqtt_bridge_connection_state",
+              "device_tracker.quest",
+              "device_tracker.shadys_work_ipad",
+              "device_tracker.sm_f936b",
+              "device_tracker.zfold_4",
+              "light.desk_light",
+              "person.shady",
+              "remote.shots_s_chromecast",
+              "sensor.all_standby_energy",
+              "sensor.all_standby_power",
+              "sensor.iphone_15_pro_max_battery_level",
+              "sensor.quest_battery_state",
+              "sensor.quest_battery_level",
+              "sensor.shots_s_ps5_activity",
+              "sensor.sm_f936b_battery_level",
+              "sensor.sm_f936b_battery_state",
+              "sensor.sonoff_100156cbbb_outdoor_temp",
+              "sensor.sonoff_100156cbbb_temperature",
+              "switch.bug_zapper_socket_1",
+              "switch.shots_s_ps5_power",
+              "switch.smart_power_strip_socket_1",
+              "switch.smart_power_strip_socket_2",
+              "switch.smart_power_strip_socket_3",
+              "switch.smart_power_strip_usb_1",
+              "switch.sonoff_100156cbbb_2",
+              "switch.sonoff_100156cbbb_1",
+              "switch.zigbee2mqtt_bridge_permit_join"
+            ],
             "exclude_domains": [],
             "exclude_entities": []
           },
-          "mode": "bridge"
+          "mode": "bridge",
+          "devices": [
+            "05749f51171db6e7a7e001cd2e22b9da",
+            "57a9015d91a341e859fa438948fb20b7",
+            "d9614a84d59f0e41e02a56952c58a916",
+            "cef98a4527fd5fdbe0ef324d3b82e344",
+            "b3d88d3b7972ef2bf564eb0d75c58752",
+            "1631bdcabc29e0cfa8087499d68dc227",
+            "4c24eb83a2e8a4b979b6365b09bb4443",
+            "b692bb6c889727481d75eb8d819c5de8",
+            "0674d5ee258c8eff1555a8b958354546",
+            "83047341b32334002d224841a3529840",
+            "9e4d7504068db483752f1c863a1b6877",
+            "0f7eff98b08919b5673744f3e87a46fa",
+            "b36638005abca5afaf6593466395fa80",
+            "e49f8045e75c65abc391b332c7b52ab8",
+            "56079adafea51bb034d983e8824712d4"
+          ]
         },
         "pref_disable_new_entities": false,
         "pref_disable_polling": false,
@@ -793,6 +833,38 @@
         "title": "Pod",
         "unique_id": "pc_76:29:1E:45:DF:D2",
         "version": 3
+      },
+      {
+        "created_at": "2024-09-28T02:08:37.073006+00:00",
+        "data": {
+          "app_id": "io.homeassistant.companion.android",
+          "app_name": "Home Assistant",
+          "app_version": "2024.6.1-minimal (12936)",
+          "device_name": "Quest",
+          "manufacturer": "Oculus",
+          "model": "Quest",
+          "os_name": "Android",
+          "os_version": "32",
+          "supports_encryption": false,
+          "app_data": {
+            "push_websocket_channel": true
+          },
+          "device_id": "56bff170913a77ec",
+          "webhook_id": "625334af89f095d11d5a0e2c6226b5771eeec853f10a38d683168dfe5e5c02d6",
+          "user_id": "4226c273b7b44abda0290da4f1128dc7"
+        },
+        "disabled_by": null,
+        "domain": "mobile_app",
+        "entry_id": "01J8V6666GXGRA3Q0PVKWYY3NW",
+        "minor_version": 1,
+        "modified_at": "2024-09-28T02:08:37.073010+00:00",
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "registration",
+        "title": "Quest",
+        "unique_id": "io.homeassistant.companion.android-56bff170913a77ec",
+        "version": 1
       }
     ]
   }

@@ -7,8 +7,8 @@
       "language": "en-GB",
       "number_format": "system",
       "time_format": "12",
-      "date_format": "DMY",
-      "time_zone": "server",
+      "date_format": "language",
+      "time_zone": "local",
       "first_weekday": "sunday"
     },
     "core": {

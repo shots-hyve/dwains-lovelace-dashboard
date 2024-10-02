@@ -112,7 +112,32 @@
       "powercalc.sensor.powercalc_standby_group": 2935287229,
       "powercalc.sensor.powercalc_standby_group_energy": 2373706046,
       "powercalc.sensor.pc_76:29:1E:45:DF:D2": 1529506466,
-      "powercalc.sensor.pc_76:29:1E:45:DF:D2_energy": 3473129427
+      "powercalc.sensor.pc_76:29:1E:45:DF:D2_energy": 3473129427,
+      "mobile_app.device_tracker.3dd9d05a48e393c5": 2601724638,
+      "mobile_app.device_tracker.5EED9450-11DC-4CB7-BAE3-5D8AB98D3010": 2663239974,
+      "mobile_app.device_tracker.21abb0a7a56bded9": 1916130922,
+      "mobile_app.sensor.857b3d81d7268f109c2fe3ca79b3c99ffd738b22a1925578a3c619e7dfc2fa0f_battery_level": 3267684403,
+      "mobile_app.sensor.857b3d81d7268f109c2fe3ca79b3c99ffd738b22a1925578a3c619e7dfc2fa0f_battery_state": 715155828,
+      "mobile_app.device_tracker.56bff170913a77ec": 173408181,
+      "mobile_app.sensor.625334af89f095d11d5a0e2c6226b5771eeec853f10a38d683168dfe5e5c02d6_battery_level": 1056493399,
+      "mobile_app.sensor.625334af89f095d11d5a0e2c6226b5771eeec853f10a38d683168dfe5e5c02d6_battery_state": 538018312,
+      "rpi_power.binary_sensor.rpi_power": 600492447,
+      "mqtt.binary_sensor.bridge_0x00124b0024bc4724_connection_state_zigbee2mqtt": 3404996412,
+      "b3d88d3b7972ef2bf564eb0d75c58752": 1488290563,
+      "05749f51171db6e7a7e001cd2e22b9da": 3677364231,
+      "d9614a84d59f0e41e02a56952c58a916": 2486013026,
+      "0674d5ee258c8eff1555a8b958354546": 1219664358,
+      "83047341b32334002d224841a3529840": 1685119017,
+      "b36638005abca5afaf6593466395fa80": 3784524181,
+      "0f7eff98b08919b5673744f3e87a46fa": 2594054092,
+      "b692bb6c889727481d75eb8d819c5de8": 4176575967,
+      "cef98a4527fd5fdbe0ef324d3b82e344": 832957816,
+      "56079adafea51bb034d983e8824712d4": 3841784608,
+      "9e4d7504068db483752f1c863a1b6877": 3932695047,
+      "4c24eb83a2e8a4b979b6365b09bb4443": 3101722346,
+      "e49f8045e75c65abc391b332c7b52ab8": 3353877308,
+      "1631bdcabc29e0cfa8087499d68dc227": 294559262,
+      "57a9015d91a341e859fa438948fb20b7": 3334749957
     }
   }
 }

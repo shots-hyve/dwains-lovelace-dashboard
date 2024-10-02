@@ -1,18 +1,18 @@
-2024-09-27 00:33:47.584 WARNING (SyncWorker_0) [homeassistant.loader] We found a custom integration hacs which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
-2024-09-27 00:33:47.585 WARNING (SyncWorker_0) [homeassistant.loader] We found a custom integration localtuya which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
-2024-09-27 00:33:47.585 WARNING (SyncWorker_0) [homeassistant.loader] We found a custom integration portainer which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
-2024-09-27 00:33:47.586 WARNING (SyncWorker_0) [homeassistant.loader] We found a custom integration dwains_dashboard which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
-2024-09-27 00:33:47.587 WARNING (SyncWorker_0) [homeassistant.loader] We found a custom integration xiaomi_miot which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
-2024-09-27 00:33:47.588 WARNING (SyncWorker_0) [homeassistant.loader] We found a custom integration auto_areas which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
-2024-09-27 00:33:47.589 WARNING (SyncWorker_0) [homeassistant.loader] We found a custom integration spook which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
-2024-09-27 00:33:47.590 WARNING (SyncWorker_0) [homeassistant.loader] We found a custom integration powercalc which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
-2024-09-27 00:33:47.591 WARNING (SyncWorker_0) [homeassistant.loader] We found a custom integration ui_lovelace_minimalist which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
-2024-09-27 00:33:47.592 WARNING (SyncWorker_0) [homeassistant.loader] We found a custom integration sonoff which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
-2024-09-27 00:33:47.592 WARNING (SyncWorker_0) [homeassistant.loader] We found a custom integration pyscript which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
-2024-09-27 00:33:50.550 WARNING (MainThread) [homeassistant.helpers.frame] Detected that custom integration 'dwains_dashboard' calls hass.http.register_static_path which is deprecated because it does blocking I/O in the event loop, instead call `await hass.http.async_register_static_paths([StaticPathConfig("/dwains_dashboard/js", "/config/custom_components/dwains_dashboard/js", True)])`; This function will be removed in 2025.7 at custom_components/dwains_dashboard/load_plugins.py, line 13: hass.http.register_static_path("/dwains_dashboard/js", hass.config.path(f"custom_components/{name}/js"), True), please create a bug report at https://github.com/dwainscheeren/dwains-lovelace-dashboard/issues
-2024-09-27 00:33:50.554 WARNING (MainThread) [homeassistant.helpers.frame] Detected that custom integration 'dwains_dashboard' accesses hass.components.websocket_api. This is deprecated and will stop working in Home Assistant 2024.9, it should be updated to import functions used from websocket_api directly at custom_components/dwains_dashboard/notifications.py, line 220: hass.components.websocket_api.async_register_command(websocket_get_notifications), please create a bug report at https://github.com/dwainscheeren/dwains-lovelace-dashboard/issues
-2024-09-27 00:33:50.561 WARNING (MainThread) [homeassistant.helpers.frame] Detected that custom integration 'dwains_dashboard' calls `async_add_job`, which is deprecated and will be removed in Home Assistant 2025.4; Please review https://developers.home-assistant.io/blog/2024/03/13/deprecate_add_run_job for replacement options at custom_components/dwains_dashboard/__init__.py, line 1590: hass.async_add_job(, please create a bug report at https://github.com/dwainscheeren/dwains-lovelace-dashboard/issues
-2024-09-27 00:33:50.576 WARNING (MainThread) [homeassistant.helpers.frame] Detected code that calls async_forward_entry_setup for integration, dwains_dashboard with title:  and entry_id: 01J8GV1YJ2PKAASEDMXY23MR33, which is deprecated and will stop working in Home Assistant 2025.6, await async_forward_entry_setups instead. Please report this issue.
+2024-10-02 05:38:09.869 WARNING (SyncWorker_0) [homeassistant.loader] We found a custom integration hacs which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
+2024-10-02 05:38:09.870 WARNING (SyncWorker_0) [homeassistant.loader] We found a custom integration localtuya which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
+2024-10-02 05:38:09.870 WARNING (SyncWorker_0) [homeassistant.loader] We found a custom integration portainer which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
+2024-10-02 05:38:09.871 WARNING (SyncWorker_0) [homeassistant.loader] We found a custom integration dwains_dashboard which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
+2024-10-02 05:38:09.871 WARNING (SyncWorker_0) [homeassistant.loader] We found a custom integration xiaomi_miot which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
+2024-10-02 05:38:09.871 WARNING (SyncWorker_0) [homeassistant.loader] We found a custom integration auto_areas which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
+2024-10-02 05:38:09.872 WARNING (SyncWorker_0) [homeassistant.loader] We found a custom integration spook which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
+2024-10-02 05:38:09.872 WARNING (SyncWorker_0) [homeassistant.loader] We found a custom integration powercalc which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
+2024-10-02 05:38:09.873 WARNING (SyncWorker_0) [homeassistant.loader] We found a custom integration ui_lovelace_minimalist which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
+2024-10-02 05:38:09.873 WARNING (SyncWorker_0) [homeassistant.loader] We found a custom integration sonoff which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
+2024-10-02 05:38:09.873 WARNING (SyncWorker_0) [homeassistant.loader] We found a custom integration pyscript which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
+2024-10-02 05:38:11.874 WARNING (MainThread) [homeassistant.helpers.frame] Detected that custom integration 'dwains_dashboard' calls hass.http.register_static_path which is deprecated because it does blocking I/O in the event loop, instead call `await hass.http.async_register_static_paths([StaticPathConfig("/dwains_dashboard/js", "/config/custom_components/dwains_dashboard/js", True)])`; This function will be removed in 2025.7 at custom_components/dwains_dashboard/load_plugins.py, line 13: hass.http.register_static_path("/dwains_dashboard/js", hass.config.path(f"custom_components/{name}/js"), True), please create a bug report at https://github.com/dwainscheeren/dwains-lovelace-dashboard/issues
+2024-10-02 05:38:11.879 WARNING (MainThread) [homeassistant.helpers.frame] Detected that custom integration 'dwains_dashboard' accesses hass.components.websocket_api. This is deprecated and will stop working in Home Assistant 2024.9, it should be updated to import functions used from websocket_api directly at custom_components/dwains_dashboard/notifications.py, line 220: hass.components.websocket_api.async_register_command(websocket_get_notifications), please create a bug report at https://github.com/dwainscheeren/dwains-lovelace-dashboard/issues
+2024-10-02 05:38:11.884 WARNING (MainThread) [homeassistant.helpers.frame] Detected that custom integration 'dwains_dashboard' calls `async_add_job`, which is deprecated and will be removed in Home Assistant 2025.4; Please review https://developers.home-assistant.io/blog/2024/03/13/deprecate_add_run_job for replacement options at custom_components/dwains_dashboard/__init__.py, line 1590: hass.async_add_job(, please create a bug report at https://github.com/dwainscheeren/dwains-lovelace-dashboard/issues
+2024-10-02 05:38:11.893 WARNING (MainThread) [homeassistant.helpers.frame] Detected code that calls async_forward_entry_setup for integration, dwains_dashboard with title:  and entry_id: 01J8GV1YJ2PKAASEDMXY23MR33, which is deprecated and will stop working in Home Assistant 2025.6, await async_forward_entry_setups instead. Please report this issue.
 Stack (most recent call last):
   File "<frozen runpy>", line 198, in _run_module_as_main
   File "<frozen runpy>", line 88, in _run_code
@@ -34,3 +34,577 @@ Stack (most recent call last):
     report(
   File "/usr/src/homeassistant/homeassistant/helpers/frame.py", line 151, in report
     _LOGGER.warning(msg, stack_info=True)
+2024-10-02 06:34:11.090 ERROR (MainThread) [homeassistant.components.github] An error occurred while processing new events - Timeout of 20 reached while waiting for https://api.github.com/repos/shots-hyve/operating-system/events
+2024-10-02 06:34:11.093 ERROR (MainThread) [homeassistant.components.github] An error occurred while processing new events - Timeout of 20 reached while waiting for https://api.github.com/repos/shots-hyve/dwains-lovelace-dashboard/events
+2024-10-02 06:34:12.090 ERROR (MainThread) [homeassistant.components.github] An error occurred while processing new events - Timeout of 20 reached while waiting for https://api.github.com/repos/shots-hyve/NSPanelManager/events
+2024-10-02 06:34:12.091 ERROR (MainThread) [homeassistant.components.github] An error occurred while processing new events - Timeout of 20 reached while waiting for https://api.github.com/repos/shots-hyve/dwains-dashboard-blueprints/events
+2024-10-02 06:34:12.091 ERROR (MainThread) [homeassistant.components.github] An error occurred while processing new events - Timeout of 20 reached while waiting for https://api.github.com/repos/shots-hyve/hass-config-public/events
+2024-10-02 06:34:13.090 ERROR (MainThread) [homeassistant.components.github] An error occurred while processing new events - Timeout of 20 reached while waiting for https://api.github.com/repos/hacs/integration/events
+2024-10-02 06:35:07.090 WARNING (MainThread) [custom_components.sonoff.core.ewelink.cloud] Cloud processing error
+Traceback (most recent call last):
+  File "/config/custom_components/sonoff/core/ewelink/cloud.py", line 543, in run_forever
+    resp = json.loads(msg.data)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/json/__init__.py", line 339, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+TypeError: the JSON object must be str, bytes or bytearray, not ServerTimeoutError
+2024-10-02 06:36:07.294 WARNING (MainThread) [custom_components.sonoff.core.ewelink.cloud] Cloud WS Connection error: Cannot connect to host eu-dispa.coolkit.cc:443 ssl:default [None]
+2024-10-02 06:37:23.412 WARNING (MainThread) [custom_components.sonoff.core.ewelink.cloud] Cloud WS Connection error: Cannot connect to host eu-dispa.coolkit.cc:443 ssl:default [None]
+2024-10-02 06:38:53.493 WARNING (MainThread) [custom_components.sonoff.core.ewelink.cloud] Cloud WS Connection error: Cannot connect to host eu-dispa.coolkit.cc:443 ssl:default [None]
+2024-10-02 06:39:32.090 ERROR (MainThread) [homeassistant.components.github] An error occurred while processing new events - Timeout of 20 reached while waiting for https://api.github.com/repos/shots-hyve/operating-system/events
+2024-10-02 06:39:32.091 ERROR (MainThread) [homeassistant.components.github] An error occurred while processing new events - Timeout of 20 reached while waiting for https://api.github.com/repos/shots-hyve/dwains-lovelace-dashboard/events
+2024-10-02 06:39:33.090 ERROR (MainThread) [homeassistant.components.github] An error occurred while processing new events - Timeout of 20 reached while waiting for https://api.github.com/repos/shots-hyve/hass-config-public/events
+2024-10-02 06:39:33.091 ERROR (MainThread) [homeassistant.components.github] An error occurred while processing new events - Timeout of 20 reached while waiting for https://api.github.com/repos/shots-hyve/dwains-dashboard-blueprints/events
+2024-10-02 06:39:33.091 ERROR (MainThread) [homeassistant.components.github] An error occurred while processing new events - Timeout of 20 reached while waiting for https://api.github.com/repos/shots-hyve/NSPanelManager/events
+2024-10-02 06:39:34.091 ERROR (MainThread) [homeassistant.components.github] An error occurred while processing new events - Timeout of 20 reached while waiting for https://api.github.com/repos/hacs/integration/events
+2024-10-02 06:40:00.528 WARNING (MainThread) [custom_components.sonoff.core.ewelink.cloud] Cloud WS Connection error: Cannot connect to host eu-dispa.coolkit.cc:443 ssl:default [Connect call failed ('3.126.179.44', 443)]
+2024-10-02 06:41:42.329 ERROR (MainThread) [metno] Access to https://aa015h6buqvih86i1.api.met.no/weatherapi/locationforecast/2.0/complete returned error 'TimeoutError'
+2024-10-02 06:41:42.329 ERROR (MainThread) [homeassistant.components.met.coordinator] Error fetching met data: Update failed: 
+2024-10-02 06:43:00.728 WARNING (MainThread) [custom_components.sonoff.core.ewelink.cloud] Cloud WS Connection error: Cannot connect to host eu-dispa.coolkit.cc:443 ssl:default [None]
+2024-10-02 06:44:45.765 ERROR (MainThread) [homeassistant.core] Error executing service: <ServiceCall switch.turn_on (c:01J95N8SXCA1F71FD62BVVRP7J): entity_id=['switch.bug_zapper_socket_1']>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/urllib3/connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/urllib3/util/connection.py", line 72, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/socket.py", line 964, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno -3] Try again
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/urllib3/connectionpool.py", line 716, in urlopen
+    httplib_response = self._make_request(
+                       ^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/urllib3/connectionpool.py", line 404, in _make_request
+    self._validate_conn(conn)
+  File "/usr/local/lib/python3.12/site-packages/urllib3/connectionpool.py", line 1061, in _validate_conn
+    conn.connect()
+  File "/usr/local/lib/python3.12/site-packages/urllib3/connection.py", line 363, in connect
+    self.sock = conn = self._new_conn()
+                       ^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/urllib3/connection.py", line 186, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x7f8759e000>: Failed to establish a new connection: [Errno -3] Try again
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/requests/adapters.py", line 667, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/urllib3/connectionpool.py", line 802, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/urllib3/util/retry.py", line 594, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='apigw.tuyaeu.com', port=443): Max retries exceeded with url: /v1.1/m/thing/10486875c4dd57367c28/commands (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f8759e000>: Failed to establish a new connection: [Errno -3] Try again'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/core.py", line 2781, in _run_service_call_catch_exceptions
+    await coro_or_task
+  File "/usr/src/homeassistant/homeassistant/core.py", line 2804, in _execute_service
+    return await target(service_call)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/src/homeassistant/homeassistant/helpers/service.py", line 996, in entity_service_call
+    single_response = await _handle_entity_call(
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/src/homeassistant/homeassistant/helpers/service.py", line 1068, in _handle_entity_call
+    result = await task
+             ^^^^^^^^^^
+  File "/usr/src/homeassistant/homeassistant/helpers/entity.py", line 1685, in async_turn_on
+    await self.hass.async_add_executor_job(ft.partial(self.turn_on, **kwargs))
+  File "/usr/local/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/src/homeassistant/homeassistant/components/tuya/switch.py", line 772, in turn_on
+    self._send_command([{"code": self.entity_description.key, "value": True}])
+  File "/usr/src/homeassistant/homeassistant/components/tuya/base.py", line 276, in _send_command
+    self.device_manager.send_commands(self.device.id, commands)
+  File "/usr/local/lib/python3.12/site-packages/tuya_sharing/manager.py", line 93, in send_commands
+    return self.device_repository.send_commands(device_id, commands)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/tuya_sharing/device.py", line 180, in send_commands
+    self.api.post(f"/v1.1/m/thing/{device_id}/commands", None, {"commands": commands})
+  File "/usr/local/lib/python3.12/site-packages/tuya_sharing/customerapi.py", line 192, in post
+    return self.__request("POST", path, params, body)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/tuya_sharing/customerapi.py", line 107, in __request
+    response = self.session.request(
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/requests/adapters.py", line 700, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='apigw.tuyaeu.com', port=443): Max retries exceeded with url: /v1.1/m/thing/10486875c4dd57367c28/commands (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f8759e000>: Failed to establish a new connection: [Errno -3] Try again'))
+2024-10-02 06:44:53.090 ERROR (MainThread) [homeassistant.components.github] An error occurred while processing new events - Timeout of 20 reached while waiting for https://api.github.com/repos/shots-hyve/dwains-lovelace-dashboard/events
+2024-10-02 06:44:53.090 ERROR (MainThread) [homeassistant.components.github] An error occurred while processing new events - Timeout of 20 reached while waiting for https://api.github.com/repos/shots-hyve/operating-system/events
+2024-10-02 06:44:54.090 ERROR (MainThread) [homeassistant.components.github] An error occurred while processing new events - Timeout of 20 reached while waiting for https://api.github.com/repos/shots-hyve/NSPanelManager/events
+2024-10-02 06:44:54.091 ERROR (MainThread) [homeassistant.components.github] An error occurred while processing new events - Timeout of 20 reached while waiting for https://api.github.com/repos/shots-hyve/dwains-dashboard-blueprints/events
+2024-10-02 06:44:54.091 ERROR (MainThread) [homeassistant.components.github] An error occurred while processing new events - Timeout of 20 reached while waiting for https://api.github.com/repos/shots-hyve/hass-config-public/events
+2024-10-02 06:44:55.089 ERROR (MainThread) [homeassistant.components.github] An error occurred while processing new events - Timeout of 20 reached while waiting for https://api.github.com/repos/hacs/integration/events
+2024-10-02 06:47:31.792 WARNING (MainThread) [custom_components.sonoff.core.ewelink.cloud] Cloud WS Connection error: Cannot connect to host eu-dispa.coolkit.cc:443 ssl:default [Connect call failed ('3.126.179.44', 443)]
+2024-10-02 06:50:14.089 ERROR (MainThread) [homeassistant.components.github] An error occurred while processing new events - Timeout of 20 reached while waiting for https://api.github.com/repos/shots-hyve/dwains-lovelace-dashboard/events
+2024-10-02 06:50:14.090 ERROR (MainThread) [homeassistant.components.github] An error occurred while processing new events - Timeout of 20 reached while waiting for https://api.github.com/repos/shots-hyve/operating-system/events
+2024-10-02 06:50:15.090 ERROR (MainThread) [homeassistant.components.github] An error occurred while processing new events - Timeout of 20 reached while waiting for https://api.github.com/repos/shots-hyve/NSPanelManager/events
+2024-10-02 06:50:15.090 ERROR (MainThread) [homeassistant.components.github] An error occurred while processing new events - Timeout of 20 reached while waiting for https://api.github.com/repos/shots-hyve/hass-config-public/events
+2024-10-02 06:50:15.090 ERROR (MainThread) [homeassistant.components.github] An error occurred while processing new events - Timeout of 20 reached while waiting for https://api.github.com/repos/shots-hyve/dwains-dashboard-blueprints/events
+2024-10-02 06:50:16.090 ERROR (MainThread) [homeassistant.components.github] An error occurred while processing new events - Timeout of 20 reached while waiting for https://api.github.com/repos/hacs/integration/events
+2024-10-02 06:55:35.090 ERROR (MainThread) [homeassistant.components.github] An error occurred while processing new events - Timeout of 20 reached while waiting for https://api.github.com/repos/shots-hyve/operating-system/events
+2024-10-02 06:55:35.091 ERROR (MainThread) [homeassistant.components.github] An error occurred while processing new events - Timeout of 20 reached while waiting for https://api.github.com/repos/shots-hyve/dwains-lovelace-dashboard/events
+2024-10-02 06:55:36.091 ERROR (MainThread) [homeassistant.components.github] An error occurred while processing new events - Timeout of 20 reached while waiting for https://api.github.com/repos/shots-hyve/hass-config-public/events
+2024-10-02 06:55:36.091 ERROR (MainThread) [homeassistant.components.github] An error occurred while processing new events - Timeout of 20 reached while waiting for https://api.github.com/repos/shots-hyve/NSPanelManager/events
+2024-10-02 06:55:36.092 ERROR (MainThread) [homeassistant.components.github] An error occurred while processing new events - Timeout of 20 reached while waiting for https://api.github.com/repos/shots-hyve/dwains-dashboard-blueprints/events
+2024-10-02 06:55:37.090 ERROR (MainThread) [homeassistant.components.github] An error occurred while processing new events - Timeout of 20 reached while waiting for https://api.github.com/repos/hacs/integration/events
+2024-10-02 06:55:55.805 WARNING (MainThread) [custom_components.sonoff.core.ewelink.cloud] Cloud WS Connection error: Cannot connect to host eu-dispa.coolkit.cc:443 ssl:default [None]
+2024-10-02 06:57:49.781 ERROR (MainThread) [homeassistant.core] Error executing service: <ServiceCall switch.turn_on (c:01J95N2CE514KQV05KNCXDSBV8): entity_id=['switch.bug_zapper_socket_1']>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/urllib3/connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/urllib3/util/connection.py", line 72, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/socket.py", line 964, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno -3] Try again
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/urllib3/connectionpool.py", line 716, in urlopen
+    httplib_response = self._make_request(
+                       ^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/urllib3/connectionpool.py", line 404, in _make_request
+    self._validate_conn(conn)
+  File "/usr/local/lib/python3.12/site-packages/urllib3/connectionpool.py", line 1061, in _validate_conn
+    conn.connect()
+  File "/usr/local/lib/python3.12/site-packages/urllib3/connection.py", line 363, in connect
+    self.sock = conn = self._new_conn()
+                       ^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/urllib3/connection.py", line 186, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x7f87086d50>: Failed to establish a new connection: [Errno -3] Try again
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/requests/adapters.py", line 667, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/urllib3/connectionpool.py", line 802, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/urllib3/util/retry.py", line 594, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='apigw.tuyaeu.com', port=443): Max retries exceeded with url: /v1.1/m/thing/10486875c4dd57367c28/commands (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f87086d50>: Failed to establish a new connection: [Errno -3] Try again'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/core.py", line 2781, in _run_service_call_catch_exceptions
+    await coro_or_task
+  File "/usr/src/homeassistant/homeassistant/core.py", line 2804, in _execute_service
+    return await target(service_call)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/src/homeassistant/homeassistant/helpers/service.py", line 996, in entity_service_call
+    single_response = await _handle_entity_call(
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/src/homeassistant/homeassistant/helpers/service.py", line 1068, in _handle_entity_call
+    result = await task
+             ^^^^^^^^^^
+  File "/usr/src/homeassistant/homeassistant/helpers/entity.py", line 1685, in async_turn_on
+    await self.hass.async_add_executor_job(ft.partial(self.turn_on, **kwargs))
+  File "/usr/local/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/src/homeassistant/homeassistant/components/tuya/switch.py", line 772, in turn_on
+    self._send_command([{"code": self.entity_description.key, "value": True}])
+  File "/usr/src/homeassistant/homeassistant/components/tuya/base.py", line 276, in _send_command
+    self.device_manager.send_commands(self.device.id, commands)
+  File "/usr/local/lib/python3.12/site-packages/tuya_sharing/manager.py", line 93, in send_commands
+    return self.device_repository.send_commands(device_id, commands)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/tuya_sharing/device.py", line 180, in send_commands
+    self.api.post(f"/v1.1/m/thing/{device_id}/commands", None, {"commands": commands})
+  File "/usr/local/lib/python3.12/site-packages/tuya_sharing/customerapi.py", line 192, in post
+    return self.__request("POST", path, params, body)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/tuya_sharing/customerapi.py", line 107, in __request
+    response = self.session.request(
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/requests/adapters.py", line 700, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='apigw.tuyaeu.com', port=443): Max retries exceeded with url: /v1.1/m/thing/10486875c4dd57367c28/commands (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f87086d50>: Failed to establish a new connection: [Errno -3] Try again'))
+2024-10-02 07:00:46.172 ERROR (MainThread) [homeassistant.components.github] An error occurred while processing new events - Request exception for 'https://api.github.com/repos/shots-hyve/operating-system/events' with - Cannot connect to host api.github.com:443 ssl:default [Connect call failed ('140.82.121.5', 443)]
+2024-10-02 07:00:46.184 ERROR (MainThread) [homeassistant.components.github] An error occurred while processing new events - Request exception for 'https://api.github.com/repos/shots-hyve/hass-config-public/events' with - Cannot connect to host api.github.com:443 ssl:default [Connect call failed ('140.82.121.5', 443)]
+2024-10-02 07:00:46.184 ERROR (MainThread) [homeassistant.components.github] An error occurred while processing new events - Request exception for 'https://api.github.com/repos/shots-hyve/dwains-lovelace-dashboard/events' with - Cannot connect to host api.github.com:443 ssl:default [Connect call failed ('140.82.121.5', 443)]
+2024-10-02 07:00:46.185 ERROR (MainThread) [homeassistant.components.github] An error occurred while processing new events - Request exception for 'https://api.github.com/repos/shots-hyve/dwains-dashboard-blueprints/events' with - Cannot connect to host api.github.com:443 ssl:default [Connect call failed ('140.82.121.5', 443)]
+2024-10-02 07:00:46.186 ERROR (MainThread) [homeassistant.components.github] An error occurred while processing new events - Request exception for 'https://api.github.com/repos/shots-hyve/NSPanelManager/events' with - Cannot connect to host api.github.com:443 ssl:default [Connect call failed ('140.82.121.5', 443)]
+2024-10-02 07:00:46.187 ERROR (MainThread) [homeassistant.components.github] An error occurred while processing new events - Request exception for 'https://api.github.com/repos/hacs/integration/events' with - Cannot connect to host api.github.com:443 ssl:default [Connect call failed ('140.82.121.5', 443)]
+2024-10-02 07:06:07.089 ERROR (MainThread) [homeassistant.components.github] An error occurred while processing new events - Timeout of 20 reached while waiting for https://api.github.com/repos/shots-hyve/operating-system/events
+2024-10-02 07:06:07.090 ERROR (MainThread) [homeassistant.components.github] An error occurred while processing new events - Timeout of 20 reached while waiting for https://api.github.com/repos/shots-hyve/dwains-dashboard-blueprints/events
+2024-10-02 07:06:07.090 ERROR (MainThread) [homeassistant.components.github] An error occurred while processing new events - Timeout of 20 reached while waiting for https://api.github.com/repos/shots-hyve/dwains-lovelace-dashboard/events
+2024-10-02 07:06:07.091 ERROR (MainThread) [homeassistant.components.github] An error occurred while processing new events - Timeout of 20 reached while waiting for https://api.github.com/repos/hacs/integration/events
+2024-10-02 07:06:07.091 ERROR (MainThread) [homeassistant.components.github] An error occurred while processing new events - Timeout of 20 reached while waiting for https://api.github.com/repos/shots-hyve/hass-config-public/events
+2024-10-02 07:06:07.092 ERROR (MainThread) [homeassistant.components.github] An error occurred while processing new events - Timeout of 20 reached while waiting for https://api.github.com/repos/shots-hyve/NSPanelManager/events
+2024-10-02 07:08:23.295 ERROR (MainThread) [homeassistant.components.github] Error fetching shots-hyve/dwains-dashboard-blueprints data: Request exception for 'https://api.github.com/graphql' with - Cannot connect to host api.github.com:443 ssl:default [Connect call failed ('140.82.121.5', 443)]
+2024-10-02 07:08:23.301 ERROR (MainThread) [homeassistant.components.github] Error fetching shots-hyve/dwains-lovelace-dashboard data: Request exception for 'https://api.github.com/graphql' with - Cannot connect to host api.github.com:443 ssl:default [Connect call failed ('140.82.121.5', 443)]
+2024-10-02 07:08:23.304 ERROR (MainThread) [homeassistant.components.github] Error fetching shots-hyve/operating-system data: Request exception for 'https://api.github.com/graphql' with - Cannot connect to host api.github.com:443 ssl:default [Connect call failed ('140.82.121.5', 443)]
+2024-10-02 07:08:23.310 ERROR (MainThread) [homeassistant.components.github] Error fetching shots-hyve/NSPanelManager data: Request exception for 'https://api.github.com/graphql' with - Cannot connect to host api.github.com:443 ssl:default [Connect call failed ('140.82.121.5', 443)]
+2024-10-02 07:08:23.313 ERROR (MainThread) [homeassistant.components.github] Error fetching shots-hyve/hass-config-public data: Request exception for 'https://api.github.com/graphql' with - Cannot connect to host api.github.com:443 ssl:default [Connect call failed ('140.82.121.5', 443)]
+2024-10-02 07:08:35.091 ERROR (MainThread) [homeassistant.components.github] Error fetching hacs/integration data: Timeout of 20 reached while waiting for https://api.github.com/graphql
+2024-10-02 07:11:18.159 ERROR (MainThread) [homeassistant.components.github] An error occurred while processing new events - Request exception for 'https://api.github.com/repos/shots-hyve/operating-system/events' with - Cannot connect to host api.github.com:443 ssl:default [Connect call failed ('140.82.121.5', 443)]
+2024-10-02 07:11:18.169 ERROR (MainThread) [homeassistant.components.github] An error occurred while processing new events - Request exception for 'https://api.github.com/repos/hacs/integration/events' with - Cannot connect to host api.github.com:443 ssl:default [Connect call failed ('140.82.121.5', 443)]
+2024-10-02 07:11:18.170 ERROR (MainThread) [homeassistant.components.github] An error occurred while processing new events - Request exception for 'https://api.github.com/repos/shots-hyve/hass-config-public/events' with - Cannot connect to host api.github.com:443 ssl:default [Connect call failed ('140.82.121.5', 443)]
+2024-10-02 07:11:18.170 ERROR (MainThread) [homeassistant.components.github] An error occurred while processing new events - Request exception for 'https://api.github.com/repos/shots-hyve/dwains-lovelace-dashboard/events' with - Cannot connect to host api.github.com:443 ssl:default [Connect call failed ('140.82.121.5', 443)]
+2024-10-02 07:11:18.171 ERROR (MainThread) [homeassistant.components.github] An error occurred while processing new events - Request exception for 'https://api.github.com/repos/shots-hyve/dwains-dashboard-blueprints/events' with - Cannot connect to host api.github.com:443 ssl:default [Connect call failed ('140.82.121.5', 443)]
+2024-10-02 07:11:28.090 ERROR (MainThread) [homeassistant.components.github] An error occurred while processing new events - Timeout of 20 reached while waiting for https://api.github.com/repos/shots-hyve/NSPanelManager/events
+2024-10-02 07:13:19.908 WARNING (MainThread) [custom_components.sonoff.core.ewelink.cloud] Cloud WS Connection error: Cannot connect to host eu-dispa.coolkit.cc:443 ssl:default [None]
+2024-10-02 07:16:39.090 ERROR (MainThread) [homeassistant.components.github] An error occurred while processing new events - Timeout of 20 reached while waiting for https://api.github.com/repos/shots-hyve/operating-system/events
+2024-10-02 07:16:39.090 ERROR (MainThread) [homeassistant.components.github] An error occurred while processing new events - Timeout of 20 reached while waiting for https://api.github.com/repos/shots-hyve/hass-config-public/events
+2024-10-02 07:16:39.091 ERROR (MainThread) [homeassistant.components.github] An error occurred while processing new events - Timeout of 20 reached while waiting for https://api.github.com/repos/hacs/integration/events
+2024-10-02 07:16:39.091 ERROR (MainThread) [homeassistant.components.github] An error occurred while processing new events - Timeout of 20 reached while waiting for https://api.github.com/repos/shots-hyve/dwains-dashboard-blueprints/events
+2024-10-02 07:16:39.091 ERROR (MainThread) [homeassistant.components.github] An error occurred while processing new events - Timeout of 20 reached while waiting for https://api.github.com/repos/shots-hyve/dwains-lovelace-dashboard/events
+2024-10-02 07:16:49.089 ERROR (MainThread) [homeassistant.components.github] An error occurred while processing new events - Timeout of 20 reached while waiting for https://api.github.com/repos/shots-hyve/NSPanelManager/events
+2024-10-02 07:21:46.128 ERROR (MainThread) [homeassistant.components.github] An error occurred while processing new events - Request exception for 'https://api.github.com/repos/shots-hyve/dwains-dashboard-blueprints/events' with - Cannot connect to host api.github.com:443 ssl:default [Connect call failed ('140.82.121.5', 443)]
+2024-10-02 07:21:46.129 ERROR (MainThread) [homeassistant.components.github] An error occurred while processing new events - Request exception for 'https://api.github.com/repos/hacs/integration/events' with - Cannot connect to host api.github.com:443 ssl:default [Connect call failed ('140.82.121.5', 443)]
+2024-10-02 07:21:46.130 ERROR (MainThread) [homeassistant.components.github] An error occurred while processing new events - Request exception for 'https://api.github.com/repos/shots-hyve/hass-config-public/events' with - Cannot connect to host api.github.com:443 ssl:default [Connect call failed ('140.82.121.5', 443)]
+2024-10-02 07:22:00.090 ERROR (MainThread) [homeassistant.components.github] An error occurred while processing new events - Timeout of 20 reached while waiting for https://api.github.com/repos/shots-hyve/dwains-lovelace-dashboard/events
+2024-10-02 07:22:00.091 ERROR (MainThread) [homeassistant.components.github] An error occurred while processing new events - Timeout of 20 reached while waiting for https://api.github.com/repos/shots-hyve/operating-system/events
+2024-10-02 07:22:10.090 ERROR (MainThread) [homeassistant.components.github] An error occurred while processing new events - Timeout of 20 reached while waiting for https://api.github.com/repos/shots-hyve/NSPanelManager/events
+2024-10-02 07:26:53.196 ERROR (MainThread) [homeassistant.components.github] An error occurred while processing new events - Request exception for 'https://api.github.com/repos/hacs/integration/events' with - Cannot connect to host api.github.com:443 ssl:default [Connect call failed ('140.82.121.5', 443)]
+2024-10-02 07:26:53.200 ERROR (MainThread) [homeassistant.components.github] An error occurred while processing new events - Request exception for 'https://api.github.com/repos/shots-hyve/hass-config-public/events' with - Cannot connect to host api.github.com:443 ssl:default [Connect call failed ('140.82.121.5', 443)]
+2024-10-02 07:27:07.091 ERROR (MainThread) [homeassistant.components.github] An error occurred while processing new events - Timeout of 20 reached while waiting for https://api.github.com/repos/shots-hyve/dwains-dashboard-blueprints/events
+2024-10-02 07:27:07.114 ERROR (MainThread) [homeassistant.components.github] An error occurred while processing new events - Request exception for 'https://api.github.com/repos/shots-hyve/dwains-lovelace-dashboard/events' with - Cannot connect to host api.github.com:443 ssl:default [Connect call failed ('140.82.121.5', 443)]
+2024-10-02 07:27:07.120 ERROR (MainThread) [homeassistant.components.github] An error occurred while processing new events - Request exception for 'https://api.github.com/repos/shots-hyve/operating-system/events' with - Cannot connect to host api.github.com:443 ssl:default [Connect call failed ('140.82.121.5', 443)]
+2024-10-02 07:27:31.089 ERROR (MainThread) [homeassistant.components.github] An error occurred while processing new events - Timeout of 20 reached while waiting for https://api.github.com/repos/shots-hyve/NSPanelManager/events
+2024-10-02 07:28:11.491 ERROR (MainThread) [homeassistant] Error doing job: Exception in callback SsdpSearchResponder._send_responses(('192.168.8.58', 49310), [b'HTTP/1.1 20...ORG:1\r\n\r\n', b'HTTP/1.1 20...ORG:1\r\n\r\n', b'HTTP/1.1 20...ORG:1\r\n\r\n']) (None)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/asyncio/events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "/usr/local/lib/python3.12/site-packages/async_upnp_client/server.py", line 714, in _send_responses
+    self._response_socket.sendto(response, remote_addr)
+OSError: [Errno 101] Network unreachable
+2024-10-02 07:28:12.357 ERROR (MainThread) [homeassistant] Error doing job: Exception in callback SsdpSearchResponder._send_responses(('192.168.8.58', 49310), [b'HTTP/1.1 20...ORG:1\r\n\r\n', b'HTTP/1.1 20...ORG:1\r\n\r\n', b'HTTP/1.1 20...ORG:1\r\n\r\n']) (None)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/asyncio/events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "/usr/local/lib/python3.12/site-packages/async_upnp_client/server.py", line 714, in _send_responses
+    self._response_socket.sendto(response, remote_addr)
+OSError: [Errno 101] Network unreachable
+2024-10-02 07:28:13.021 ERROR (MainThread) [homeassistant] Error doing job: Exception in callback SsdpSearchResponder._send_responses(('::ffff:192.168.8.58', 49310, 0, 0), [b'HTTP/1.1 20...ORG:1\r\n\r\n', b'HTTP/1.1 20...ORG:1\r\n\r\n', b'HTTP/1.1 20...ORG:1\r\n\r\n']) (None)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/asyncio/events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "/usr/local/lib/python3.12/site-packages/async_upnp_client/server.py", line 714, in _send_responses
+    self._response_socket.sendto(response, remote_addr)
+OSError: [Errno 101] Network unreachable
+2024-10-02 07:28:13.418 ERROR (MainThread) [homeassistant.components.ipp.coordinator] Error fetching ipp data: Invalid response from API: Error occurred while communicating with IPP server.
+2024-10-02 07:28:16.301 ERROR (MainThread) [async_upnp_client.ssdp] Received error: [Errno 101] Network unreachable, transport: <_SelectorDatagramTransport fd=67 read=polling write=<idle, bufsize=0>>, socket: <asyncio.TransportSocket fd=67, family=2, type=2, proto=0, laddr=('0.0.0.0', 44482)>
+2024-10-02 07:28:16.316 ERROR (MainThread) [async_upnp_client.ssdp] Received error: [Errno 99] Address not available, transport: <_SelectorDatagramTransport fd=72 read=polling write=<idle, bufsize=0>>, socket: <asyncio.TransportSocket fd=72, family=10, type=2, proto=0, laddr=('::', 55497, 0, 0)>
+2024-10-02 07:28:17.616 WARNING (Thread-4) [pychromecast.socket_client] [shots's Chromecast(192.168.8.66):8009] Heartbeat timeout, resetting connection
+2024-10-02 07:28:17.617 ERROR (Thread-4) [pychromecast.socket_client] [shots's Chromecast(192.168.8.66):8009] Failed to connect to service HostServiceInfo(host='192.168.8.66', port=8009), retrying in 5.0s
+2024-10-02 07:28:19.197 WARNING (MainThread) [homeassistant.components.androidtv_remote] Disconnected from shots's Chromecast at 192.168.8.66
+2024-10-02 08:36:00.108 ERROR (MainThread) [homeassistant.core] Error executing service: <ServiceCall switch.turn_on (c:01J95VMSJJ73WCA4XEQ33GAWFW): entity_id=['switch.bug_zapper_socket_1']>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/urllib3/connectionpool.py", line 716, in urlopen
+    httplib_response = self._make_request(
+                       ^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/urllib3/connectionpool.py", line 468, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/usr/local/lib/python3.12/site-packages/urllib3/connectionpool.py", line 463, in _make_request
+    httplib_response = conn.getresponse()
+                       ^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/http/client.py", line 1428, in getresponse
+    response.begin()
+  File "/usr/local/lib/python3.12/http/client.py", line 331, in begin
+    version, status, reason = self._read_status()
+                              ^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/http/client.py", line 300, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+http.client.RemoteDisconnected: Remote end closed connection without response
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/requests/adapters.py", line 667, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/urllib3/connectionpool.py", line 802, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/urllib3/util/retry.py", line 552, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/urllib3/packages/six.py", line 769, in reraise
+    raise value.with_traceback(tb)
+  File "/usr/local/lib/python3.12/site-packages/urllib3/connectionpool.py", line 716, in urlopen
+    httplib_response = self._make_request(
+                       ^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/urllib3/connectionpool.py", line 468, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/usr/local/lib/python3.12/site-packages/urllib3/connectionpool.py", line 463, in _make_request
+    httplib_response = conn.getresponse()
+                       ^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/http/client.py", line 1428, in getresponse
+    response.begin()
+  File "/usr/local/lib/python3.12/http/client.py", line 331, in begin
+    version, status, reason = self._read_status()
+                              ^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/http/client.py", line 300, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+urllib3.exceptions.ProtocolError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/core.py", line 2781, in _run_service_call_catch_exceptions
+    await coro_or_task
+  File "/usr/src/homeassistant/homeassistant/core.py", line 2804, in _execute_service
+    return await target(service_call)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/src/homeassistant/homeassistant/helpers/service.py", line 996, in entity_service_call
+    single_response = await _handle_entity_call(
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/src/homeassistant/homeassistant/helpers/service.py", line 1068, in _handle_entity_call
+    result = await task
+             ^^^^^^^^^^
+  File "/usr/src/homeassistant/homeassistant/helpers/entity.py", line 1685, in async_turn_on
+    await self.hass.async_add_executor_job(ft.partial(self.turn_on, **kwargs))
+  File "/usr/local/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/src/homeassistant/homeassistant/components/tuya/switch.py", line 772, in turn_on
+    self._send_command([{"code": self.entity_description.key, "value": True}])
+  File "/usr/src/homeassistant/homeassistant/components/tuya/base.py", line 276, in _send_command
+    self.device_manager.send_commands(self.device.id, commands)
+  File "/usr/local/lib/python3.12/site-packages/tuya_sharing/manager.py", line 93, in send_commands
+    return self.device_repository.send_commands(device_id, commands)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/tuya_sharing/device.py", line 180, in send_commands
+    self.api.post(f"/v1.1/m/thing/{device_id}/commands", None, {"commands": commands})
+  File "/usr/local/lib/python3.12/site-packages/tuya_sharing/customerapi.py", line 192, in post
+    return self.__request("POST", path, params, body)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/tuya_sharing/customerapi.py", line 107, in __request
+    response = self.session.request(
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/requests/adapters.py", line 682, in send
+    raise ConnectionError(err, request=request)
+requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-10-02 10:22:13.163 ERROR (MainThread) [homeassistant.core] Error executing service: <ServiceCall switch.turn_on (c:01J961Q9693M5K08GN8582JJG0): entity_id=['switch.bug_zapper_socket_1']>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/urllib3/connectionpool.py", line 716, in urlopen
+    httplib_response = self._make_request(
+                       ^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/urllib3/connectionpool.py", line 468, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/usr/local/lib/python3.12/site-packages/urllib3/connectionpool.py", line 463, in _make_request
+    httplib_response = conn.getresponse()
+                       ^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/http/client.py", line 1428, in getresponse
+    response.begin()
+  File "/usr/local/lib/python3.12/http/client.py", line 331, in begin
+    version, status, reason = self._read_status()
+                              ^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/http/client.py", line 300, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+http.client.RemoteDisconnected: Remote end closed connection without response
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/requests/adapters.py", line 667, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/urllib3/connectionpool.py", line 802, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/urllib3/util/retry.py", line 552, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/urllib3/packages/six.py", line 769, in reraise
+    raise value.with_traceback(tb)
+  File "/usr/local/lib/python3.12/site-packages/urllib3/connectionpool.py", line 716, in urlopen
+    httplib_response = self._make_request(
+                       ^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/urllib3/connectionpool.py", line 468, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/usr/local/lib/python3.12/site-packages/urllib3/connectionpool.py", line 463, in _make_request
+    httplib_response = conn.getresponse()
+                       ^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/http/client.py", line 1428, in getresponse
+    response.begin()
+  File "/usr/local/lib/python3.12/http/client.py", line 331, in begin
+    version, status, reason = self._read_status()
+                              ^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/http/client.py", line 300, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+urllib3.exceptions.ProtocolError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/core.py", line 2781, in _run_service_call_catch_exceptions
+    await coro_or_task
+  File "/usr/src/homeassistant/homeassistant/core.py", line 2804, in _execute_service
+    return await target(service_call)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/src/homeassistant/homeassistant/helpers/service.py", line 996, in entity_service_call
+    single_response = await _handle_entity_call(
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/src/homeassistant/homeassistant/helpers/service.py", line 1068, in _handle_entity_call
+    result = await task
+             ^^^^^^^^^^
+  File "/usr/src/homeassistant/homeassistant/helpers/entity.py", line 1685, in async_turn_on
+    await self.hass.async_add_executor_job(ft.partial(self.turn_on, **kwargs))
+  File "/usr/local/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/src/homeassistant/homeassistant/components/tuya/switch.py", line 772, in turn_on
+    self._send_command([{"code": self.entity_description.key, "value": True}])
+  File "/usr/src/homeassistant/homeassistant/components/tuya/base.py", line 276, in _send_command
+    self.device_manager.send_commands(self.device.id, commands)
+  File "/usr/local/lib/python3.12/site-packages/tuya_sharing/manager.py", line 93, in send_commands
+    return self.device_repository.send_commands(device_id, commands)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/tuya_sharing/device.py", line 180, in send_commands
+    self.api.post(f"/v1.1/m/thing/{device_id}/commands", None, {"commands": commands})
+  File "/usr/local/lib/python3.12/site-packages/tuya_sharing/customerapi.py", line 192, in post
+    return self.__request("POST", path, params, body)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/tuya_sharing/customerapi.py", line 107, in __request
+    response = self.session.request(
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/requests/adapters.py", line 682, in send
+    raise ConnectionError(err, request=request)
+requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-10-02 11:48:25.843 ERROR (MainThread) [homeassistant.core] Error executing service: <ServiceCall switch.turn_on (c:01J966N4PPRMM1V0K7K1AJX80S): entity_id=['switch.bug_zapper_socket_1']>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/urllib3/connectionpool.py", line 716, in urlopen
+    httplib_response = self._make_request(
+                       ^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/urllib3/connectionpool.py", line 468, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/usr/local/lib/python3.12/site-packages/urllib3/connectionpool.py", line 463, in _make_request
+    httplib_response = conn.getresponse()
+                       ^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/http/client.py", line 1428, in getresponse
+    response.begin()
+  File "/usr/local/lib/python3.12/http/client.py", line 331, in begin
+    version, status, reason = self._read_status()
+                              ^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/http/client.py", line 300, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+http.client.RemoteDisconnected: Remote end closed connection without response
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/requests/adapters.py", line 667, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/urllib3/connectionpool.py", line 802, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/urllib3/util/retry.py", line 552, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/urllib3/packages/six.py", line 769, in reraise
+    raise value.with_traceback(tb)
+  File "/usr/local/lib/python3.12/site-packages/urllib3/connectionpool.py", line 716, in urlopen
+    httplib_response = self._make_request(
+                       ^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/urllib3/connectionpool.py", line 468, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/usr/local/lib/python3.12/site-packages/urllib3/connectionpool.py", line 463, in _make_request
+    httplib_response = conn.getresponse()
+                       ^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/http/client.py", line 1428, in getresponse
+    response.begin()
+  File "/usr/local/lib/python3.12/http/client.py", line 331, in begin
+    version, status, reason = self._read_status()
+                              ^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/http/client.py", line 300, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+urllib3.exceptions.ProtocolError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/core.py", line 2781, in _run_service_call_catch_exceptions
+    await coro_or_task
+  File "/usr/src/homeassistant/homeassistant/core.py", line 2804, in _execute_service
+    return await target(service_call)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/src/homeassistant/homeassistant/helpers/service.py", line 996, in entity_service_call
+    single_response = await _handle_entity_call(
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/src/homeassistant/homeassistant/helpers/service.py", line 1068, in _handle_entity_call
+    result = await task
+             ^^^^^^^^^^
+  File "/usr/src/homeassistant/homeassistant/helpers/entity.py", line 1685, in async_turn_on
+    await self.hass.async_add_executor_job(ft.partial(self.turn_on, **kwargs))
+  File "/usr/local/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/src/homeassistant/homeassistant/components/tuya/switch.py", line 772, in turn_on
+    self._send_command([{"code": self.entity_description.key, "value": True}])
+  File "/usr/src/homeassistant/homeassistant/components/tuya/base.py", line 276, in _send_command
+    self.device_manager.send_commands(self.device.id, commands)
+  File "/usr/local/lib/python3.12/site-packages/tuya_sharing/manager.py", line 93, in send_commands
+    return self.device_repository.send_commands(device_id, commands)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/tuya_sharing/device.py", line 180, in send_commands
+    self.api.post(f"/v1.1/m/thing/{device_id}/commands", None, {"commands": commands})
+  File "/usr/local/lib/python3.12/site-packages/tuya_sharing/customerapi.py", line 192, in post
+    return self.__request("POST", path, params, body)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/tuya_sharing/customerapi.py", line 107, in __request
+    response = self.session.request(
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/requests/adapters.py", line 682, in send
+    raise ConnectionError(err, request=request)
+requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))

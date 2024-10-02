@@ -4,35 +4,27 @@
   "key": "sonoff/hyve88@outlook.com.json",
   "data": [
     {
-      "name": "Bedroom panel",
-      "deviceid": "100156cbbb",
+      "name": "ZBBridge",
+      "deviceid": "100155fd8b",
       "apikey": "3ab17ad4-31ad-456d-bef9-d0cdcb2ef32a",
       "extra": {
-        "uiid": 133,
-        "description": "20211109003",
+        "uiid": 66,
+        "description": "20211103002",
         "brandId": "5c4c1aee3a7d24c7100be054",
-        "apmac": "d0:27:02:ad:94:c7",
-        "mac": "d0:27:02:ad:94:c6",
-        "ui": "HMI墙面开关",
-        "modelInfo": "5f73390defe12b0b619e66d5",
-        "model": "E32-MSW-NX",
+        "apmac": "d0:27:02:ab:f8:67",
+        "mac": "d0:27:02:ab:f8:66",
+        "ui": "Zigbee网关",
+        "modelInfo": "5e01884c70e5db20e60fd43c",
+        "model": "ZBG-AB0-GL",
         "manufacturer": "深圳松诺技术有限公司",
-        "staMac": "44:17:93:7C:EA:A4"
+        "staMac": "48:3F:DA:2A:7E:0F"
       },
       "brandName": "SONOFF",
       "brandLogo": "https://eu-ota.coolkit.cc/logo/q62PevoglDNmwUJ9oPE7kRrpt1nL1CoA.png",
       "showBrand": true,
-      "productModel": "NSPanel",
-      "tags": {
-        "m_f32a_hyve": "on",
-        "ck_channel_name": {
-          "0": "Fan-light",
-          "1": "Desk light"
-        }
-      },
-      "devConfig": {
-        "timerCount": "16/16"
-      },
+      "productModel": "ZBBridge",
+      "tags": {},
+      "devConfig": {},
       "settings": {
         "opsNotify": 0,
         "opsHistory": 1,
@@ -45,15 +37,14 @@
       },
       "devGroups": [],
       "family": {
-        "familyid": "66b339e8429e4c001a013b49",
-        "index": 0,
+        "familyid": "656e3e813fbcbe0008761a57",
+        "index": -3,
         "members": [],
-        "guests": [],
-        "roomid": "66b339e8429e4c001a013b4b"
+        "guests": []
       },
       "shareTo": [],
-      "devicekey": "b726d7ee-1ce8-4038-9488-154333940377",
-      "online": true,
+      "devicekey": "d985799c-5571-47cb-8441-4aded46d4b60",
+      "online": false,
       "params": {
         "bindInfos": {
           "alexa": [
@@ -67,106 +58,184 @@
           ],
           "ifttt": [
             "3ab17ad4-31ad-456d-bef9-d0cdcb2ef32a_c7a1fe14a59d4ae58493540d644fbe6f"
-          ],
-          "scene": 2
+          ]
         },
         "version": 8,
-        "pulses": [
-          {
-            "pulse": "off",
-            "width": 1000,
-            "outlet": 0
-          },
-          {
-            "pulse": "off",
-            "width": 1000,
-            "outlet": 1
-          }
-        ],
-        "switches": [
-          {
-            "switch": "on",
-            "outlet": 0
-          },
-          {
-            "switch": "off",
-            "outlet": 1
-          }
-        ],
-        "configure": [
-          {
-            "startup": "on",
-            "outlet": 0
-          },
-          {
-            "startup": "off",
-            "outlet": 1
-          }
-        ],
-        "lock": 0,
-        "fwVersion": "1.5.0",
-        "reset_reason": "ESP_RST_SW",
-        "HMI_model": 120,
-        "HMI_direction": "horizontal",
-        "temperature": 29.5,
-        "humidity": "blank",
-        "tempUnit": 0,
-        "HMI_outdoorTemp": {
-          "current": 25,
-          "range": "21,35"
-        },
-        "HMI_weather": 33,
-        "cityId": "WA@30.07,31.34",
-        "dst": 0,
-        "timeZone": 2,
-        "geo": "30.06649208,31.33935737",
-        "cityStr": "Cairo",
-        "only_device": {
-          "ota": "success",
-          "ota_fail_reason": 0,
-          "ota_time": 3101
-        },
-        "staMac": "44:17:93:7C:EA:A4",
-        "addSubDevState": "on",
-        "addTimeOut": 10,
-        "tempsource": 0,
-        "sDeviceid": "100156cbbb",
-        "HMI_dimEnable": 0,
-        "wallpaperId": 1,
-        "HMI_resources": [
-          {
-            "ctype": "idle"
-          },
-          {
-            "ctype": "idle"
-          },
-          {
-            "ctype": "idle"
-          },
-          {
-            "ctype": "idle"
-          },
-          {
-            "ctype": "idle"
-          },
-          {
-            "ctype": "idle"
-          },
-          {
-            "ctype": "idle"
-          },
-          {
-            "ctype": "idle"
-          }
-        ]
+        "subDevNum": 0,
+        "subDevMaxNum": 32,
+        "sledOnline": "on",
+        "zled": "off",
+        "staMac": "48:3F:DA:2A:7E:0F",
+        "fwVersion": "1.7.0",
+        "rssi": -44,
+        "timeZone": 3,
+        "subDevices": []
       },
-      "denyFeatures": [
-        "bleTempHumidySource"
-      ],
-      "isSupportGroup": true,
-      "isSupportedOnMP": false,
+      "isSupportGroup": false,
+      "isSupportedOnMP": true,
       "isSupportChannelSplit": false,
       "deviceFeature": {}
+    },
+    {
+      "name": "Server light",
+      "deviceid": "1000f8b61a",
+      "apikey": "3ab17ad4-31ad-456d-bef9-d0cdcb2ef32a",
+      "extra": {
+        "uiid": 59,
+        "description": "20200909005",
+        "brandId": "5c4c1aee3a7d24c7100be054",
+        "apmac": "d0:27:01:f1:69:85",
+        "mac": "d0:27:01:f1:69:84",
+        "ui": "律动灯带",
+        "modelInfo": "5c700fabcc248c47441fd241",
+        "model": "PSF-BTA-GL",
+        "manufacturer": "深圳松诺技术有限公司",
+        "staMac": "C8:2B:96:E6:AA:D2"
+      },
+      "brandName": "SONOFF",
+      "brandLogo": "https://eu-ota.coolkit.cc/logo/q62PevoglDNmwUJ9oPE7kRrpt1nL1CoA.png",
+      "showBrand": true,
+      "productModel": "L1",
+      "tags": {},
+      "devConfig": {},
+      "settings": {
+        "opsNotify": 0,
+        "opsHistory": 1,
+        "alarmNotify": 1,
+        "wxAlarmNotify": 0,
+        "wxOpsNotify": 0,
+        "wxDoorbellNotify": 0,
+        "appDoorbellNotify": 1
+      },
+      "devGroups": [],
+      "family": {
+        "familyid": "656e3e813fbcbe0008761a57",
+        "index": -2,
+        "members": [],
+        "guests": []
+      },
+      "shareTo": [],
+      "devicekey": "dbb6036a-2087-4bb0-842c-fbad156c6ddb",
+      "online": false,
+      "params": {
+        "bindInfos": {
+          "alexa": [
+            "3ab17ad4-31ad-456d-bef9-d0cdcb2ef32a_26ca1996a20e8bd63617ab272d4eeede1d2d8e32"
+          ],
+          "gaction": [
+            "3ab17ad4-31ad-456d-bef9-d0cdcb2ef32a_ewelinkGoogleHome"
+          ],
+          "smartThings": [
+            "3ab17ad4-31ad-456d-bef9-d0cdcb2ef32a_ewelink-smartthings-smart-home"
+          ],
+          "ifttt": [
+            "3ab17ad4-31ad-456d-bef9-d0cdcb2ef32a_c7a1fe14a59d4ae58493540d644fbe6f"
+          ]
+        },
+        "version": 8,
+        "sledOnline": "on",
+        "ssid": "HYVE",
+        "bssid": "00:00:00:00:00:00",
+        "rssi": -52,
+        "fwVersion": "3.4.3",
+        "staMac": "C8:2B:96:E6:AA:D2",
+        "switch": "on",
+        "light_type": 1,
+        "colorR": 255,
+        "colorG": 0,
+        "colorB": 0,
+        "bright": 100,
+        "mode": 2,
+        "speed": 100,
+        "sensitive": 5
+      },
+      "denyFeatures": [
+        "timezone"
+      ],
+      "isSupportGroup": true,
+      "isSupportedOnMP": true,
+      "isSupportChannelSplit": false,
+      "deviceFeature": {}
+    },
+    {
+      "name": "Family-room camera ",
+      "deviceid": "a630017d42",
+      "apikey": "3ab17ad4-31ad-456d-bef9-d0cdcb2ef32a",
+      "extra": {
+        "model": "GK-200MP2C",
+        "ui": "大云智联摄像头",
+        "uiid": 87,
+        "manufacturer": "深圳酷宅科技有限公司",
+        "mac": "00:00:00:00:00:00",
+        "apmac": "00:00:00:00:00:00",
+        "modelInfo": "5fcd945c792225894c48d86c",
+        "brandId": "59e0dbc25c1af3a660cc1ac0"
+      },
+      "brandName": "coolkit",
+      "brandLogo": "",
+      "showBrand": false,
+      "productModel": "GK-200MP2C",
+      "tags": {},
+      "devConfig": {},
+      "settings": {},
+      "devGroups": [],
+      "family": {
+        "familyid": "656e3e813fbcbe0008761a57",
+        "index": 0,
+        "members": [],
+        "guests": [],
+        "roomid": "656e3e813fbcbe0008761a5a"
+      },
+      "shareTo": [],
+      "devicekey": "c618696d-617d-4566-bf1f-be0f48b4fe87",
+      "online": false,
+      "params": {
+        "bindInfos": {
+          "alexa": [
+            "3ab17ad4-31ad-456d-bef9-d0cdcb2ef32a_26ca1996a20e8bd63617ab272d4eeede1d2d8e32"
+          ],
+          "gaction": [
+            "3ab17ad4-31ad-456d-bef9-d0cdcb2ef32a_ewelinkGoogleHome"
+          ],
+          "smartThings": [
+            "3ab17ad4-31ad-456d-bef9-d0cdcb2ef32a_ewelink-smartthings-smart-home"
+          ],
+          "ifttt": [
+            "3ab17ad4-31ad-456d-bef9-d0cdcb2ef32a_c7a1fe14a59d4ae58493540d644fbe6f"
+          ]
+        },
+        "partnerDevice": {
+          "ezVedioSerial": "EWLK-110811-YRWWE",
+          "partnerInfo": [
+            {
+              "thirdPartyDeviceId": "EWLK-110811-YRWWE",
+              "model": "GK-200MP2C",
+              "vendor": "GK-200MP2C",
+              "addType": 1
+            }
+          ],
+          "p2pPasswd": "Hdk54kUU"
+        },
+        "romVersion": "41220220712",
+        "version": 7,
+        "rssi": -60,
+        "fwVersion": "41220220712",
+        "infraredSetting": 0,
+        "timeZone": 2,
+        "motionStatus": 1
+      },
+      "denyFeatures": [
+        "cloudVideoSave",
+        "supportHidePTZ",
+        "cameraLight",
+        "cameraSDCardStatus"
+      ],
+      "isSupportGroup": false,
+      "isSupportedOnMP": false,
+      "isSupportChannelSplit": false,
+      "deviceFeature": {
+        "scenes": []
+      }
     }
   ]
 }
