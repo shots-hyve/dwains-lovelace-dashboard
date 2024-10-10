@@ -25,6 +25,17 @@
         "picture": null,
         "created_at": "2024-09-22T23:51:18.278401+00:00",
         "modified_at": "2024-09-23T01:15:09.843988+00:00"
+      },
+      {
+        "aliases": [],
+        "floor_id": null,
+        "icon": null,
+        "id": "ceiling_light",
+        "labels": [],
+        "name": "ceiling light",
+        "picture": null,
+        "created_at": "2024-10-10T03:23:23.420767+00:00",
+        "modified_at": "2024-10-10T03:23:23.420769+00:00"
       }
     ]
   }

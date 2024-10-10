@@ -1,12 +1,13 @@
 {
   "version": 1,
-  "minor_version": 3,
+  "minor_version": 4,
   "key": "core.config_entries",
   "data": {
     "entries": [
       {
         "created_at": "2024-09-22T23:50:23.347126+00:00",
         "data": {},
+        "discovery_keys": {},
         "disabled_by": null,
         "domain": "sun",
         "entry_id": "01J8E29FVJKQY9BDABX5QBRJY4",
@@ -23,6 +24,7 @@
       {
         "created_at": "2024-09-22T23:50:23.520343+00:00",
         "data": {},
+        "discovery_keys": {},
         "disabled_by": null,
         "domain": "hassio",
         "entry_id": "01J8E29G10MJHS79XEGRC06QVM",
@@ -39,6 +41,7 @@
       {
         "created_at": "2024-09-22T23:50:23.579804+00:00",
         "data": {},
+        "discovery_keys": {},
         "disabled_by": null,
         "domain": "raspberry_pi",
         "entry_id": "01J8E29G2VVWN43G6MWBRJWN6V",
@@ -55,6 +58,7 @@
       {
         "created_at": "2024-09-22T23:50:24.604935+00:00",
         "data": {},
+        "discovery_keys": {},
         "disabled_by": null,
         "domain": "bluetooth",
         "entry_id": "01J8E29H2W88WH9STDQ2Q3QKG6",
@@ -73,6 +77,7 @@
       {
         "created_at": "2024-09-22T23:50:24.685408+00:00",
         "data": {},
+        "discovery_keys": {},
         "disabled_by": null,
         "domain": "thread",
         "entry_id": "01J8E29H5D0X2F1Q1EFCC0KVR3",
@@ -89,6 +94,7 @@
       {
         "created_at": "2024-09-22T23:50:25.993437+00:00",
         "data": {},
+        "discovery_keys": {},
         "disabled_by": null,
         "domain": "rpi_power",
         "entry_id": "01J8E29JE9Q5QW3PB53KVXSEK3",
@@ -110,6 +116,7 @@
           "uuid": [],
           "user_id": "873ef0db7c2e49ae85b79ba904cc620c"
         },
+        "discovery_keys": {},
         "disabled_by": null,
         "domain": "cast",
         "entry_id": "01J8E29JH6C5NZQ0109CDRPSYD",
@@ -126,6 +133,7 @@
       {
         "created_at": "2024-09-22T23:52:52.276455+00:00",
         "data": {},
+        "discovery_keys": {},
         "disabled_by": null,
         "domain": "shopping_list",
         "entry_id": "01J8E2E19MXSZMQ34SG8RZV93V",
@@ -142,6 +150,7 @@
       {
         "created_at": "2024-09-22T23:52:52.460006+00:00",
         "data": {},
+        "discovery_keys": {},
         "disabled_by": null,
         "domain": "radio_browser",
         "entry_id": "01J8E2E1FB8HEAGBPMFQG40G2R",
@@ -161,6 +170,7 @@
           "language": "en",
           "tld": "com"
         },
+        "discovery_keys": {},
         "disabled_by": null,
         "domain": "google_translate",
         "entry_id": "01J8E2E1FEQ8PCN6MMVWNFMDFN",
@@ -179,6 +189,7 @@
         "data": {
           "track_home": true
         },
+        "discovery_keys": {},
         "disabled_by": null,
         "domain": "met",
         "entry_id": "01J8E2E1G8QNKZ4F6CDBDWH2Y5",
@@ -199,6 +210,7 @@
             "path": "/dev/serial/by-id/usb-ITead_Sonoff_Zigbee_3.0_USB_Dongle_Plus_1c47a6ebadc9eb1180d58f4f1d69213e-if00-port0"
           }
         },
+        "discovery_keys": {},
         "disabled_by": null,
         "domain": "zha",
         "entry_id": "01J8E2F3WGCXV8P961E8W3JCZC",
@@ -217,11 +229,35 @@
         "data": {
           "url": "http://192.168.8.1/"
         },
+        "discovery_keys": {
+          "ssdp": [
+            {
+              "domain": "ssdp",
+              "key": "uuid:faa370d5-be34-6da7-042a-1d56a6f1d2b6",
+              "version": 1
+            },
+            {
+              "domain": "ssdp",
+              "key": "uuid:faa370d5-be34-6da7-042a-1d56a6f1d2b9",
+              "version": 1
+            },
+            {
+              "domain": "ssdp",
+              "key": "uuid:faa370d5-be34-6da7-042a-1d56a6f1d2b7",
+              "version": 1
+            },
+            {
+              "domain": "ssdp",
+              "key": "uuid:faa370d5-be34-6da7-042a-1d56a6f1d2b8",
+              "version": 1
+            }
+          ]
+        },
         "disabled_by": null,
         "domain": "huawei_lte",
         "entry_id": "01J8E4CV0020NJAENTRYW6MHXX",
         "minor_version": 1,
-        "modified_at": "2024-09-23T00:32:46.643782+00:00",
+        "modified_at": "2024-10-05T00:30:58.020270+00:00",
         "options": {},
         "pref_disable_new_entities": false,
         "pref_disable_polling": false,
@@ -240,11 +276,20 @@
           "mac_address": "c2:68:0a:5f:9f:72",
           "host": "192.168.8.1"
         },
+        "discovery_keys": {
+          "ssdp": [
+            {
+              "domain": "ssdp",
+              "key": "uuid:faa370d5-be34-6da7-042a-1d56a6f1d2b6",
+              "version": 1
+            }
+          ]
+        },
         "disabled_by": null,
         "domain": "upnp",
         "entry_id": "01J8E4D1AT042WZZDCQZVBPHXV",
         "minor_version": 1,
-        "modified_at": "2024-09-23T00:27:16.698392+00:00",
+        "modified_at": "2024-10-05T00:30:55.099267+00:00",
         "options": {
           "force_poll": false
         },
@@ -266,6 +311,7 @@
           "name": "Canon-40",
           "uuid": "00000000-0000-1000-8000-D8492FAB405A"
         },
+        "discovery_keys": {},
         "disabled_by": null,
         "domain": "ipp",
         "entry_id": "01J8E4D68942Y6YRPPBTJ28KKY",
@@ -282,6 +328,7 @@
       {
         "created_at": "2024-09-23T00:28:06.252109+00:00",
         "data": {},
+        "discovery_keys": {},
         "disabled_by": null,
         "domain": "ibeacon",
         "entry_id": "01J8E4EHQCCSVNX7SCXZ7D5CDP",
@@ -309,11 +356,31 @@
             "76291E45DFD2"
           ]
         },
+        "discovery_keys": {
+          "zeroconf": [
+            {
+              "domain": "zeroconf",
+              "key": [
+                "_airplay._tcp.local.",
+                "Pod._airplay._tcp.local."
+              ],
+              "version": 1
+            },
+            {
+              "domain": "zeroconf",
+              "key": [
+                "_raop._tcp.local.",
+                "76291E45DFD2@Pod._raop._tcp.local."
+              ],
+              "version": 1
+            }
+          ]
+        },
         "disabled_by": null,
         "domain": "apple_tv",
         "entry_id": "01J8E4F0R5XD6K2736ZMZN5GQ2",
         "minor_version": 1,
-        "modified_at": "2024-09-23T00:58:27.266672+00:00",
+        "modified_at": "2024-10-05T00:30:55.083742+00:00",
         "options": {
           "start_off": true
         },
@@ -331,11 +398,23 @@
           "name": "shots's Chromecast",
           "mac": "B0:E4:D5:FE:5D:94"
         },
+        "discovery_keys": {
+          "zeroconf": [
+            {
+              "domain": "zeroconf",
+              "key": [
+                "_androidtvremote2._tcp.local.",
+                "shots's Chromecast._androidtvremote2._tcp.local."
+              ],
+              "version": 1
+            }
+          ]
+        },
         "disabled_by": null,
         "domain": "androidtv_remote",
         "entry_id": "01J8E4KQXVDRQYY2P64G9G3WVQ",
         "minor_version": 1,
-        "modified_at": "2024-10-01T23:16:37.788119+00:00",
+        "modified_at": "2024-10-05T10:31:54.022944+00:00",
         "options": {
           "enable_ime": true
         },
@@ -368,6 +447,7 @@
           "user_id": "4226c273b7b44abda0290da4f1128dc7",
           "no_legacy_encryption": true
         },
+        "discovery_keys": {},
         "disabled_by": null,
         "domain": "mobile_app",
         "entry_id": "01J8E58EBAHR4XWBGSMY7HWRDS",
@@ -397,17 +477,18 @@
           "device_id": "4EBCD03A-7744-4BB3-BD33-22AB34A5F354",
           "app_name": "Home Assistant",
           "device_name": "iPhone 15 Pro Max",
-          "app_version": "2024.9.3 (2024.894)",
+          "app_version": "2024.9.4 (2024.905)",
           "webhook_id": "b23c18031fe60c5d7ab152d6aaacdb46801afb41617150bd034c4b46e61f5178",
           "secret": "224ca3ef9ce2dddd027fce62a6e34f3ad020e0d3bc78e34fdebbf59689e10e6e",
           "user_id": "4226c273b7b44abda0290da4f1128dc7",
           "no_legacy_encryption": true
         },
+        "discovery_keys": {},
         "disabled_by": null,
         "domain": "mobile_app",
         "entry_id": "01J8E59Y447KGSX3RY5T84MT4Y",
         "minor_version": 1,
-        "modified_at": "2024-09-26T20:54:23.967281+00:00",
+        "modified_at": "2024-10-05T03:21:01.360922+00:00",
         "options": {},
         "pref_disable_new_entities": false,
         "pref_disable_polling": false,
@@ -421,6 +502,7 @@
         "data": {
           "token": "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"
         },
+        "discovery_keys": {},
         "disabled_by": null,
         "domain": "hacs",
         "entry_id": "01J8E65JR3TYMRRGASE2QJ0SQ5",
@@ -461,6 +543,7 @@
           "webhook_id": "8af9ead3337ed8bf27d1276b9a7aabd3628297ee55ee8ceb4fa9e7d133f7d4f1",
           "user_id": "4226c273b7b44abda0290da4f1128dc7"
         },
+        "discovery_keys": {},
         "disabled_by": null,
         "domain": "mobile_app",
         "entry_id": "01J8E98B404S1P61C4Z89DCM2K",
@@ -483,6 +566,7 @@
           "password": "oovone5iegunieng8boo0einga2yo7Ogoghe3ahk6oQuei9oolaeT2moj8yok9ph",
           "discovery": true
         },
+        "discovery_keys": {},
         "disabled_by": null,
         "domain": "mqtt",
         "entry_id": "01J8EBGRXN7VVKQ9KTV6MPXF4Q",
@@ -503,6 +587,7 @@
           "password": "shots1988",
           "country_code": "+20"
         },
+        "discovery_keys": {},
         "disabled_by": null,
         "domain": "sonoff",
         "entry_id": "01J8EF08NDQQP7NQSY21D2G7A8",
@@ -525,20 +610,21 @@
         "data": {
           "user_code": "Ca1RpAe",
           "token_info": {
-            "t": 1727858116406,
+            "t": 1728553064825,
             "uid": "eu16803809728851RpAe",
             "expire_time": 7200,
-            "access_token": "1d947e7ae3abf4ff97c1783814d0de10",
-            "refresh_token": "a96cebee3f534768375b73db6fcf4937"
+            "access_token": "fbec1730177e04b9fece1503acbae9c4",
+            "refresh_token": "4dbec114f083d8a3eb837fedcb4ef291"
           },
           "terminal_id": "1727067577705myQP3W",
           "endpoint": "https://apigw.tuyaeu.com"
         },
+        "discovery_keys": {},
         "disabled_by": null,
         "domain": "tuya",
         "entry_id": "01J8EKZQJWJP9BMMZNVZAMYB6H",
         "minor_version": 1,
-        "modified_at": "2024-10-02T08:35:16.447109+00:00",
+        "modified_at": "2024-10-10T09:37:44.893040+00:00",
         "options": {},
         "pref_disable_new_entities": false,
         "pref_disable_polling": false,
@@ -553,6 +639,7 @@
           "port": 21065,
           "name": "shots s Chromecast"
         },
+        "discovery_keys": {},
         "disabled_by": null,
         "domain": "homekit",
         "entry_id": "01J8EPZ2KHRR1BCXZQQPXZERHF",
@@ -583,6 +670,7 @@
           "exclude_accessory_mode": true,
           "port": 21064
         },
+        "discovery_keys": {},
         "disabled_by": null,
         "domain": "homekit",
         "entry_id": "01J8EPZ2KK1HVX6SVDP1Q9N44Z",
@@ -657,6 +745,7 @@
       {
         "created_at": "2024-09-23T06:33:28.735633+00:00",
         "data": {},
+        "discovery_keys": {},
         "disabled_by": null,
         "domain": "switch_as_x",
         "entry_id": "01J8ESBJCZ3E9AMWDQBCCHVFWX",
@@ -678,16 +767,16 @@
         "created_at": "2024-09-24T00:37:03.636918+00:00",
         "data": {
           "manufacturer": "Apple",
-          "os_version": "18.0",
+          "os_version": "18.0.1",
           "device_name": "Shady’s work IPAD",
           "app_name": "Home Assistant",
           "app_id": "io.robbie.HomeAssistant",
           "app_data": {
-            "push_url": "https://mobile-apps.home-assistant.io/api/sendPushNotification",
-            "push_token": "eTpl-wfkfUxKp7t9cY4_YE:APA91bEsODZ_L7wWnEQixiDrg4yZcqyxM9XIj7QkRoeYeSxzOgpImslqDNUmuEduMxXuo1-gbrUls4LTR-a2hRtpZMT_Vt6QF0RXzrBz0klWcND0i-voKDvKswFTE6REilP2M2hmOsxZ"
+            "push_token": "eTpl-wfkfUxKp7t9cY4_YE:APA91bEsODZ_L7wWnEQixiDrg4yZcqyxM9XIj7QkRoeYeSxzOgpImslqDNUmuEduMxXuo1-gbrUls4LTR-a2hRtpZMT_Vt6QF0RXzrBz0klWcND0i-voKDvKswFTE6REilP2M2hmOsxZ",
+            "push_url": "https://mobile-apps.home-assistant.io/api/sendPushNotification"
           },
           "device_id": "5EED9450-11DC-4CB7-BAE3-5D8AB98D3010",
-          "app_version": "2024.9.1 (2024)",
+          "app_version": "2024.9.4 (2024.905)",
           "model": "iPad12,2",
           "supports_encryption": true,
           "os_name": "iPadOS",
@@ -696,11 +785,12 @@
           "user_id": "4226c273b7b44abda0290da4f1128dc7",
           "no_legacy_encryption": true
         },
+        "discovery_keys": {},
         "disabled_by": null,
         "domain": "mobile_app",
         "entry_id": "01J8GQBNGMED70NWQ0AQQMW6SG",
         "minor_version": 1,
-        "modified_at": "2024-09-24T00:37:03.762213+00:00",
+        "modified_at": "2024-10-04T23:20:37.030041+00:00",
         "options": {},
         "pref_disable_new_entities": false,
         "pref_disable_polling": false,
@@ -712,6 +802,7 @@
       {
         "created_at": "2024-09-24T01:41:39.522418+00:00",
         "data": {},
+        "discovery_keys": {},
         "disabled_by": null,
         "domain": "dwains_dashboard",
         "entry_id": "01J8GV1YJ2PKAASEDMXY23MR33",
@@ -749,6 +840,7 @@
           "webhook_id": "857b3d81d7268f109c2fe3ca79b3c99ffd738b22a1925578a3c619e7dfc2fa0f",
           "user_id": "4226c273b7b44abda0290da4f1128dc7"
         },
+        "discovery_keys": {},
         "disabled_by": null,
         "domain": "mobile_app",
         "entry_id": "01J8J2S6XTMPY71J95C4SBR8KH",
@@ -765,6 +857,7 @@
       {
         "created_at": "2024-09-26T10:04:40.227672+00:00",
         "data": {},
+        "discovery_keys": {},
         "disabled_by": null,
         "domain": "switch_as_x",
         "entry_id": "01J8PWMDX3YJN2EVNZPYB8RF1P",
@@ -787,6 +880,7 @@
         "data": {
           "access_token": "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"
         },
+        "discovery_keys": {},
         "disabled_by": null,
         "domain": "github",
         "entry_id": "01J8Q4PWW3N4CP2VJHFH9VB78B",
@@ -821,18 +915,19 @@
           "_power_entity": "sensor.pod_power",
           "_energy_entity": "sensor.pod_energy"
         },
+        "discovery_keys": {},
         "disabled_by": null,
         "domain": "powercalc",
         "entry_id": "01J8Q72BZJ0MGF8THJPXBWKRJ6",
         "minor_version": 1,
-        "modified_at": "2024-09-26T13:07:02.773230+00:00",
+        "modified_at": "2024-10-08T06:50:20.308712+00:00",
         "options": {},
         "pref_disable_new_entities": false,
         "pref_disable_polling": false,
         "source": "integration_discovery",
         "title": "Pod",
         "unique_id": "pc_76:29:1E:45:DF:D2",
-        "version": 3
+        "version": 4
       },
       {
         "created_at": "2024-09-28T02:08:37.073006+00:00",
@@ -853,6 +948,7 @@
           "webhook_id": "625334af89f095d11d5a0e2c6226b5771eeec853f10a38d683168dfe5e5c02d6",
           "user_id": "4226c273b7b44abda0290da4f1128dc7"
         },
+        "discovery_keys": {},
         "disabled_by": null,
         "domain": "mobile_app",
         "entry_id": "01J8V6666GXGRA3Q0PVKWYY3NW",
@@ -864,6 +960,40 @@
         "source": "registration",
         "title": "Quest",
         "unique_id": "io.homeassistant.companion.android-56bff170913a77ec",
+        "version": 1
+      },
+      {
+        "created_at": "2024-10-10T03:23:20.655855+00:00",
+        "data": {
+          "username": "hyve88@outlook.com",
+          "password": "shots1988",
+          "server_country": "de",
+          "user_id": "6637370176",
+          "service_token": "dLEjX7YeCVvBPefmy0tmsH/UPIWgg9PGcmYzLj6w4TlT5BqTGRdzx2IQJBrwUOq+JCIVK/GYh/L79CE0NDBFrIbQK/npOs6dB6oxSxVzp0ZTM2xmxt6TstE4LBfYfUndduRXVkVFozt/xRyAOoaQwePVBQkpxkZNwEm/FBvKT2M=",
+          "ssecurity": "ZXykzcsvsPT9oPoOGaLmAQ==",
+          "sid": "xiaomiio",
+          "device_id": "YK2CVDEUX41AH4LH",
+          "conn_mode": "auto",
+          "filter_did": "include",
+          "did_list": [
+            "469944600"
+          ],
+          "config_version": 0.3,
+          "disable_message": false,
+          "disable_scene_history": false
+        },
+        "discovery_keys": {},
+        "disabled_by": null,
+        "domain": "xiaomi_miot",
+        "entry_id": "01J9T77MPFX4SPY6S0NV1TWNFC",
+        "minor_version": 1,
+        "modified_at": "2024-10-10T03:31:05.838548+00:00",
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "title": "Xiaomi: 6637370176",
+        "unique_id": null,
         "version": 1
       }
     ]

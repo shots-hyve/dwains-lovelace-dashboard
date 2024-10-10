@@ -1,0 +1,204 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "xiaomi_miot/devices-6637370176-de.json",
+  "data": {
+    "update_time": 1728531004.4313393,
+    "devices": [
+      {
+        "did": "469944600",
+        "token": "6d755bebb7c4cb5e726cd386f75ea392",
+        "longitude": "0.0",
+        "latitude": "0.0",
+        "name": "Mi Smart LED Bulb Essential (White and Color)",
+        "pid": "0",
+        "localip": "192.168.20.104",
+        "mac": "EC:4D:3E:34:6F:0E",
+        "ssid": "io",
+        "bssid": "1E:EB:B6:5C:0D:4E",
+        "parent_id": "",
+        "parent_model": "",
+        "show_mode": 1,
+        "model": "yeelink.light.color5",
+        "adminFlag": 1,
+        "shareFlag": 0,
+        "permitLevel": 16,
+        "isOnline": false,
+        "desc": "Device offline ",
+        "extra": {
+          "isSetPincode": 0,
+          "pincodeType": 0,
+          "fw_version": "2.0.8_0022",
+          "needVerifyCode": 0,
+          "isPasswordEncrypt": 0
+        },
+        "uid": 6637370176,
+        "pd_id": 66851,
+        "password": "",
+        "p2p_id": "",
+        "rssi": -55,
+        "family_id": 0,
+        "reset_flag": 0
+      },
+      {
+        "did": "group.1701541026692870144",
+        "token": "xJ2eYs8brs4siWyN",
+        "longitude": "0.0",
+        "latitude": "0.0",
+        "name": "the light",
+        "pid": "17",
+        "localip": "",
+        "mac": "",
+        "ssid": "",
+        "bssid": "",
+        "parent_id": "",
+        "parent_model": "",
+        "show_mode": 1,
+        "model": "mijia.light.group4",
+        "adminFlag": 1,
+        "shareFlag": 0,
+        "permitLevel": 16,
+        "isOnline": false,
+        "desc": "Device offline ",
+        "extra": {
+          "isSetPincode": 0,
+          "pincodeType": 0,
+          "member_list": {
+            "group_did": "group.1701541026692870144",
+            "status": "1",
+            "member_ship": {
+              "469944600": "1"
+            }
+          }
+        },
+        "uid": 6637370176,
+        "pd_id": 68287,
+        "password": "",
+        "p2p_id": "",
+        "rssi": 0,
+        "family_id": 0,
+        "reset_flag": 0,
+        "home_id": "733001060098",
+        "room_id": "733001066880",
+        "home_name": "nasr city",
+        "room_name": "ceiling light"
+      },
+      {
+        "did": "469944600",
+        "uid": 6637370176,
+        "token": "6d755bebb7c4cb5e726cd386f75ea392",
+        "name": "Mi Smart LED Bulb Essential (White and Color)",
+        "pid": 0,
+        "localip": "192.168.20.104",
+        "mac": "EC:4D:3E:34:6F:0E",
+        "ssid": "io",
+        "bssid": "1E:EB:B6:5C:0D:4E",
+        "rssi": -55,
+        "longitude": "0.00000000",
+        "latitude": "0.00000000",
+        "show_mode": 1,
+        "model": "yeelink.light.color5",
+        "permitLevel": 16,
+        "isOnline": false,
+        "spec_type": "urn:miot-spec-v2:device:light:0000A001:yeelink-color5:1",
+        "extra": {
+          "isSetPincode": 0,
+          "pincodeType": 0,
+          "fw_version": "2.0.8_0022",
+          "isSubGroup": false,
+          "showGroupMember": false,
+          "split": {}
+        },
+        "orderTime": 1694512181,
+        "freqFlag": false,
+        "hide_mode": 0,
+        "last_online": 1695431188,
+        "comFlag": 128,
+        "carPicInfo": ""
+      },
+      {
+        "did": "group.1701541026692870144",
+        "uid": 6637370176,
+        "token": "xJ2eYs8brs4siWyN",
+        "name": "the light",
+        "pid": 17,
+        "mac": "",
+        "bssid": "",
+        "longitude": "0.00000000",
+        "latitude": "0.00000000",
+        "show_mode": 1,
+        "model": "mijia.light.group4",
+        "permitLevel": 16,
+        "isOnline": false,
+        "spec_type": "urn:miot-spec-v2:device:light:0000A001:mijia-group4:3:0000C818",
+        "extra": {
+          "isSetPincode": 0,
+          "pincodeType": 0,
+          "member_list": {
+            "group_did": "group.1701541026692870144",
+            "status": "1",
+            "member_ship": {
+              "469944600": "1"
+            }
+          },
+          "isSubGroup": false,
+          "showGroupMember": false,
+          "split": {}
+        },
+        "orderTime": 1694513968,
+        "freqFlag": true,
+        "hide_mode": 0,
+        "cnt": 17,
+        "comFlag": 161,
+        "subclass_id": 20,
+        "carPicInfo": "",
+        "home_id": "733001060098",
+        "room_id": "733001066880",
+        "home_name": "nasr city",
+        "room_name": "ceiling light"
+      }
+    ],
+    "homes": [
+      {
+        "id": "733001060098",
+        "name": "nasr city",
+        "bssid": "30:DE:4B:DF:D8:7C",
+        "dids": [
+          "469944600"
+        ],
+        "temp_dids": null,
+        "icon": "style_1_favorites",
+        "shareflag": 0,
+        "permit_level": 10,
+        "status": 1,
+        "background": "style_1",
+        "smart_room_background": "style_1_favorites",
+        "longitude": 0,
+        "latitude": 0,
+        "city_id": 0,
+        "address": "",
+        "create_time": 1680358232,
+        "roomlist": [
+          {
+            "id": "733001066880",
+            "name": "ceiling light",
+            "bssid": "",
+            "parentid": "733001060098",
+            "dids": [
+              "group.1701541026692870144"
+            ],
+            "icon": "more_1",
+            "background": "style_2_homepage",
+            "shareflag": 0,
+            "create_time": 1694514466
+          }
+        ],
+        "uid": 6637370176,
+        "appear_home_list": null,
+        "popup_flag": 0,
+        "popup_time_stamp": 0,
+        "car_did": ""
+      }
+    ]
+  }
+}
