@@ -82,3 +82,11 @@
 [02-10-2024 11:48:25] info: 	z2m:mqtt: MQTT publish: topic 'zigbee2mqtt/bedroom', payload '{"battery":82,"battery_low":false,"contact":false,"device":{"applicationVersion":4,"dateCode":"20201026","friendlyName":"bedroom","hardwareVersion":1,"ieeeAddr":"0x00124b00234304db","manufacturerID":0,"manufacturerName":"eWeLink","model":"SNZB-04","networkAddress":1662,"powerSource":"Battery","type":"EndDevice","zclVersion":1},"last_seen":"2024-10-02T11:48:25+03:00","linkquality":138,"tamper":false,"voltage":2900}'
 [02-10-2024 11:48:32] info: 	z2m:mqtt: MQTT publish: topic 'zigbee2mqtt/bedroom', payload '{"battery":82,"battery_low":false,"contact":true,"device":{"applicationVersion":4,"dateCode":"20201026","friendlyName":"bedroom","hardwareVersion":1,"ieeeAddr":"0x00124b00234304db","manufacturerID":0,"manufacturerName":"eWeLink","model":"SNZB-04","networkAddress":1662,"powerSource":"Battery","type":"EndDevice","zclVersion":1},"last_seen":"2024-10-02T11:48:32+03:00","linkquality":120,"tamper":false,"voltage":2900}'
 [02-10-2024 12:03:19] info: 	z2m:mqtt: MQTT publish: topic 'zigbee2mqtt/bedroom', payload '{"battery":82,"battery_low":false,"contact":true,"device":{"applicationVersion":4,"dateCode":"20201026","friendlyName":"bedroom","hardwareVersion":1,"ieeeAddr":"0x00124b00234304db","manufacturerID":0,"manufacturerName":"eWeLink","model":"SNZB-04","networkAddress":1662,"powerSource":"Battery","type":"EndDevice","zclVersion":1},"last_seen":"2024-10-02T11:48:32+03:00","linkquality":120,"tamper":false,"voltage":2900}'
+[02-10-2024 12:06:06] info: 	z2m:mqtt: MQTT publish: topic 'zigbee2mqtt/bridge/state', payload '{"state":"offline"}'
+[02-10-2024 12:06:06] info: 	z2m: Disconnecting from MQTT server
+[02-10-2024 12:06:06] info: 	z2m: Stopping zigbee-herdsman...
+[02-10-2024 12:06:15] info: 	zh:controller: Wrote coordinator backup to '/config/zigbee2mqtt/coordinator_backup.json'
+[02-10-2024 12:06:15] info: 	zh:zstack:znp: closing
+[02-10-2024 12:06:20] info: 	zh:zstack:znp: Port closed
+[02-10-2024 12:06:20] info: 	z2m: Stopped zigbee-herdsman
+[02-10-2024 12:06:20] info: 	z2m: Stopped Zigbee2MQTT
